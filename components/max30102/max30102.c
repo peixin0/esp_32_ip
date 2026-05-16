@@ -80,7 +80,7 @@ bool maxim_max30102_write_reg(uint8_t uch_addr, uint8_t uch_data)
 *  
 */
 {
-  char ach_i2c_data[2];
+  uint8_t ach_i2c_data[2];
   ach_i2c_data[0]=uch_addr;
   ach_i2c_data[1]=uch_data;
   
@@ -102,13 +102,13 @@ bool maxim_max30102_read_reg(uint8_t uch_addr, uint8_t *puch_data)
 * \retval       true on success
 */
 {
-  char ch_i2c_data;
-  ch_i2c_data=uch_addr;
-  if(i2c_write_max(I2C_WRITE_ADDR, &ch_i2c_data, 1, true)!=0)    // after send read command, do not release the bus and read data from reg immdiately
+  uint8_t uch_i2c_data;
+  uch_i2c_data=uch_addr;
+  if(i2c_write_max(I2C_WRITE_ADDR, &uch_i2c_data, 1, true)!=0)    // after send read command, do not release the bus and read data from reg immdiately
     return false;
-  if(i2c_read_max(I2C_READ_ADDR, &ch_i2c_data, 1, false)==0)
+  if(i2c_read_max(I2C_READ_ADDR, &uch_i2c_data, 1, false)==0)
   {
-    *puch_data=(uint8_t) ch_i2c_data;
+    *puch_data=(uint8_t) uch_i2c_data;
     return true;
   }
   else
@@ -165,10 +165,10 @@ bool maxim_max30102_read_fifo(uint32_t *pun_red_led, uint32_t *pun_ir_led)
 */
 {
   uint32_t un_temp;
-  unsigned char uch_temp;
+  uint8_t uch_temp;
   *pun_red_led=0;
   *pun_ir_led=0;
-  char ach_i2c_data[6];
+  uint8_t ach_i2c_data[6];
   
   //read and clear status register
   maxim_max30102_read_reg(REG_INTR_STATUS_1, &uch_temp);
@@ -182,24 +182,24 @@ bool maxim_max30102_read_fifo(uint32_t *pun_red_led, uint32_t *pun_ir_led)
     return false;
   }
   //assemble the 3 bytes (18 bits) of red and IR data and store them in the location pointed by pun_red_led and pun_ir_led
-  un_temp=(unsigned char) ach_i2c_data[0];      //
+  un_temp=(uint8_t) ach_i2c_data[0];      //
   un_temp<<=16;
   *pun_red_led+=un_temp;
-  un_temp=(unsigned char) ach_i2c_data[1];      //
+  un_temp=(uint8_t) ach_i2c_data[1];      //
   un_temp<<=8;
   *pun_red_led+=un_temp;
-  un_temp=(unsigned char) ach_i2c_data[2];   
+  un_temp=(uint8_t) ach_i2c_data[2];   
   *pun_red_led+=un_temp;
   
 
   //
-  un_temp=(unsigned char) ach_i2c_data[3];
+  un_temp=(uint8_t) ach_i2c_data[3];
   un_temp<<=16;
   *pun_ir_led+=un_temp;
-  un_temp=(unsigned char) ach_i2c_data[4];
+  un_temp=(uint8_t) ach_i2c_data[4];
   un_temp<<=8;
   *pun_ir_led+=un_temp;
-  un_temp=(unsigned char) ach_i2c_data[5];
+  un_temp=(uint8_t) ach_i2c_data[5];
   *pun_ir_led+=un_temp;
   *pun_red_led&=0x03FFFF;  //Mask MSB [23:18]
   *pun_ir_led&=0x03FFFF;  //Mask MSB [23:18]

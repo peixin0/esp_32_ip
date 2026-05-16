@@ -16,8 +16,9 @@
 #define I2C_MASTER_RX_BUF_DISABLE       0                   /*!< I2C master doesn't need buffer */
 
 
-esp_err_t i2c_write_max(uint8_t addr, uint8_t *data,uint8_t len, bool ack_en);
-esp_err_t i2c_read_max (uint8_t addr, uint8_t *data,uint8_t len, bool ack_en);
+esp_err_t i2c_master_init(void);
+esp_err_t i2c_write_max(uint8_t addr, const uint8_t *data, uint8_t len, bool repeated);
+esp_err_t i2c_read_max(uint8_t addr, const uint8_t *data, uint8_t len, bool repeated);
 
 
 #endif /* I2C_WRAPPER_H_ */

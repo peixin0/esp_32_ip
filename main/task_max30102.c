@@ -72,10 +72,11 @@
 *
 */
 //#include "mbed.h"
-#include "/../components/max30102/algorithm.h"  
-#include "./../components/max30102/max30102.h"
+#include "algorithm.h"  
+#include "max30102.h"
 #include "stdio.h"
 #include "driver/gpio.h"
+
 #define MAX_BRIGHTNESS 255
 #define INTERRUPT_PIN GPIO_NUM_25
 
@@ -107,7 +108,7 @@ void task_max30102(void *vparameter) {
     int i;
     int32_t n_brightness;
     float f_temp;
-    
+    i2c_master_init();  //initializes the I2C master driver
     maxim_max30102_reset(); //resets the MAX30102
     // initialize serial communication at 115200 bits per second:
     // pc.baud(115200);
@@ -126,7 +127,7 @@ void task_max30102(void *vparameter) {
     // }
     uch_dummy=getchar();
     
-    i2c_master_init();  //initializes the I2C master driver
+
     maxim_max30102_init();  //initializes the MAX30102
 
     gpio_config_t io_conf = {
@@ -135,7 +136,7 @@ void task_max30102(void *vparameter) {
         .pull_up_en = GPIO_PULLUP_DISABLE, // enable pull-up mode
         .pull_down_en = GPIO_PULLDOWN_ENABLE, // enable pull-down mode
         .intr_type = GPIO_INTR_DISABLE // disable interrupt
-    }
+    };
     gpio_config(&io_conf); //configure GPIO with the given settings
         
         
@@ -157,9 +158,9 @@ void task_max30102(void *vparameter) {
         if(un_max<aun_red_buffer[i])
             un_max=aun_red_buffer[i];    //update signal max
         printf("red=");
-        printf("%i", aun_red_buffer[i]);
+        printf("%li", aun_red_buffer[i]);
         printf(", ir=");
-        printf("%i\n\r", aun_ir_buffer[i]);
+        printf("%li\n\r", aun_ir_buffer[i]);
     }
     un_prev_data=aun_red_buffer[i];
     
@@ -213,18 +214,19 @@ void task_max30102(void *vparameter) {
                     n_brightness=MAX_BRIGHTNESS;
             }
             
-            led.write(1-(float)n_brightness/256);
+            //led.write(1-(float)n_brightness/256);
             //send samples and calculation result to terminal program through UART
             printf("red=");
-            printf("%i", aun_red_buffer[i]);
+            printf("%li", aun_red_buffer[i]);
             printf(", ir=");
-            printf("%i", aun_ir_buffer[i]);
-            printf(", HR=%i, ", n_heart_rate); 
+            printf("%li", aun_ir_buffer[i]);
+            printf(", HR=%li, ", n_heart_rate); 
             printf("HRvalid=%i, ", ch_hr_valid);
-            printf("SpO2=%i, ", n_sp02);
+            printf("SpO2=%li, ", n_sp02);
             printf("SPO2Valid=%i\n\r", ch_spo2_valid);
         }
         maxim_heart_rate_and_oxygen_saturation(aun_ir_buffer, n_ir_buffer_length, aun_red_buffer, &n_sp02, &ch_spo2_valid, &n_heart_rate, &ch_hr_valid); 
     }
+    vTaskDelete(NULL);
 }
  
