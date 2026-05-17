@@ -3,8 +3,8 @@
 * Project: MAXREFDES117#
 * Filename: max30102.cpp
 * Description: This module is an embedded controller driver for the MAX30102
-*
-*
+* --------------------------------------------------------------------
+*FIFO data format:
 * --------------------------------------------------------------------
 *
 * This code follows the following naming conventions:
@@ -23,68 +23,26 @@
 * uint32_t          un_pmod_value
 * int32_t *         pn_pmod_value
 *
-* ------------------------------------------------------------------------- */
-/*******************************************************************************
-* Copyright (C) 2016 Maxim Integrated Products, Inc., All Rights Reserved.
-*
-* Permission is hereby granted, free of charge, to any person obtaining a
-* copy of this software and associated documentation files (the "Software"),
-* to deal in the Software without restriction, including without limitation
-* the rights to use, copy, modify, merge, publish, distribute, sublicense,
-* and/or sell copies of the Software, and to permit persons to whom the
-* Software is furnished to do so, subject to the following conditions:
-*
-* The above copyright notice and this permission notice shall be included
-* in all copies or substantial portions of the Software.
-*
-* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
-* OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-* MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-* IN NO EVENT SHALL MAXIM INTEGRATED BE LIABLE FOR ANY CLAIM, DAMAGES
-* OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
-* ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
-* OTHER DEALINGS IN THE SOFTWARE.
-*
-* Except as contained in this notice, the name of Maxim Integrated
-* Products, Inc. shall not be used except as stated in the Maxim Integrated
-* Products, Inc. Branding Policy.
-*
-* The mere transfer of this software does not imply any licenses
-* of trade secrets, proprietary technology, copyrights, patents,
-* trademarks, maskwork rights, or any other form of intellectual
-* property whatsoever. Maxim Integrated Products, Inc. retains all
-* ownership rights.
-*******************************************************************************
 */
-// #include "mbed.h"
+
 #include "max30102.h" 
-
-
-// #ifdef TARGET_MAX32600MBED
-// I2C i2c(I2C1_SDA, I2C1_SCL);
-// #else
-// I2C i2c(I2C_SDA, I2C_SCL);
-// #endif
 
 bool maxim_max30102_write_reg(uint8_t uch_addr, uint8_t uch_data)
 /**
 * \brief        Write a value to a MAX30102 register
 * \par          Details
 *               This function writes a value to a MAX30102 register
-*
 * \param[in]    uch_addr    - register address
 * \param[in]    uch_data    - register data
 *
 * \retval       true on success
-*
-*  
 */
 {
   uint8_t ach_i2c_data[2];
   ach_i2c_data[0]=uch_addr;
   ach_i2c_data[1]=uch_data;
   
-  if(i2c_write_max(I2C_WRITE_ADDR, ach_i2c_data, 2, false)==0)   // re
+  if(i2c_write_max(I2C_WRITE_ADDR, ach_i2c_data, 2, false)==0)   
     return true;
   else
     return false;
@@ -130,11 +88,11 @@ bool maxim_max30102_init()
     return false;
   if(!maxim_max30102_write_reg(REG_INTR_ENABLE_2,0x00))
     return false;
-  if(!maxim_max30102_write_reg(REG_FIFO_WR_PTR,0x00))  //FIFO_WR_PTR[4:0]
+  if(!maxim_max30102_write_reg(REG_FIFO_WR_PTR,0x00))  //FIFO_WR_PTR[4:0] clear to ensure the FIFO is empty
     return false;
-  if(!maxim_max30102_write_reg(REG_OVF_COUNTER,0x00))  //OVF_COUNTER[4:0]
+  if(!maxim_max30102_write_reg(REG_OVF_COUNTER,0x00))  //OVF_COUNTER[4:0] clear to ensure the FIFO is empty
     return false;
-  if(!maxim_max30102_write_reg(REG_FIFO_RD_PTR,0x00))  //FIFO_RD_PTR[4:0]
+  if(!maxim_max30102_write_reg(REG_FIFO_RD_PTR,0x00))  //FIFO_RD_PTR[4:0] clear to ensure the FIFO is empty
     return false;
   if(!maxim_max30102_write_reg(REG_FIFO_CONFIG,0x0f))  //sample avg = 1, fifo rollover=false, fifo almost full = 17
     return false;
@@ -182,37 +140,36 @@ bool maxim_max30102_read_fifo(uint32_t *pun_red_led, uint32_t *pun_ir_led)
     return false;
   }
   //assemble the 3 bytes (18 bits) of red and IR data and store them in the location pointed by pun_red_led and pun_ir_led
-  un_temp=(uint8_t) ach_i2c_data[0];      //
+  un_temp=(uint8_t) ach_i2c_data[0];      // msb of red data
   un_temp<<=16;
   *pun_red_led+=un_temp;
-  un_temp=(uint8_t) ach_i2c_data[1];      //
+  un_temp=(uint8_t) ach_i2c_data[1];      // mid byte of red data
   un_temp<<=8;
   *pun_red_led+=un_temp;
-  un_temp=(uint8_t) ach_i2c_data[2];   
+  un_temp=(uint8_t) ach_i2c_data[2];    // lsb of red data
   *pun_red_led+=un_temp;
   
 
-  //
-  un_temp=(uint8_t) ach_i2c_data[3];
+  //repeat for IR data
+  un_temp=(uint8_t) ach_i2c_data[3];     // msb of ir data
   un_temp<<=16;
   *pun_ir_led+=un_temp;
-  un_temp=(uint8_t) ach_i2c_data[4];
+  un_temp=(uint8_t) ach_i2c_data[4];    // mid byte of ir data
   un_temp<<=8;
   *pun_ir_led+=un_temp;
-  un_temp=(uint8_t) ach_i2c_data[5];
+  un_temp=(uint8_t) ach_i2c_data[5];   // lsb of ir data
   *pun_ir_led+=un_temp;
   *pun_red_led&=0x03FFFF;  //Mask MSB [23:18]
   *pun_ir_led&=0x03FFFF;  //Mask MSB [23:18]
-  
-  
+
   return true;
 }
 
 bool maxim_max30102_reset()
 /**
-* \brief        Reset the MAX30102
-* \par          Details
-*               This function resets the MAX30102
+* \brief        Reset the MAX30102: 
+*               all configuration, threshold, and data registers are reset to their power-on-state 
+*               The RESET bit is cleared automatically back to zero after the reset sequence is completed.
 *
 * \param        None
 *
