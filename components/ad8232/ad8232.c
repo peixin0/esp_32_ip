@@ -14,11 +14,3 @@
 int adc_value; 
 
 
-
-esp_err_t adc_init()
-{
-    // [REVIEW] TODO: initialize the ADC for reading from the AD8232 output pin
-
-    ESP_ERROR_CHECK(adc_oneshot_new_unit(&adc1_config, &adc1_handle));
-    return ESP_OK;
-}

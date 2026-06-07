@@ -101,10 +101,10 @@ void task_max30102(void *vparameter)
         {
             sleep_til_data_ready();
             maxim_max30102_read_fifo(&aun_red_buffer[i], &aun_ir_buffer[i]);
-
-            printf("red=%lu, ir=%lu, HR=%ld, HRvalid=%d, SpO2=%ld, SPO2Valid=%d\n\r",
-                   aun_red_buffer[i], aun_ir_buffer[i],
-                   n_heart_rate, ch_hr_valid, n_sp02, ch_spo2_valid);
+            // temp comment out     
+            // printf("red=%lu, ir=%lu, HR=%ld, HRvalid=%d, SpO2=%ld, SPO2Valid=%d\n\r",
+            //        aun_red_buffer[i], aun_ir_buffer[i],
+            //        n_heart_rate, ch_hr_valid, n_sp02, ch_spo2_valid);
         }
 
         maxim_heart_rate_and_oxygen_saturation(aun_ir_buffer, n_ir_buffer_length, aun_red_buffer,
