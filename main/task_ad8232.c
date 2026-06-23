@@ -2,29 +2,39 @@
 #include "esp_log.h"
 #include "freertos/FreeRTOS.h" 
 #include "freertos/task.h"
+#define SAMPLE_PERIOD_MS   10   // ~100 Hz placeholder; esp_timer @360 Hz to come
 
+static const char *TAG = "AD8232";
 
 int adc_value;
 void task_ad8232(void *vparameter)
-{
-    adc_oneshot_unit_handle_t adc1_handle;
-    adc_oneshot_unit_init_cfg_t adc1_config = {
-        .unit_id = ADC_UNIT,
-        .ulp_mode = ADC_ULP_MODE_DISABLE,
-        .clk_src = ADC_DIGI_CLK_SRC_DEFAULT,
-    };
-
-    ESP_ERROR_CHECK(adc_oneshot_new_unit(&adc1_config, &adc1_handle));
-
-
-
+{   
+    int raw = 0;
+    bool leads_were_off  = true;   
+    ESP_ERROR_CHECK(ad8232_init());
     while (1) {
-        // Wait for the next sample to be ready
-        ESP_ERROR_CHECK(adc_oneshot_read(adc1_handle, ADC_PIN, &adc_value));
-        ESP_LOGI("ADC Value", "%d", adc_value);
-        
-        vTaskDelay(pdMS_TO_TICKS(4)); 
-     
+        if (!ad8232_leads_on()) 
+        {   
+             // ON -> OFF  (just disconnected)
+            if (!leads_were_off) {
+                // ESP_LOGW(TAG, "lead-off — pausing acquisition");
+                leads_were_off = true;
+            }
+        vTaskDelay(pdMS_TO_TICKS(SAMPLE_PERIOD_MS));
+        continue;
+        }
+        // OFF -> ON  (just reconnected)
+        if (leads_were_off) {
+            // ESP_LOGI("Lead Status", "Leads disconnected");
+            leads_were_off = false;
+        }
+
+        if (ad8232_read(&raw) == ESP_OK) 
+        {
+            // ESP_LOGI(TAG, "ecg=%d", raw);
+            /* feed `raw` into the ECG filter / QRS detector */
+        }
+        vTaskDelay(pdMS_TO_TICKS(SAMPLE_PERIOD_MS));
     }
 
 }
