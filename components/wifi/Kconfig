@@ -1,0 +1,15 @@
+menu "WiFi STA Configuration"
+    config WIFI_STA_SSID
+        string "WIFI SSID"
+        default "myhotspot"
+        help 
+            Network Name of the access point to join
+    
+    config WIFI_STA_PASSWORD
+        string "WIFI Password"
+        default "change me"
+        help 
+            Network Password of the access point 
+        
+
+endmenu
