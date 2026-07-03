@@ -1,0 +1,15 @@
+menu "ThingsBoard MQTT Client Configuration"
+    config MQTT_BROKER_URI
+        string "MQTT Broker URI"
+        default "mqtt://mqtt.eu.thingsboard.cloud:1883"
+        help 
+            URI (Uniform Resource Identifier) of the MQTT broker to connect to 
+
+    config TB_ACCESS_TOKEN
+        string "ThingsBoard Access Token"
+        default "YOUR_ACCESS_TOKEN"
+        help 
+            Access Token for ThingsBoard device authentication
+
+endmenu
+        
