@@ -9,6 +9,7 @@
 #include <string.h>
 #include "cJSON.h"
 
+
 static const char *TAG = "TB_MQTT_CLIENT";
 static EventGroupHandle_t s_mqtt_event_eg;
 static esp_mqtt_client_handle_t  s_client;
@@ -31,7 +32,6 @@ __attribute__((weak)) void ecg_set_power(bool on)
         ESP_LOGI(TAG, "ECG power OFF");
     }
 }
-
 
 __attribute__((weak)) void spo2_set_power(bool on)
 {
@@ -183,6 +183,13 @@ esp_err_t tb_mqtt_init()
 bool tb_mqtt_is_connected()
 {
     return (xEventGroupGetBits(s_mqtt_event_eg) & MQTT_CONNECT_BIT) != 0;
+}
+
+
+bool tb_mqtt_wait_for_connection(int timeout_ms)
+{
+    EventBits_t bit = xEventGroupWaitBits(s_mqtt_event_eg, MQTT_CONNECT_BIT, pdFALSE, pdFALSE, pdMS_TO_TICKS(timeout_ms));
+    return (bit & MQTT_CONNECT_BIT) != 0;
 }
 
 int tb_mqtt_client_publish(const char* json_payload)

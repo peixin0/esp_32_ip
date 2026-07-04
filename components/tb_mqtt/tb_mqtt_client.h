@@ -1,15 +1,16 @@
-#ifndef MQTT_CLIENT_H
-#define MQTT_CLIENT_H
+#ifndef TB_MQTT_CLIENT_H
+#define TB_MQTT_CLIENT_H
 
+#include <stdbool.h>
+#include "esp_err.h"
 
-
-
-__attribute__((weak)) void start_section(int rate_hz,int seconds);
-__attribute__((weak)) void ecg_set_power(bool on);
-__attribute__((weak)) void spo2_set_power(bool on);
+void start_section(int rate_hz,int seconds);
+void ecg_set_power(bool on);
+void spo2_set_power(bool on);
 
 esp_err_t tb_mqtt_init();
 bool tb_mqtt_is_connected();
+bool tb_mqtt_wait_for_connection(int timeout_ms);
 int tb_mqtt_client_publish(const char* json_payload);
 
-#endif /* MQTT_CLIENT_H */
+#endif /* TB_MQTT_CLIENT_H */
