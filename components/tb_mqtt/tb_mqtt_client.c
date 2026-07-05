@@ -15,6 +15,10 @@ static EventGroupHandle_t s_mqtt_event_eg;
 static esp_mqtt_client_handle_t  s_client;
 static const int MQTT_CONNECT_BIT  = BIT0;
 
+static bool s_ecg_on = false;
+static bool s_spo2_on = false;
+
+
 #define TB_TOPIC_TELEMETRY        "v1/devices/me/telemetry"             // Publish telemetry data to ThingsBoard
 #define TB_TOPIC_RPC_REQUESTS     "v1/devices/me/rpc/request/+"         // Subscribe to server-side RPC
 
@@ -41,7 +45,33 @@ __attribute__((weak)) void spo2_set_power(bool on)
         ESP_LOGI(TAG, "SpO2 power OFF");
     }
 }
+/*reply to the message from */
+void tb_rpc_respond(const char *req_topic, int req_topic_len, const char *json_resp)
+{
+    int slash = -1;
+    for (int i = req_topic_len - 1; i >= 0; i--) {
+        if (req_topic[i] == '/') {slash = i; break;}
+    }
+    if (slash < 0) {
+        ESP_LOGW(TAG, "bad topic: %.*s", req_topic_len, req_topic);
+        return;
+    }
 
+    char reply_topic[64];
+    int n = snprintf(reply_topic, sizeof(reply_topic),
+        "v1/devices/me/rpc/response/%.*s",
+        req_topic_len - (slash + 1), &req_topic[slash + 1]);
+    
+    if (n < 0 || n >= (int)sizeof(reply_topic)) 
+    {
+    ESP_LOGW(TAG, "reply topic too long: %.*s", req_topic_len, req_topic);
+    return;
+    }
+    esp_mqtt_client_enqueue(s_client, reply_topic, json_resp,
+                            0, 0 /*QoS0*/, 0 /*retain*/, true /*store*/);
+    
+
+}
 
 static void handle_command(const char *topic, int topic_len,
                            const char *data, int data_len)
@@ -69,33 +99,59 @@ static void handle_command(const char *topic, int topic_len,
         return;
     }
  
-    if (strcmp(method->valuestring, "runSection") == 0) {
         /* params is an object: {"rate":180,"seconds":30}
          * same branch serves Mode A (360/60) and Mode B (180/30) -
          * the button chooses the numbers, firmware runs what it's told */
+    if (strcmp(method->valuestring, "runSection") == 0) 
+    {
         const cJSON *rate    = cJSON_GetObjectItem(params, "rate");
         const cJSON *seconds = cJSON_GetObjectItem(params, "seconds");
         if (cJSON_IsNumber(rate) && cJSON_IsNumber(seconds)) {
             start_section(rate->valueint, seconds->valueint);
+            tb_rpc_respond(topic, topic_len, "{\"success\":true}");
         } else {
             ESP_LOGW(TAG, "runSection: missing rate/seconds");
+            tb_rpc_respond(topic, topic_len, "{\"error\":\"missing rate/seconds\"}");
         }
- 
-    } else if (strcmp(method->valuestring, "setEcgPower") == 0) {
-        /* ThingsBoard switch widget sends params as a bare bool */
+
+    } 
+    else if (strcmp(method->valuestring, "setEcgPower") == 0) 
+    {
         if (cJSON_IsBool(params)) {
-            ecg_set_power(cJSON_IsTrue(params));
+            s_ecg_on = cJSON_IsTrue(params);   /* update */
+            ecg_set_power(s_ecg_on);
+            tb_rpc_respond(topic, topic_len, s_ecg_on ? "true" : "false");
         }
- 
-    } else if (strcmp(method->valuestring, "setSpo2Power") == 0) {
+        else 
+        {
+            ESP_LOGW(TAG, "setEcgPower: params not boolean");
+            tb_rpc_respond(topic, topic_len, "{\"error\":\"params not boolean\"}");
+        }
+    } 
+    else if (strcmp(method->valuestring, "setSpo2Power") == 0) 
+    {
         if (cJSON_IsBool(params)) {
-            spo2_set_power(cJSON_IsTrue(params));
+            s_spo2_on = cJSON_IsTrue(params);
+            spo2_set_power(s_spo2_on);
+            tb_rpc_respond(topic, topic_len, s_spo2_on ? "true" : "false");
         }
- 
+        else 
+        {
+            ESP_LOGW(TAG, "setSpo2Power: params not boolean");
+            tb_rpc_respond(topic, topic_len, "{\"error\":\"params not boolean\"}");
+        }
+    } 
+    else if (strcmp(method->valuestring, "getEcgPower") == 0) 
+    {
+        tb_rpc_respond(topic, topic_len, s_ecg_on ? "true" : "false");
+    } 
+    else if (strcmp(method->valuestring, "getSpo2Power") == 0) {
+        tb_rpc_respond(topic, topic_len, s_spo2_on ? "true" : "false");
     } else {
         ESP_LOGW(TAG, "unknown method: %s", method->valuestring);
+        /* wait for the tiemout */
+        tb_rpc_respond(topic, topic_len, "{\"error\":\"unknown method\"}");
     }
- 
     cJSON_Delete(root);
 }
 
@@ -149,6 +205,9 @@ static void tb_mqtt_event_handler(void* event_handler_arg,
             break;
         case MQTT_EVENT_PUBLISHED:
             ESP_LOGI(TAG, "PUBACK received, id=%d confirmed", event->msg_id);
+            break;
+        case MQTT_EVENT_SUBSCRIBED:
+            ESP_LOGI(TAG, "SUBSCRIBED");  
             break;
         default:
             break;
