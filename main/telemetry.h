@@ -5,7 +5,7 @@
 #include "freertos/FreeRTOS.h"
 #include "freertos/queue.h"
 typedef struct {
-    int32_t hr,
+    int32_t hr;
     int32_t spo2;     
 } max_vitals_t;
 
@@ -16,16 +16,16 @@ typedef struct telemetry
 }ecg_point_t;
 
 // created once, before tasks start
-void telemetry_init();
+esp_err_t telemetry_init();
 // --- Producer functions ---
 // Called BY the sensor tasks. These PUT data into the queue.
-void telemetry_push_max_data(const max_vitals_t *v);
-void telemetry_push_ecg_data(const ecg_point_t *p);
+void telemetry_push_vatals(const max_vitals_t *v);
+esp_err_t telemetry_push_ecg(const ecg_point_t *p);
 // --- Accessor functions (used by the consumer) ---
 // Called BY the MQTT task. These do NOT move data themselves —
 // they just return the queue handle so the caller can take items out.
-QueueHandle_t telemetry_ecg_queue(void);
-QueueHandle_t telemetry_vitals_queue(void);
-
-
+bool telemetry_ecg_dequeue(ecg_point_t* ecg_buffer,TickType_t ticks_to_wait);
+bool telemetry_vitals_dequeue(max_vitals_t* vitals_buffer);
+void telemetry_deinit();
+uint32_t telemetry_ecg_drop_count();
 #endif /* TELEMETRY_H */

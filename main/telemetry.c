@@ -59,7 +59,7 @@ esp_err_t telemetry_push_ecg(const ecg_point_t *p)
 bool telemetry_ecg_dequeue(ecg_point_t* ecg_buffer,TickType_t ticks_to_wait)
 {
     return xQueueReceive (telemetry_ecg_queue,ecg_buffer,ticks_to_wait) == pdPASS;
-};
+}
 
 // no wait, if vital queue is empty, return false
 bool telemetry_vitals_dequeue(max_vitals_t* vitals_buffer)
