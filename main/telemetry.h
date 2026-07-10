@@ -32,4 +32,5 @@ bool telemetry_ecg_dequeue(ecg_point_t* ecg_buffer,TickType_t ticks_to_wait);
 bool telemetry_vitals_dequeue(max_vitals_t* vitals_buffer);
 void telemetry_deinit(void);
 uint32_t telemetry_ecg_drop_count(void);
+bool vitals_is_plausible(int32_t spo2_d,int32_t hr_d,int8_t spo2_v,int8_t hr_v)
 #endif /* TELEMETRY_H */

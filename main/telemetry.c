@@ -3,13 +3,20 @@
 #include "freertos/queue.h"
 #include "esp_err.h"
 #include "esp_log.h"
+#include <stdbool.h>
 
 
 #define ECG_MAX_SAMPLE_RATE_HZ              360
 #define ECG_BUFFER_MS                       1000
 #define ECG_QUEUE_SIZE                     ((ECG_MAX_SAMPLE_RATE_HZ * ECG_BUFFER_MS) / 1000)  // 360 samples, 1 second of data at 360 Hz 
   
-#define VITALS_QUEUE_SIZE         1 
+#define VITALS_QUEUE_SIZE                   1 
+
+#define HIGH_LIMIT_HR_VALUE                 180
+#define LOW_LIMIT_HR_VALUE                  30
+#define HIGH_LIMIT_SP_VALUE                 100
+#define LOW_LIMIT_SP_VALUE                  90
+ 
 
 
 static QueueHandle_t telemetry_ecg_queue;
@@ -75,6 +82,15 @@ void telemetry_deinit(void)
     vQueueDelete(telemetry_vitals_queue);
 }
 
+
+bool vitals_is_plausible(int32_t spo2_d,int32_t hr_d,int8_t spo2_v,int8_t hr_v)
+{
+    if (spo2_v != 1 || hr_v != 1) {return false;} 
+    if (HIGH_LIMIT_HR_VALUE < hr_d || hr_d < LOW_LIMIT_HR_VALUE || 
+        spo2_d > HIGH_LIMIT_SP_VALUE || spo2_d < LOW_LIMIT_SP_VALUE){return false;}
+
+    return true;
+}
 uint32_t telemetry_ecg_drop_count(void)
 {
     return s_ecg_sample_drop;
