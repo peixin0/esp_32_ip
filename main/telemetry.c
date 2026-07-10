@@ -4,11 +4,12 @@
 #include "esp_err.h"
 #include "esp_log.h"
 
+
 #define ECG_MAX_SAMPLE_RATE_HZ              360
 #define ECG_BUFFER_MS                       1000
 #define ECG_QUEUE_SIZE                     ((ECG_MAX_SAMPLE_RATE_HZ * ECG_BUFFER_MS) / 1000)  // 360 samples, 1 second of data at 360 Hz 
   
-#define TELEMETRY_VITALS_QUEUE_SIZE         1 
+#define VITALS_QUEUE_SIZE         1 
 
 
 static QueueHandle_t telemetry_ecg_queue;
@@ -25,7 +26,7 @@ esp_err_t telemetry_init()
     {   ESP_LOGW(TAG,"ECG Queue Allocation Failed");    
         return ESP_ERR_NO_MEM;
     }
-    telemetry_vitals_queue = xQueueCreate(TELEMETRY_VITALS_QUEUE_SIZE,sizeof(max_vitals_t));
+    telemetry_vitals_queue = xQueueCreate(VITALS_QUEUE_SIZE,sizeof(max_vitals_t));
     if (telemetry_vitals_queue == NULL)
     {   ESP_LOGW(TAG,"MAX Queue Allocation Failed");
         vQueueDelete(telemetry_ecg_queue);      // mem leak
@@ -68,13 +69,13 @@ bool telemetry_vitals_dequeue(max_vitals_t* vitals_buffer)
 }
 
 
-void telemetry_deinit()
+void telemetry_deinit(void)
 {
     vQueueDelete(telemetry_ecg_queue);
     vQueueDelete(telemetry_vitals_queue);
 }
 
-uint32_t telemetry_ecg_drop_count()
+uint32_t telemetry_ecg_drop_count(void)
 {
     return s_ecg_sample_drop;
 }
