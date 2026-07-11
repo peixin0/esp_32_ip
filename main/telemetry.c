@@ -12,7 +12,7 @@
   
 #define VITALS_QUEUE_SIZE                   1 
 
-#define HIGH_LIMIT_HR_VALUE                 180
+#define HIGH_LIMIT_HR_VALUE                 150
 #define LOW_LIMIT_HR_VALUE                  30
 #define HIGH_LIMIT_SP_VALUE                 100
 #define LOW_LIMIT_SP_VALUE                  90

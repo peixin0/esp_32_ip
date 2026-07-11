@@ -36,9 +36,6 @@ void task_tb_mqtt(void *vparameter)
         ESP_LOGW(TAG, "waiting for MQTT connection...");
     }
     ESP_LOGI(TAG, "MQTT is connected");
-    // Publish a connect telemetry message need to be deleted
-    int id = tb_mqtt_client_publish("{\"temperature\":25}");
-        ESP_LOGI(TAG, "test telemetry sent, id=%d", id);
         
     while (1) {
         

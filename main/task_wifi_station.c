@@ -5,7 +5,7 @@
 
 #define WIFI_WAIT_CONNECT_TIME  1000
 
-static const char *TAG = "task_wifi";
+static const char *TAG = "TASK_WIFI_STATION";
 
 void task_wifi_station(void *vparameter)
 {
