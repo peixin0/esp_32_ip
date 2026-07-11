@@ -9,7 +9,7 @@ static const char *TAG = "task_wifi";
 
 void task_wifi_station(void *vparameter)
 {
-    ESP_ERROR_CHECK(wifi_station_init());
+
 
     while (!wifi_station_wait_connected(WIFI_WAIT_CONNECT_TIME)) {
         ESP_LOGW(TAG, "waiting for WiFi...");

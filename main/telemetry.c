@@ -24,8 +24,9 @@ static QueueHandle_t telemetry_vitals_queue;
 
 static const char *TAG = "telemetry";
 static uint32_t s_ecg_sample_drop = 0;
+static uint16_t s_vital_sample_rejection = 0;
 
-
+/* Module API */  
 esp_err_t telemetry_init()
 {
     telemetry_ecg_queue = xQueueCreate(ECG_QUEUE_SIZE,sizeof(ecg_point_t));
@@ -42,12 +43,46 @@ esp_err_t telemetry_init()
     return ESP_OK;
 
 }
+void telemetry_deinit(void)
+{
+    vQueueDelete(telemetry_ecg_queue);
+    vQueueDelete(telemetry_vitals_queue);
+}
 
+
+/* Vitals API  */ 
 void telemetry_push_vitals(const max_vitals_t *v)
 {   
     xQueueOverwrite(telemetry_vitals_queue,v);
 }
 
+// no wait, if vital queue is empty, return false
+bool telemetry_vitals_dequeue(max_vitals_t* vitals_buffer)
+{
+    return xQueueReceive (telemetry_vitals_queue,vitals_buffer,0) == pdPASS;
+}
+
+// door checker : limit the valid data boundary 
+bool vitals_is_plausible(int32_t spo2_d,int32_t hr_d,int8_t spo2_v,int8_t hr_v)
+{
+    if (spo2_v != 1 || hr_v != 1) {return false;} 
+    if (HIGH_LIMIT_HR_VALUE < hr_d || hr_d < LOW_LIMIT_HR_VALUE || 
+        spo2_d > HIGH_LIMIT_SP_VALUE || spo2_d < LOW_LIMIT_SP_VALUE){return false;}
+    return true;
+}
+
+uint16_t telemetry_vitals_rejection_count()
+{
+    return s_vital_sample_rejection;
+}
+
+void telemetry_vitals_rejection_add()
+{   
+    s_vital_sample_rejection++;
+}
+
+
+// ECG API 
 /* Runs in the 360 Hz sampler's context (2.78 ms period): must never block.
    If the queue is full,  drop the sample and increment a counter. */
 esp_err_t telemetry_push_ecg(const ecg_point_t *p)
@@ -69,29 +104,10 @@ bool telemetry_ecg_dequeue(ecg_point_t* ecg_buffer,TickType_t ticks_to_wait)
     return xQueueReceive (telemetry_ecg_queue,ecg_buffer,ticks_to_wait) == pdPASS;
 }
 
-// no wait, if vital queue is empty, return false
-bool telemetry_vitals_dequeue(max_vitals_t* vitals_buffer)
-{
-    return xQueueReceive (telemetry_vitals_queue,vitals_buffer,0) == pdPASS;
-}
-
-
-void telemetry_deinit(void)
-{
-    vQueueDelete(telemetry_ecg_queue);
-    vQueueDelete(telemetry_vitals_queue);
-}
-
-
-bool vitals_is_plausible(int32_t spo2_d,int32_t hr_d,int8_t spo2_v,int8_t hr_v)
-{
-    if (spo2_v != 1 || hr_v != 1) {return false;} 
-    if (HIGH_LIMIT_HR_VALUE < hr_d || hr_d < LOW_LIMIT_HR_VALUE || 
-        spo2_d > HIGH_LIMIT_SP_VALUE || spo2_d < LOW_LIMIT_SP_VALUE){return false;}
-
-    return true;
-}
 uint32_t telemetry_ecg_drop_count(void)
 {
     return s_ecg_sample_drop;
 }
+
+
+
