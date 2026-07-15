@@ -26,6 +26,9 @@
 */
 
 #include "max30102.h" 
+#include "esp_log.h"
+
+static const char *TAG = "MAX30102";
 
 bool maxim_max30102_write_reg(uint8_t uch_addr, uint8_t uch_data)
 /**
@@ -180,4 +183,30 @@ bool maxim_max30102_reset()
         return false;
     else
         return true;    
+}
+
+bool maxim_enter_shutdown()
+{
+    bool res = maxim_max30102_write_reg(REG_MODE_CONFIG, 0x80);   // enter shutdown mode
+    if (!res) {
+        ESP_LOGE(TAG, "Failed to enter shutdown mode");
+    }
+    else {
+        ESP_LOGI(TAG, "Entered shutdown mode");
+
+    }
+    return res;
+}
+
+bool maxim_exit_shutdown()
+{
+    bool res = maxim_max30102_write_reg(REG_MODE_CONFIG,0x03);  // exit shutdown mode & enble 2 modes
+        if (!res) {
+        ESP_LOGE(TAG, "Failed to exit power-on mode");
+    }
+    else {
+        ESP_LOGI(TAG, "exit power-on mode");
+
+    }
+    return res;
 }

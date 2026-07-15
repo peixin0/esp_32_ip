@@ -15,8 +15,8 @@ static EventGroupHandle_t s_mqtt_event_eg;
 static esp_mqtt_client_handle_t  s_client;
 static const int MQTT_CONNECT_BIT  = BIT0;
 
-static bool s_ecg_on = false;
-static bool s_spo2_on = false;
+static volatile bool s_ecg_on = false;
+static volatile bool s_spo2_on = false;
 
 
 #define TB_TOPIC_TELEMETRY        "v1/devices/me/telemetry"             // Publish telemetry data to ThingsBoard

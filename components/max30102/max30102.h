@@ -59,6 +59,8 @@
 #define REG_PART_ID 0xFF
 
 bool maxim_max30102_init();
+bool maxim_enter_shutdown(void);
+bool maxim_exit_shutdown(void);
 bool maxim_max30102_read_fifo(uint32_t *pun_red_led, uint32_t *pun_ir_led);
 bool maxim_max30102_write_reg(uint8_t uch_addr, uint8_t uch_data);
 bool maxim_max30102_read_reg(uint8_t uch_addr, uint8_t *puch_data);
