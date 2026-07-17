@@ -22,10 +22,7 @@ void app_main(void)
  * (xTaskCreatePinnedToCore, core 1) is the treatment case - see README. */
 
     xTaskCreate(task_max30102, "task_max30102", 4096*2, NULL, 5, NULL);
-    // xTaskCreate(task_ad8232, "task_ad8232", 4096*2, NULL, 5, NULL);
+    xTaskCreate(task_ad8232, "task_ad8232", 4096*2, NULL, 5, NULL);
     xTaskCreate(task_tb_mqtt, "task_tb_mqtt", 4096*2, NULL, 5, NULL);
-    // if (timebase_sync(100000) != ESP_OK)
-    // {
-        
-    // }
+
 }

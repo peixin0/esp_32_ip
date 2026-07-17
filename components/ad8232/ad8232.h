@@ -20,10 +20,15 @@
 
 #define AD8232_LO_PLUS_PIN   GPIO_NUM_34          // Connected to LO+ pin of ECG Click 5
 #define AD8232_LO_MINUS_PIN  GPIO_NUM_35          // Connected to LO- pin
+#define AD8232_SDN_PIN       GPIO_NUM_26          // Connected to SDN pin
+
+
 
 esp_err_t ad8232_init();
 esp_err_t ad8232_read(int *raw_value);
 bool ad8232_leads_on();
+bool ad8232_enter_standby(void);
+bool ad8232_exit_standby(void);
 
 
 // Your header file content here

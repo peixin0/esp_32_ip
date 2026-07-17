@@ -12,7 +12,7 @@
 
 
 static const int WIFI_CONNECTED_BIT = BIT0;
-static const char *TAG = "wifi_station";
+static const char *TAG = "WIFI_STATION";
 static EventGroupHandle_t wifi_event_group;
 static uint8_t retry_count = 0;
 

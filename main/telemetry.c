@@ -22,7 +22,7 @@
 static QueueHandle_t telemetry_ecg_queue;
 static QueueHandle_t telemetry_vitals_queue;
 
-static const char *TAG = "telemetry";
+static const char *TAG = "TELEMETRY";
 static uint32_t s_ecg_sample_drop = 0;
 static uint16_t s_vital_sample_rejection = 0;
 
@@ -37,7 +37,7 @@ esp_err_t telemetry_init()
     telemetry_vitals_queue = xQueueCreate(VITALS_QUEUE_SIZE,sizeof(max_vitals_t));
     if (telemetry_vitals_queue == NULL)
     {   ESP_LOGW(TAG,"MAX Queue Allocation Failed");
-        vQueueDelete(telemetry_ecg_queue);      // mem leak
+        vQueueDelete(telemetry_ecg_queue);      // to avoid mem leak
         return ESP_ERR_NO_MEM;
     }
     return ESP_OK;

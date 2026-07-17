@@ -5,7 +5,7 @@
 #include "esp_timer.h"
 #include <stdbool.h>
 
-static const char *TAG  = "timebase";
+static const char *TAG  = "TIMEBASE";
 static int64_t s_anchor_us        = 0;
 static int64_t s_anchor_epoch_ms  = 0;
 static bool    s_timebase_valid   = false;
