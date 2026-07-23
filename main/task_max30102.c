@@ -61,15 +61,14 @@ static BaseType_t sleep_til_data_ready(void)
 }
 
 void spo2_set_power(bool on)
-{
+{   
+    s_spo2_status = on;
     if (on)
     {
-        s_spo2_status = on;
         ESP_LOGI(TAG, "MAX power ON");
     }
     else
     {
-        s_spo2_status = on;
         ESP_LOGI(TAG, "MAX power OFF");
     }
 }

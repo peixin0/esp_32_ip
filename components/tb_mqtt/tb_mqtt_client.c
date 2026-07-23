@@ -17,14 +17,19 @@ static const int MQTT_CONNECT_BIT  = BIT0;
 
 static volatile bool s_ecg_on = false;
 static volatile bool s_spo2_on = false;
+static volatile bool s_ecg_run_on = false;
 
 
 #define TB_TOPIC_TELEMETRY        "v1/devices/me/telemetry"             // Publish telemetry data to ThingsBoard
 #define TB_TOPIC_RPC_REQUESTS     "v1/devices/me/rpc/request/+"         // Subscribe to server-side RPC
 
-__attribute__((weak)) void start_section(int rate_hz,int seconds)
+__attribute__((weak)) void start_section(bool on)
 {
-    ESP_LOGI(TAG, "Starting section: rate=%d Hz, duration=%d seconds", rate_hz, seconds);
+    if (on) {
+        ESP_LOGI(TAG, "ECG Test Running");
+    } else {
+        ESP_LOGI(TAG, "ECG Test Stops");
+    }
 }
 
 
@@ -99,19 +104,18 @@ static void handle_command(const char *topic, int topic_len,
         return;
     }
  
-        /* params is an object: {"rate":180,"seconds":30}
-         * same branch serves Mode A (360/60) and Mode B (180/30) -
-         * the button chooses the numbers, firmware runs what it's told */
+
     if (strcmp(method->valuestring, "runSection") == 0) 
     {
-        const cJSON *rate    = cJSON_GetObjectItem(params, "rate");
-        const cJSON *seconds = cJSON_GetObjectItem(params, "seconds");
-        if (cJSON_IsNumber(rate) && cJSON_IsNumber(seconds)) {
-            start_section(rate->valueint, seconds->valueint);
-            tb_rpc_respond(topic, topic_len, "{\"success\":true}");
-        } else {
-            ESP_LOGW(TAG, "runSection: missing rate/seconds");
-            tb_rpc_respond(topic, topic_len, "{\"error\":\"missing rate/seconds\"}");
+        if (cJSON_IsBool(params)) {
+            s_ecg_run_on = cJSON_IsTrue(params);   /* update */
+            start_section(s_ecg_run_on);
+            tb_rpc_respond(topic, topic_len, s_ecg_run_on ? "true" : "false");
+        }
+        else 
+        {
+            ESP_LOGW(TAG, "runSection: params not boolean");
+            tb_rpc_respond(topic, topic_len, "{\"error\":\"params not boolean\"}");
         }
 
     } 
@@ -241,6 +245,9 @@ esp_err_t tb_mqtt_init()
 
 bool tb_mqtt_is_connected()
 {
+        if (s_mqtt_event_eg == NULL) {
+        return false;   
+    }
     return (xEventGroupGetBits(s_mqtt_event_eg) & MQTT_CONNECT_BIT) != 0;
 }
 

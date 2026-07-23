@@ -13,6 +13,10 @@
  * *************************************************/
 static adc_oneshot_unit_handle_t s_adc = NULL;
 
+#define STANDBY_MODE    0
+#define ACTIVE_MODE     1
+
+
 esp_err_t ad8232_init()
 {   
     if (s_adc != NULL) return ESP_OK;
@@ -46,9 +50,23 @@ esp_err_t ad8232_init()
         .pull_up_en = GPIO_PULLUP_DISABLE,
         .intr_type = GPIO_INTR_DISABLE,
     };
+    
+    gpio_config_t sdn_cfg = {
+        .pin_bit_mask = (1ULL << AD8232_SDN_PIN),
+        .mode = GPIO_MODE_OUTPUT,
+        .pull_down_en = GPIO_PULLDOWN_DISABLE,
+        .pull_up_en = GPIO_PULLUP_DISABLE,
+        .intr_type = GPIO_INTR_DISABLE,
+    };
+
     err = gpio_config(&lo_cfg);
     if (err != ESP_OK) {
         ESP_LOGE("AD8232", "Failed to configure LO pins");
+        return err;
+    }
+    err = gpio_config(&sdn_cfg);
+    if (err != ESP_OK) {
+        ESP_LOGE("AD8232", "Failed to configure SDN pin");
         return err;
     }
     return ESP_OK;
@@ -62,6 +80,25 @@ esp_err_t ad8232_read(int *raw_value)
     }
     return adc_oneshot_read(s_adc, ADC_PIN, raw_value);
 }
+
+bool ad8232_enter_standby(void)
+{
+    if (gpio_set_level(AD8232_SDN_PIN, STANDBY_MODE) != ESP_OK) {
+        ESP_LOGE("AD8232", "Failed to enter standby mode");
+        return false;
+    }
+    return true;
+}
+
+bool ad8232_exit_standby(void)
+{
+    if (gpio_set_level(AD8232_SDN_PIN, ACTIVE_MODE) != ESP_OK) {
+        ESP_LOGE("AD8232", "Failed to exit standby mode");
+        return false;
+    }
+    return true;
+}
+
 
 bool ad8232_leads_on()
 {
