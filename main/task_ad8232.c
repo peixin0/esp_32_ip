@@ -17,7 +17,6 @@
 #define SAMPLE_PERIOD               (2778)  // uS
 static const char *TAG = "TASK_AD8232";
 
-int adc_value;
 static bool s_active_status = true; 
 static bool s_run_status    = false;
 TaskHandle_t s_ecg_sampler  = NULL;
@@ -111,8 +110,6 @@ static void task_ecg_sampler(void *vparameter)
                     {
                         telemetry_ecg_network_skip_add();
                     }
-                    
-                    /* feed `raw` into the ECG filter / QRS detector  (if [possible) ])*/ 
                 }
             }
             
@@ -134,60 +131,3 @@ esp_err_t time_sampler_init()
     return res;
 }
 
-
-
-
-
-
-// void task_ad8232(void *vparameter)
-// {   
-//     int raw = 0;
-//     bool leads_were_off  = true;   
-//     ESP_ERROR_CHECK(ad8232_init());
-
-//     while (1) {
-//         // If the AD8232 is not powered on, skip reading and wait for the next cycle    
-//         if (!s_active_status) 
-//         {   
-//             ad8232_enter_standby();
-//             ESP_LOGI(TAG, "AD8232 in standby, waiting for power on");
-//             while (!s_active_status)
-//             {   
-//                 vTaskDelay(pdMS_TO_TICKS(SPIKE_DETECTION_PERIOD));
-//             }
-//         }
-//         if (s_active_status) 
-//         {   
-//             ad8232_exit_standby();
-//             ESP_LOGI(TAG, "AD8232 active, starting ECG acquisition");
-
-//             while(s_active_status)
-//             {
-//                 if (!ad8232_leads_on()) 
-//                 {   
-//                     // ON -> OFF  (just disconnected)
-//                     if (!leads_were_off) {
-//                         ESP_LOGW(TAG, "lead-off — pausing acquisition");
-//                         leads_were_off = true;
-//                     }
-//                     vTaskDelay(pdMS_TO_TICKS(SAMPLE_PERIOD_MS));
-//                     continue;
-//                 }
-//                 // OFF -> ON  (just reconnected)
-//                 if (leads_were_off) {
-//                     ESP_LOGI(TAG, "lead-on — resuming acquisition");
-//                     leads_were_off = false;
-//                 }
-
-//                 if (ad8232_read(&raw) == ESP_OK) 
-//                 {
-//                     ESP_LOGI(TAG, "ecg=%d", raw);
-//                     /* feed `raw` into the ECG filter / QRS detector */
-//                 }
-//                 vTaskDelay(pdMS_TO_TICKS(SAMPLE_PERIOD_MS));
-//             }
-//         }
-        
-
-//     }
-// }

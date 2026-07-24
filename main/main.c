@@ -17,14 +17,14 @@ void app_main(void)
     ESP_ERROR_CHECK(wifi_station_init());
     // init vitals queue 
     ESP_ERROR_CHECK(telemetry_init());
+    // create task_ad8232
     ESP_ERROR_CHECK(time_sampler_init());
-    // telemetry_init();
 /* EXPERIMENT: intentionally NOT pinned. Baseline (unpinned) case for
  * the core-affinity jitter comparison in the report. The pinned version
  * (xTaskCreatePinnedToCore, core 1) is the treatment case - see README. */
 
     xTaskCreate(task_max30102, "task_max30102", 4096*2, NULL, 5, NULL);
-    // xTaskCreate(task_ad8232, "task_ad8232", 4096*2, NULL, 5, NULL);
+
     xTaskCreate(task_tb_mqtt, "task_tb_mqtt", 4096*2, NULL, 5, NULL);
 
 }
