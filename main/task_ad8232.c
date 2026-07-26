@@ -17,10 +17,42 @@
 #define SAMPLE_PERIOD               (2778)  // uS
 static const char *TAG = "TASK_AD8232";
 
-static bool s_active_status = true; 
-static bool s_run_status    = false;
+static volatile bool    s_active_status = true; 
+static volatile bool    s_run_status    = false;
 TaskHandle_t s_ecg_sampler  = NULL;
 static esp_timer_handle_t s_timer_handler;
+// Assign Core 
+#define ECG_PINNED_CORE1
+/* ---- jitter measurement (one-shot, remove before final build) ---- */
+
+#define ECG_PERIOD_TEST
+#ifdef ECG_PERIOD_TEST
+
+
+#define JITTER_CAPTURE_N   3600
+
+static int32_t  s_period_log[JITTER_CAPTURE_N];
+static uint32_t s_log_idx = 0;
+static int64_t  s_last_ts = 0;      /* 只此一处,不重复 */
+
+static void jitter_capture(int64_t now)
+{
+    if (s_last_ts != 0 && s_log_idx < JITTER_CAPTURE_N) {
+        s_period_log[s_log_idx++] = (int32_t)(now - s_last_ts);
+    }
+    s_last_ts = now;
+}
+
+static void jitter_dump(void)
+{
+    ESP_LOGI(TAG, "==== JITTER DUMP START, core=%d ====", xPortGetCoreID());
+    for (uint32_t i = 0; i < s_log_idx; i++) {
+        printf("%ld\n", (long)s_period_log[i]);
+    }
+    ESP_LOGI(TAG, "==== JITTER DUMP END, count=%lu ====", s_log_idx);
+}
+/* ---- end jitter measurement ---- */ 
+#endif 
 
 
 // weak function accutual implementation
@@ -51,7 +83,7 @@ void start_section(bool on)
     }
     else
     {
-        ESP_LOGI(TAG, "MAX Stops Measuring");
+        ESP_LOGI(TAG, "ECG Stops Measuring");
     }
 }
 
@@ -71,7 +103,7 @@ static esp_timer_create_args_t s_ecg_timer_args = {
 static void task_ecg_sampler(void *vparameter)
 {
     int raw = 0;
-    int ecg_filtered = 0;
+    float ecg_filtered = 0.0f;
     ecg_point_t ecg_data_pt = {0};
     bool leads_were_off  = true; 
     ecg_filter_init((float)HIGH_SAMPLE_HZ);   /* ADD SMAPLE  HERE */
@@ -80,6 +112,14 @@ static void task_ecg_sampler(void *vparameter)
     {
         ulTaskNotifyTake(pdTRUE,portMAX_DELAY);
         ecg_data_pt.timestamp = esp_timer_get_time();
+        #ifdef ECG_PERIOD_TEST
+        jitter_capture(ecg_data_pt.timestamp); 
+            if (s_log_idx == JITTER_CAPTURE_N) 
+            {
+                jitter_dump();
+                s_log_idx++;                          /* 变成 3601,下次不再进这个 if,也不再 capture */
+            }
+        #endif 
         if (s_active_status)
         {   
             if (s_run_status)
@@ -121,6 +161,12 @@ static void task_ecg_sampler(void *vparameter)
     }
 
 }
+
+/**
+ *  task has to be created first: ISR will use the task handler s_ecg_sampler
+ *  if timer starts wihtout handler, it will use NULL handler
+ *  order has to be taskcreate -> set_power 
+ * */
 esp_err_t time_sampler_init()
 {   
     esp_err_t res;
@@ -128,7 +174,14 @@ esp_err_t time_sampler_init()
     if (res != ESP_OK) return res;
     res = esp_timer_create(&s_ecg_timer_args, &s_timer_handler);
     if (res != ESP_OK) return res;
-    xTaskCreate(task_ecg_sampler,"task_ecg_sampler",4096*2, NULL, 7, &s_ecg_sampler);
+
+    #ifdef ECG_PINNED_CORE1
+    xTaskCreatePinnedToCore(task_ecg_sampler, "task_ecg_sampler", 4096*2,
+                            NULL, 7, &s_ecg_sampler, 1); 
+    #else
+    xTaskCreatePinnedToCore(task_ecg_sampler, "task_ecg_sampler", 4096*2,
+                            NULL, 7, &s_ecg_sampler, tskNO_AFFINITY);
+    #endif
     // power on, default set is true. 
     ecg_set_power(true);
     return res;

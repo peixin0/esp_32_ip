@@ -11,20 +11,31 @@ extern void task_max30102(void *vparameter);
 extern void task_ad8232(void *vparameter);
 extern void task_tb_mqtt(void *vparameter);
 extern esp_err_t time_sampler_init();
+
+#define ECG_PINNED_CORE1
+
 void app_main(void)
 {   
+    /* 测 jitter 时压低其它任务日志:减少干扰 + 净化 dump */
+    esp_log_level_set("TB_MQTT_CLIENT", ESP_LOG_WARN);
+    esp_log_level_set("TASK_TB_MQTT",   ESP_LOG_WARN);
+    esp_log_level_set("TASK_MAX30102",  ESP_LOG_WARN);
     // init wifi 
     ESP_ERROR_CHECK(wifi_station_init());
     // init vitals queue 
     ESP_ERROR_CHECK(telemetry_init());
     // create task_ad8232
     ESP_ERROR_CHECK(time_sampler_init());
-/* EXPERIMENT: intentionally NOT pinned. Baseline (unpinned) case for
- * the core-affinity jitter comparison in the report. The pinned version
- * (xTaskCreatePinnedToCore, core 1) is the treatment case - see README. */
 
+    /* core-affinity experiment:
+     *   defined   -> isolation (ECG core1 / others core0)
+     *   undefined -> baseline (all unpinned) */
+    #ifdef ECG_PINNED_CORE1
+    xTaskCreatePinnedToCore(task_max30102, "task_max30102", 4096*2, NULL, 5, NULL,0);
+    xTaskCreatePinnedToCore(task_tb_mqtt, "task_tb_mqtt", 4096*2, NULL, 4, NULL,0);
+    #else
     xTaskCreate(task_max30102, "task_max30102", 4096*2, NULL, 5, NULL);
-
     xTaskCreate(task_tb_mqtt, "task_tb_mqtt", 4096*2, NULL, 4, NULL);
+    #endif
 
 }
