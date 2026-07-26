@@ -7,12 +7,12 @@
 #include "timebase.h"
 #include "tb_mqtt_client.h"
 #include "esp_timer.h"
+#include "ecg_filter.h"
+#include <math.h>
 
-
-#define HIGH_SAMPLE_HZ              (360)  // ~100 Hz placeholder; esp_timer @360 Hz to come
+#define HIGH_SAMPLE_HZ              (360)  // esp_timer @360 Hz to come
 #define LOW_SAMPLE_HZ               (180)  // ~10 Hz placeholder
-#define LONG_SAMPLE_PERIOD_S        (60)  // ~60 seconds placeholder
-#define SHORT_SAMPLE_PERIOD_S       (30)  // ~30 seconds placeholder
+
 
 #define SAMPLE_PERIOD               (2778)  // uS
 static const char *TAG = "TASK_AD8232";
@@ -71,8 +71,10 @@ static esp_timer_create_args_t s_ecg_timer_args = {
 static void task_ecg_sampler(void *vparameter)
 {
     int raw = 0;
+    int ecg_filtered = 0;
     ecg_point_t ecg_data_pt = {0};
     bool leads_were_off  = true; 
+    ecg_filter_init((float)HIGH_SAMPLE_HZ);   /* ADD SMAPLE  HERE */
 
     while (1)
     {
@@ -100,8 +102,9 @@ static void task_ecg_sampler(void *vparameter)
 
                 if (ad8232_read(&raw) == ESP_OK) 
                 {   
+                    ecg_filtered = ecg_filter_apply(raw);
+                    ecg_data_pt.ecg = (int32_t)lroundf(ecg_filtered + 2048.0f);  /* re-centre for display */
 
-                    ecg_data_pt.ecg = raw;
                     if (tb_mqtt_is_connected())
                     {
                         telemetry_push_ecg(&ecg_data_pt);
@@ -125,7 +128,7 @@ esp_err_t time_sampler_init()
     if (res != ESP_OK) return res;
     res = esp_timer_create(&s_ecg_timer_args, &s_timer_handler);
     if (res != ESP_OK) return res;
-    xTaskCreate(task_ecg_sampler,"task_ecg_sampler",4096*2, NULL, 5, &s_ecg_sampler);
+    xTaskCreate(task_ecg_sampler,"task_ecg_sampler",4096*2, NULL, 7, &s_ecg_sampler);
     // power on, default set is true. 
     ecg_set_power(true);
     return res;

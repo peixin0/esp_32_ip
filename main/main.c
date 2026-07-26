@@ -25,6 +25,6 @@ void app_main(void)
 
     xTaskCreate(task_max30102, "task_max30102", 4096*2, NULL, 5, NULL);
 
-    xTaskCreate(task_tb_mqtt, "task_tb_mqtt", 4096*2, NULL, 5, NULL);
+    xTaskCreate(task_tb_mqtt, "task_tb_mqtt", 4096*2, NULL, 4, NULL);
 
 }
