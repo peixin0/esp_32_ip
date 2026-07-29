@@ -21,14 +21,11 @@ static volatile bool    s_active_status = true;
 static volatile bool    s_run_status    = false;
 TaskHandle_t s_ecg_sampler  = NULL;
 static esp_timer_handle_t s_timer_handler;
-// Assign Core 
-#define ECG_PINNED_CORE1
+
+
 /* ---- jitter measurement (one-shot, remove before final build) ---- */
-
-#define ECG_PERIOD_TEST
+#include "test_config.h"
 #ifdef ECG_PERIOD_TEST
-
-
 #define JITTER_CAPTURE_N   3600
 
 static int32_t  s_period_log[JITTER_CAPTURE_N];
@@ -51,9 +48,8 @@ static void jitter_dump(void)
     }
     ESP_LOGI(TAG, "==== JITTER DUMP END, count=%lu ====", s_log_idx);
 }
-/* ---- end jitter measurement ---- */ 
 #endif 
-
+/* ---- end jitter measurement ---- */ 
 
 // weak function accutual implementation
 void ecg_set_power(bool on)

@@ -5,15 +5,20 @@
 #include "freertos/task.h"
 #include "telemetry.h"
 #include "timebase.h"
-
 #include <string.h>
 
-
+// test latency starts
+#include "test_config.h"
+#ifdef TEST_ECG_LATENCY
+#include "esp_timer.h"
+#include "latency.h"
+#endif 
+// test latnecy ends 
 #define WIFI_WAIT_CONNECT_TIME          1000
 #define MQTT_WAIT_CONNECT_TIME          5000
 #define TIMEBASE_SYNC_TIMEOUT_MS        10000
 
-#define VITALS_JSON_BUFFER_LENGTH       48
+#define VITALS_JSON_BUFFER_LENGTH       40
 
 #define ECG_CYCLE_MS                    100
 
@@ -26,7 +31,7 @@
 // bottleneck (outbox fills faster than the broker can ACK). The full
 // 360Hz stream is still preserved locally for the jitter experiment —
 // this only thins out what goes over the network for the live chart.
-#define ECG_DECIMATION_FACTOR            4      // 360Hz -> ~90 points/sec sent
+#define ECG_DECIMATION_FACTOR            8      // 360Hz -> ~90 points/sec sent
 
 #define ECG_CHUNK_SIZE                   40
 #define ECG_JSON_BUFFER_LENGTH          (ECG_CHUNK_SIZE * 48)
@@ -65,7 +70,9 @@ static void publish_ecg_chunk(const ecg_point_t *points, int n)
         }
     }
     snprintf(s_ecg_json_buff + offset, ECG_JSON_BUFFER_LENGTH - offset, "]");
-
+    #ifdef TEST_ECG_LATENCY
+        latency_record_internal(esp_timer_get_time() - points[0].timestamp);
+    #endif
     tb_mqtt_client_publish(s_ecg_json_buff);
 }
 
@@ -171,7 +178,13 @@ void task_tb_mqtt(void *vparameter)
             vitals_countdown = VITALS_CYCLE_COUNT;
         }
         vitals_countdown--;
-
+        #ifdef TEST_ECG_LATENCY
+        if (latency_capture_done())
+        {
+            latency_dump();
+            vTaskDelay(portMAX_DELAY);   /* stop here; measurement finished */
+        }
+        #endif
         vTaskDelay(pdMS_TO_TICKS(ECG_CYCLE_MS));
     }
 }

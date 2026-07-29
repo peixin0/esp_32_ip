@@ -9,6 +9,13 @@
 #include <string.h>
 #include "cJSON.h"
 
+// test latency starts
+
+#include "test_config.h"
+#ifdef TEST_ECG_LATENCY
+#include "latency.h"
+#endif
+// test latency end 
 
 static const char *TAG = "TB_MQTT_CLIENT";
 static EventGroupHandle_t s_mqtt_event_eg;
@@ -208,6 +215,9 @@ static void tb_mqtt_event_handler(void* event_handler_arg,
             }
             break;
         case MQTT_EVENT_PUBLISHED:
+            #ifdef TEST_ECG_LATENCY
+            latency_note_puback(event->msg_id);
+            #endif 
             ESP_LOGI(TAG, "PUBACK received, id=%d confirmed", event->msg_id);
             break;
         case MQTT_EVENT_SUBSCRIBED:
@@ -231,6 +241,9 @@ esp_err_t tb_mqtt_init()
     esp_mqtt_client_config_t cfg = {
         .broker.address.uri = CONFIG_MQTT_BROKER_URI,
         .credentials.username = CONFIG_TB_ACCESS_TOKEN,
+        // // set the recconection time 
+        // .network.reconnect_timeout_ms = 2000,
+
     };
 
     s_client = esp_mqtt_client_init(&cfg);
@@ -258,15 +271,29 @@ bool tb_mqtt_wait_for_connection(int timeout_ms)
     return (bit & MQTT_CONNECT_BIT) != 0;
 }
 
+// test version
 int tb_mqtt_client_publish(const char* json_payload)
 {
-    if (s_client == NULL){
-        return -1;
-    }
-    return esp_mqtt_client_publish(s_client,
-        TB_TOPIC_TELEMETRY,
-        json_payload,
-        0,   /* len 0 -> use strlen */
-        1,   /* QoS 1 */
-        0);  /* not retained */
+    if (s_client == NULL) return -1;
+
+    int msg_id = esp_mqtt_client_publish(s_client, TB_TOPIC_TELEMETRY,
+                                         json_payload, 0, 1, 0);
+    #ifdef TEST_ECG_LATENCY
+    latency_note_publish(msg_id);   /* QoS 1 -> a PUBACK will follow */
+    #endif
+    return msg_id;
 }
+
+//formal version 
+// int tb_mqtt_client_publish(const char* json_payload)
+// {
+//     if (s_client == NULL){
+//         return -1;
+//     }
+//     return esp_mqtt_client_publish(s_client,
+//         TB_TOPIC_TELEMETRY,
+//         json_payload,
+//         0,   /* len 0 -> use strlen */
+//         1,   /* QoS 1 */
+//         0);  /* not retained */
+// }

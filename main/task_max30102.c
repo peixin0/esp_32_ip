@@ -47,8 +47,9 @@ static max_vitals_t vital= {0};
 static volatile bool s_spo2_status = true;
 
 
-#define MAX_PERIOD_TEST
+
 /* ---- jitter measurement (one-shot, remove before final build) ---- */
+#include "test_config.h"
 #ifdef MAX_PERIOD_TEST
 #define JITTER_SAMPLES 200
 static int64_t s_delta_log[JITTER_SAMPLES];
