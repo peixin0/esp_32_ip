@@ -31,7 +31,7 @@
 // bottleneck (outbox fills faster than the broker can ACK). The full
 // 360Hz stream is still preserved locally for the jitter experiment —
 // this only thins out what goes over the network for the live chart.
-#define ECG_DECIMATION_FACTOR            8      // 360Hz -> ~90 points/sec sent
+#define ECG_DECIMATION_FACTOR            4      // 360Hz -> ~90 points/sec sent
 
 #define ECG_CHUNK_SIZE                   40
 #define ECG_JSON_BUFFER_LENGTH          (ECG_CHUNK_SIZE * 48)

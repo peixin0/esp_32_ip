@@ -1,0 +1,2900 @@
+I (8564) TASK_TB_MQTT: no fresh vitals this cycle
+I (8564) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=0 (no network)
+I (8624) TB_MQTT_CLIENT: PUBACK received, id=61148 confirmed
+I (9564) TASK_TB_MQTT: no fresh vitals this cycle
+I (9564) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=0 (no network)
+I (9614) TB_MQTT_CLIENT: PUBACK received, id=15529 confirmed
+I (10564) TASK_TB_MQTT: no fresh vitals this cycle
+I (10564) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=0 (no network)
+I (10624) TB_MQTT_CLIENT: PUBACK received, id=17467 confirmed
+I (11564) TASK_TB_MQTT: no fresh vitals this cycle
+I (11564) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=0 (no network)
+I (11614) TB_MQTT_CLIENT: PUBACK received, id=26008 confirmed
+I (11724) TASK_MAX30102: Bad Sample dropped, Drop count 1
+I (12564) TASK_TB_MQTT: no fresh vitals this cycle
+I (12564) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=0 (no network)
+I (12624) TB_MQTT_CLIENT: PUBACK received, id=24244 confirmed
+I (12714) TASK_MAX30102: Bad Sample dropped, Drop count 2
+I (13564) TASK_TB_MQTT: no fresh vitals this cycle
+I (13564) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=0 (no network)
+I (13624) TB_MQTT_CLIENT: PUBACK received, id=24905 confirmed
+I (13714) TASK_MAX30102: Bad Sample dropped, Drop count 3
+I (13714) TB_MQTT_CLIENT: command on v1/devices/me/rpc/request/685: {"method":"runSection","params":true}
+I (13714) TASK_AD8232: ECG Starts Measuring
+I (13714) TASK_AD8232: lead-on — resuming acquisition
+I (13764) TASK_TB_MQTT: ECG: 14 sampled, 4 sent (decimation=4)
+I (13864) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (13874) TB_MQTT_CLIENT: PUBACK received, id=21807 confirmed
+I (13914) TB_MQTT_CLIENT: PUBACK received, id=65225 confirmed
+I (13964) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (14014) TB_MQTT_CLIENT: PUBACK received, id=28193 confirmed
+I (14064) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (14114) TB_MQTT_CLIENT: PUBACK received, id=53352 confirmed
+I (14164) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (14224) TB_MQTT_CLIENT: PUBACK received, id=30986 confirmed
+I (14264) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (14314) TB_MQTT_CLIENT: PUBACK received, id=35402 confirmed
+I (14364) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (14424) TB_MQTT_CLIENT: PUBACK received, id=21722 confirmed
+I (14464) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (14514) TB_MQTT_CLIENT: PUBACK received, id=51813 confirmed
+I (14564) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (14564) TASK_TB_MQTT: no fresh vitals this cycle
+I (14564) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=0 (no network)
+I (14624) TB_MQTT_CLIENT: PUBACK received, id=27263 confirmed
+I (14674) TB_MQTT_CLIENT: PUBACK received, id=22239 confirmed
+I (14674) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (14704) TASK_MAX30102: Bad Sample dropped, Drop count 4
+I (14724) TB_MQTT_CLIENT: PUBACK received, id=56893 confirmed
+I (14774) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (14824) TB_MQTT_CLIENT: PUBACK received, id=10420 confirmed
+I (14874) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (14924) TB_MQTT_CLIENT: PUBACK received, id=36509 confirmed
+I (14974) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (15014) TB_MQTT_CLIENT: PUBACK received, id=58100 confirmed
+I (15074) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (15134) TB_MQTT_CLIENT: PUBACK received, id=18629 confirmed
+I (15174) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (15234) TB_MQTT_CLIENT: PUBACK received, id=30329 confirmed
+I (15274) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (15324) TB_MQTT_CLIENT: PUBACK received, id=6054 confirmed
+I (15374) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (15424) TB_MQTT_CLIENT: PUBACK received, id=16468 confirmed
+I (15474) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (15514) TB_MQTT_CLIENT: PUBACK received, id=3779 confirmed
+I (15574) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (15574) TASK_TB_MQTT: no fresh vitals this cycle
+I (15574) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=0 (no network)
+I (15634) TB_MQTT_CLIENT: PUBACK received, id=2350 confirmed
+I (15674) TB_MQTT_CLIENT: PUBACK received, id=8165 confirmed
+I (15684) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (15704) TASK_MAX30102: Bad Sample dropped, Drop count 5
+I (15724) TB_MQTT_CLIENT: PUBACK received, id=63811 confirmed
+I (15784) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (15834) TB_MQTT_CLIENT: PUBACK received, id=8575 confirmed
+I (15884) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (15944) TB_MQTT_CLIENT: PUBACK received, id=19698 confirmed
+I (15984) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (16024) TB_MQTT_CLIENT: PUBACK received, id=5787 confirmed
+I (16084) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (16144) TB_MQTT_CLIENT: PUBACK received, id=6108 confirmed
+I (16184) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (16244) TB_MQTT_CLIENT: PUBACK received, id=5567 confirmed
+I (16284) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (16344) TB_MQTT_CLIENT: PUBACK received, id=25914 confirmed
+I (16384) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (16424) TB_MQTT_CLIENT: PUBACK received, id=38427 confirmed
+I (16484) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (16534) TB_MQTT_CLIENT: PUBACK received, id=28493 confirmed
+I (16584) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (16584) TASK_TB_MQTT: no fresh vitals this cycle
+I (16584) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=0 (no network)
+I (16654) TB_MQTT_CLIENT: PUBACK received, id=7382 confirmed
+I (16684) TB_MQTT_CLIENT: PUBACK received, id=30579 confirmed
+I (16694) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (16704) TASK_MAX30102: Bad Sample dropped, Drop count 6
+I (16744) TB_MQTT_CLIENT: PUBACK received, id=54887 confirmed
+I (16794) TASK_TB_MQTT: ECG: 35 sampled, 9 sent (decimation=4)
+I (16844) TB_MQTT_CLIENT: PUBACK received, id=24225 confirmed
+I (16894) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (16944) TB_MQTT_CLIENT: PUBACK received, id=11588 confirmed
+I (16994) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (17044) TB_MQTT_CLIENT: PUBACK received, id=5419 confirmed
+I (17094) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (17194) TB_MQTT_CLIENT: PUBACK received, id=48837 confirmed
+I (17194) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (17244) TB_MQTT_CLIENT: PUBACK received, id=5808 confirmed
+I (17304) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (17354) TB_MQTT_CLIENT: PUBACK received, id=17739 confirmed
+I (17404) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (17504) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (17514) TB_MQTT_CLIENT: PUBACK received, id=58667 confirmed
+I (17564) TB_MQTT_CLIENT: PUBACK received, id=29321 confirmed
+I (17604) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (17604) TASK_TB_MQTT: no fresh vitals this cycle
+I (17604) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=0 (no network)
+I (17644) TB_MQTT_CLIENT: PUBACK received, id=23063 confirmed
+I (17694) TASK_MAX30102: Bad Sample dropped, Drop count 7
+I (17714) TASK_TB_MQTT: ECG: 39 sampled, 10 sent (decimation=4)
+I (17744) TB_MQTT_CLIENT: PUBACK received, id=39995 confirmed
+I (17814) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (17884) TB_MQTT_CLIENT: PUBACK received, id=8310 confirmed
+I (17914) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (17944) TB_MQTT_CLIENT: PUBACK received, id=40364 confirmed
+I (18014) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (18044) TB_MQTT_CLIENT: PUBACK received, id=13077 confirmed
+I (18114) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (18134) TB_MQTT_CLIENT: PUBACK received, id=51071 confirmed
+I (18214) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (18254) TB_MQTT_CLIENT: PUBACK received, id=6553 confirmed
+I (18314) TB_MQTT_CLIENT: PUBACK received, id=61477 confirmed
+I (18314) TASK_TB_MQTT: ECG: 38 sampled, 10 sent (decimation=4)
+I (18404) TB_MQTT_CLIENT: PUBACK received, id=50320 confirmed
+I (18414) TASK_TB_MQTT: ECG: 34 sampled, 9 sent (decimation=4)
+I (18484) TB_MQTT_CLIENT: PUBACK received, id=34857 confirmed
+I (18514) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (18554) TB_MQTT_CLIENT: PUBACK received, id=15558 confirmed
+I (18614) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (18614) TASK_TB_MQTT: no fresh vitals this cycle
+I (18614) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=0 (no network)
+I (18694) TASK_MAX30102: Bad Sample dropped, Drop count 8
+I (18714) TB_MQTT_CLIENT: PUBACK received, id=22925 confirmed
+I (18724) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (18754) TB_MQTT_CLIENT: PUBACK received, id=59306 confirmed
+I (18824) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (18864) TB_MQTT_CLIENT: PUBACK received, id=60594 confirmed
+I (18914) TB_MQTT_CLIENT: PUBACK received, id=52290 confirmed
+I (18924) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (18964) TB_MQTT_CLIENT: PUBACK received, id=40779 confirmed
+I (19024) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (19124) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (19164) TB_MQTT_CLIENT: PUBACK received, id=18133 confirmed
+I (19224) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (19274) TB_MQTT_CLIENT: PUBACK received, id=42754 confirmed
+I (19324) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (19334) TB_MQTT_CLIENT: PUBACK received, id=48511 confirmed
+I (19364) TB_MQTT_CLIENT: PUBACK received, id=64272 confirmed
+I (19424) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (19514) TB_MQTT_CLIENT: PUBACK received, id=15908 confirmed
+I (19524) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (19564) TB_MQTT_CLIENT: PUBACK received, id=7175 confirmed
+I (19624) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (19624) TASK_TB_MQTT: no fresh vitals this cycle
+I (19624) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=0 (no network)
+I (19684) TASK_MAX30102: Bad Sample dropped, Drop count 9
+I (19704) TB_MQTT_CLIENT: PUBACK received, id=58663 confirmed
+I (19734) TASK_TB_MQTT: ECG: 39 sampled, 10 sent (decimation=4)
+I (19744) TB_MQTT_CLIENT: PUBACK received, id=58574 confirmed
+I (19784) TB_MQTT_CLIENT: PUBACK received, id=7673 confirmed
+I (19834) TASK_TB_MQTT: ECG: 37 sampled, 10 sent (decimation=4)
+I (19934) TASK_TB_MQTT: ECG: 35 sampled, 9 sent (decimation=4)
+I (19974) TB_MQTT_CLIENT: PUBACK received, id=24245 confirmed
+I (20004) TB_MQTT_CLIENT: PUBACK received, id=52769 confirmed
+I (20034) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (20134) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (20204) TB_MQTT_CLIENT: PUBACK received, id=43638 confirmed
+I (20234) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (20254) TB_MQTT_CLIENT: PUBACK received, id=60908 confirmed
+I (20334) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (20414) TB_MQTT_CLIENT: PUBACK received, id=61627 confirmed
+I (20434) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (20454) TB_MQTT_CLIENT: PUBACK received, id=57447 confirmed
+I (20494) TB_MQTT_CLIENT: PUBACK received, id=6710 confirmed
+I (20534) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (20634) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (20634) TASK_TB_MQTT: no fresh vitals this cycle
+I (20634) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=0 (no network)
+I (20684) TASK_MAX30102: Bad Sample dropped, Drop count 10
+I (20684) TB_MQTT_CLIENT: PUBACK received, id=9943 confirmed
+I (20734) TB_MQTT_CLIENT: PUBACK received, id=50998 confirmed
+I (20734) TB_MQTT_CLIENT: PUBACK received, id=58569 confirmed
+I (20744) TASK_TB_MQTT: ECG: 37 sampled, 10 sent (decimation=4)
+I (20844) TASK_TB_MQTT: ECG: 39 sampled, 10 sent (decimation=4)
+I (20924) TB_MQTT_CLIENT: PUBACK received, id=42900 confirmed
+I (20944) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (20964) TB_MQTT_CLIENT: PUBACK received, id=60911 confirmed
+I (21044) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (21134) TB_MQTT_CLIENT: PUBACK received, id=4536 confirmed
+I (21144) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (21174) TB_MQTT_CLIENT: PUBACK received, id=56202 confirmed
+I (21214) TB_MQTT_CLIENT: PUBACK received, id=4977 confirmed
+I (21244) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (21344) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (21394) TB_MQTT_CLIENT: PUBACK received, id=10700 confirmed
+I (21434) TB_MQTT_CLIENT: PUBACK received, id=16249 confirmed
+I (21444) TASK_TB_MQTT: ECG: 37 sampled, 10 sent (decimation=4)
+I (21544) TASK_TB_MQTT: ECG: 35 sampled, 9 sent (decimation=4)
+I (21614) TB_MQTT_CLIENT: PUBACK received, id=39220 confirmed
+I (21644) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (21644) TASK_TB_MQTT: no fresh vitals this cycle
+I (21644) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=0 (no network)
+I (21654) TB_MQTT_CLIENT: PUBACK received, id=53959 confirmed
+I (21674) TASK_MAX30102: Bad Sample dropped, Drop count 11
+I (21694) TB_MQTT_CLIENT: PUBACK received, id=1181 confirmed
+I (21704) TB_MQTT_CLIENT: PUBACK received, id=27965 confirmed
+I (21754) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (21854) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (21874) TB_MQTT_CLIENT: PUBACK received, id=12100 confirmed
+I (21924) TB_MQTT_CLIENT: PUBACK received, id=991 confirmed
+I (21954) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (22054) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (22114) TB_MQTT_CLIENT: PUBACK received, id=5638 confirmed
+I (22154) TB_MQTT_CLIENT: PUBACK received, id=32369 confirmed
+I (22154) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (22254) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (22314) TB_MQTT_CLIENT: PUBACK received, id=4937 confirmed
+I (22354) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (22364) TB_MQTT_CLIENT: PUBACK received, id=44620 confirmed
+I (22414) TB_MQTT_CLIENT: PUBACK received, id=11587 confirmed
+I (22454) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (22554) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (22594) TB_MQTT_CLIENT: PUBACK received, id=16825 confirmed
+I (22644) TB_MQTT_CLIENT: PUBACK received, id=43563 confirmed
+I (22654) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (22654) TASK_TB_MQTT: no fresh vitals this cycle
+I (22654) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=0 (no network)
+I (22674) TASK_MAX30102: Bad Sample dropped, Drop count 12
+I (22764) TASK_TB_MQTT: ECG: 39 sampled, 10 sent (decimation=4)
+I (22824) TB_MQTT_CLIENT: PUBACK received, id=35952 confirmed
+I (22864) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (22864) TB_MQTT_CLIENT: PUBACK received, id=2681 confirmed
+I (22874) TB_MQTT_CLIENT: PUBACK received, id=37051 confirmed
+I (22964) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (23044) TB_MQTT_CLIENT: PUBACK received, id=23212 confirmed
+I (23064) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (23134) TB_MQTT_CLIENT: PUBACK received, id=16975 confirmed
+I (23164) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (23184) TB_MQTT_CLIENT: PUBACK received, id=8662 confirmed
+I (23234) TB_MQTT_CLIENT: PUBACK received, id=509 confirmed
+I (23264) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (23364) TB_MQTT_CLIENT: PUBACK received, id=23868 confirmed
+I (23374) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (23454) TB_MQTT_CLIENT: PUBACK received, id=27395 confirmed
+I (23474) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (23524) TB_MQTT_CLIENT: PUBACK received, id=23153 confirmed
+I (23574) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (23624) TB_MQTT_CLIENT: PUBACK received, id=34081 confirmed
+I (23664) TASK_MAX30102: Bad Sample dropped, Drop count 13
+I (23674) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (23674) TASK_TB_MQTT: no fresh vitals this cycle
+I (23674) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=0 (no network)
+I (23734) TB_MQTT_CLIENT: PUBACK received, id=64626 confirmed
+I (23774) TB_MQTT_CLIENT: PUBACK received, id=28670 confirmed
+I (23784) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (23834) TB_MQTT_CLIENT: PUBACK received, id=25474 confirmed
+I (23884) TASK_TB_MQTT: ECG: 35 sampled, 9 sent (decimation=4)
+I (23934) TB_MQTT_CLIENT: PUBACK received, id=36601 confirmed
+I (23984) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (24024) TB_MQTT_CLIENT: PUBACK received, id=23113 confirmed
+I (24084) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (24124) TB_MQTT_CLIENT: PUBACK received, id=58440 confirmed
+I (24184) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (24234) TB_MQTT_CLIENT: PUBACK received, id=195 confirmed
+I (24284) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (24324) TB_MQTT_CLIENT: PUBACK received, id=43662 confirmed
+I (24384) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (24424) TB_MQTT_CLIENT: PUBACK received, id=59690 confirmed
+I (24484) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (24524) TB_MQTT_CLIENT: PUBACK received, id=28919 confirmed
+I (24584) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (24634) TB_MQTT_CLIENT: PUBACK received, id=36269 confirmed
+I (24664) TASK_MAX30102: Bad Sample dropped, Drop count 14
+I (24684) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (24684) TASK_TB_MQTT: no fresh vitals this cycle
+I (24684) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=0 (no network)
+I (24734) TB_MQTT_CLIENT: PUBACK received, id=30653 confirmed
+I (24784) TB_MQTT_CLIENT: PUBACK received, id=16316 confirmed
+I (24794) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (24834) TB_MQTT_CLIENT: PUBACK received, id=24422 confirmed
+I (24894) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (24934) TB_MQTT_CLIENT: PUBACK received, id=41674 confirmed
+I (24994) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (25034) TB_MQTT_CLIENT: PUBACK received, id=15985 confirmed
+I (25094) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (25134) TB_MQTT_CLIENT: PUBACK received, id=17033 confirmed
+I (25194) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (25244) TB_MQTT_CLIENT: PUBACK received, id=57022 confirmed
+I (25294) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (25344) TB_MQTT_CLIENT: PUBACK received, id=44913 confirmed
+I (25394) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (25434) TB_MQTT_CLIENT: PUBACK received, id=52166 confirmed
+I (25494) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (25534) TB_MQTT_CLIENT: PUBACK received, id=57081 confirmed
+I (25594) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (25634) TB_MQTT_CLIENT: PUBACK received, id=22080 confirmed
+I (25654) TASK_MAX30102: Bad Sample dropped, Drop count 15
+I (25694) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (25694) TASK_TB_MQTT: no fresh vitals this cycle
+I (25694) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=0 (no network)
+I (25734) TB_MQTT_CLIENT: PUBACK received, id=48430 confirmed
+I (25784) TB_MQTT_CLIENT: PUBACK received, id=38771 confirmed
+I (25804) TASK_TB_MQTT: ECG: 39 sampled, 10 sent (decimation=4)
+I (25844) TB_MQTT_CLIENT: PUBACK received, id=52607 confirmed
+I (25904) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (25944) TB_MQTT_CLIENT: PUBACK received, id=41441 confirmed
+I (26004) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (26054) TB_MQTT_CLIENT: PUBACK received, id=55036 confirmed
+I (26104) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (26144) TB_MQTT_CLIENT: PUBACK received, id=39178 confirmed
+I (26204) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (26244) TB_MQTT_CLIENT: PUBACK received, id=19336 confirmed
+I (26304) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (26354) TB_MQTT_CLIENT: PUBACK received, id=37269 confirmed
+I (26404) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (26444) TB_MQTT_CLIENT: PUBACK received, id=61678 confirmed
+I (26504) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (26544) TB_MQTT_CLIENT: PUBACK received, id=10940 confirmed
+I (26604) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (26654) TASK_MAX30102: Bad Sample dropped, Drop count 16
+I (26654) TB_MQTT_CLIENT: PUBACK received, id=28281 confirmed
+I (26704) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (26704) TASK_TB_MQTT: no fresh vitals this cycle
+I (26704) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=0 (no network)
+I (26744) TB_MQTT_CLIENT: PUBACK received, id=50269 confirmed
+I (26794) TB_MQTT_CLIENT: PUBACK received, id=33696 confirmed
+I (26814) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (26864) TB_MQTT_CLIENT: PUBACK received, id=63734 confirmed
+I (26914) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (26974) TB_MQTT_CLIENT: PUBACK received, id=56646 confirmed
+I (27014) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (27064) TB_MQTT_CLIENT: PUBACK received, id=3865 confirmed
+I (27114) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (27154) TB_MQTT_CLIENT: PUBACK received, id=64721 confirmed
+I (27214) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (27284) TB_MQTT_CLIENT: PUBACK received, id=7408 confirmed
+I (27314) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (27354) TB_MQTT_CLIENT: PUBACK received, id=48559 confirmed
+I (27414) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (27464) TB_MQTT_CLIENT: PUBACK received, id=22070 confirmed
+I (27514) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (27564) TB_MQTT_CLIENT: PUBACK received, id=56421 confirmed
+I (27614) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (27644) TASK_MAX30102: Bad Sample dropped, Drop count 17
+I (27664) TB_MQTT_CLIENT: PUBACK received, id=14531 confirmed
+I (27714) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (27714) TASK_TB_MQTT: no fresh vitals this cycle
+I (27714) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=0 (no network)
+I (27754) TB_MQTT_CLIENT: PUBACK received, id=36184 confirmed
+I (27804) TB_MQTT_CLIENT: PUBACK received, id=51591 confirmed
+I (27824) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (27864) TB_MQTT_CLIENT: PUBACK received, id=47457 confirmed
+I (27924) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (27984) TB_MQTT_CLIENT: PUBACK received, id=8423 confirmed
+I (28024) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (28064) TB_MQTT_CLIENT: PUBACK received, id=4655 confirmed
+I (28124) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (28174) TB_MQTT_CLIENT: PUBACK received, id=1514 confirmed
+I (28224) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (28274) TB_MQTT_CLIENT: PUBACK received, id=57730 confirmed
+I (28324) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (28374) TB_MQTT_CLIENT: PUBACK received, id=20978 confirmed
+I (28424) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (28474) TB_MQTT_CLIENT: PUBACK received, id=41796 confirmed
+I (28524) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (28614) TB_MQTT_CLIENT: PUBACK received, id=22875 confirmed
+I (28624) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (28644) TASK_MAX30102: Bad Sample dropped, Drop count 18
+I (28664) TB_MQTT_CLIENT: PUBACK received, id=39974 confirmed
+I (28724) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (28724) TASK_TB_MQTT: no fresh vitals this cycle
+I (28724) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=0 (no network)
+I (28774) TB_MQTT_CLIENT: PUBACK received, id=12555 confirmed
+I (28814) TB_MQTT_CLIENT: PUBACK received, id=39253 confirmed
+I (28834) TASK_TB_MQTT: ECG: 39 sampled, 10 sent (decimation=4)
+I (28874) TB_MQTT_CLIENT: PUBACK received, id=34853 confirmed
+I (28934) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (28994) TB_MQTT_CLIENT: PUBACK received, id=17374 confirmed
+I (29034) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (29084) TB_MQTT_CLIENT: PUBACK received, id=53245 confirmed
+I (29134) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (29174) TB_MQTT_CLIENT: PUBACK received, id=61642 confirmed
+I (29234) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (29274) TB_MQTT_CLIENT: PUBACK received, id=359 confirmed
+I (29334) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (29384) TB_MQTT_CLIENT: PUBACK received, id=44636 confirmed
+I (29434) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (29484) TB_MQTT_CLIENT: PUBACK received, id=57839 confirmed
+I (29534) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (29584) TB_MQTT_CLIENT: PUBACK received, id=6558 confirmed
+I (29634) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (29644) TASK_MAX30102: Bad Sample dropped, Drop count 19
+I (29694) TB_MQTT_CLIENT: PUBACK received, id=53619 confirmed
+I (29734) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (29734) TASK_TB_MQTT: no fresh vitals this cycle
+I (29734) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=0 (no network)
+I (29784) TB_MQTT_CLIENT: PUBACK received, id=57892 confirmed
+I (29814) TB_MQTT_CLIENT: PUBACK received, id=43514 confirmed
+I (29844) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (29894) TB_MQTT_CLIENT: PUBACK received, id=33148 confirmed
+I (29944) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (29994) TB_MQTT_CLIENT: PUBACK received, id=52696 confirmed
+I (30044) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (30084) TB_MQTT_CLIENT: PUBACK received, id=28383 confirmed
+I (30144) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (30204) TB_MQTT_CLIENT: PUBACK received, id=42165 confirmed
+I (30244) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (30284) TB_MQTT_CLIENT: PUBACK received, id=57434 confirmed
+I (30344) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (30394) TB_MQTT_CLIENT: PUBACK received, id=17656 confirmed
+I (30444) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (30494) TB_MQTT_CLIENT: PUBACK received, id=60700 confirmed
+I (30544) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (30594) TB_MQTT_CLIENT: PUBACK received, id=29415 confirmed
+I (30634) TASK_MAX30102: Bad Sample dropped, Drop count 20
+I (30644) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (30684) TB_MQTT_CLIENT: PUBACK received, id=10791 confirmed
+I (30744) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (30744) TASK_TB_MQTT: no fresh vitals this cycle
+I (30744) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=0 (no network)
+I (30804) TB_MQTT_CLIENT: PUBACK received, id=15953 confirmed
+I (30844) TB_MQTT_CLIENT: PUBACK received, id=50393 confirmed
+I (30854) TASK_TB_MQTT: ECG: 39 sampled, 10 sent (decimation=4)
+I (30894) TB_MQTT_CLIENT: PUBACK received, id=2833 confirmed
+I (30954) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (30994) TB_MQTT_CLIENT: PUBACK received, id=62309 confirmed
+I (31054) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (31094) TB_MQTT_CLIENT: PUBACK received, id=64076 confirmed
+I (31154) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (31214) TB_MQTT_CLIENT: PUBACK received, id=40770 confirmed
+I (31254) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (31304) TB_MQTT_CLIENT: PUBACK received, id=14589 confirmed
+I (31354) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (31394) TB_MQTT_CLIENT: PUBACK received, id=28181 confirmed
+I (31454) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (31494) TB_MQTT_CLIENT: PUBACK received, id=7555 confirmed
+I (31554) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (31594) TB_MQTT_CLIENT: PUBACK received, id=91 confirmed
+I (31634) TASK_MAX30102: Bad Sample dropped, Drop count 21
+I (31654) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (31704) TB_MQTT_CLIENT: PUBACK received, id=61096 confirmed
+I (31754) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (31754) TASK_TB_MQTT: no fresh vitals this cycle
+I (31754) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=0 (no network)
+I (31804) TB_MQTT_CLIENT: PUBACK received, id=26688 confirmed
+I (31844) TB_MQTT_CLIENT: PUBACK received, id=54230 confirmed
+I (31864) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (31904) TB_MQTT_CLIENT: PUBACK received, id=56975 confirmed
+I (31964) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (32024) TB_MQTT_CLIENT: PUBACK received, id=60784 confirmed
+I (32064) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (32104) TB_MQTT_CLIENT: PUBACK received, id=1145 confirmed
+I (32164) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (32204) TB_MQTT_CLIENT: PUBACK received, id=23905 confirmed
+I (32264) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (32304) TB_MQTT_CLIENT: PUBACK received, id=59285 confirmed
+I (32364) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (32404) TB_MQTT_CLIENT: PUBACK received, id=25168 confirmed
+I (32464) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (32504) TB_MQTT_CLIENT: PUBACK received, id=15121 confirmed
+I (32564) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (32604) TB_MQTT_CLIENT: PUBACK received, id=48959 confirmed
+I (32624) TASK_MAX30102: Bad Sample dropped, Drop count 22
+I (32664) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (32714) TB_MQTT_CLIENT: PUBACK received, id=27073 confirmed
+I (32764) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (32764) TASK_TB_MQTT: no fresh vitals this cycle
+I (32764) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=0 (no network)
+I (32804) TB_MQTT_CLIENT: PUBACK received, id=40222 confirmed
+I (32844) TB_MQTT_CLIENT: PUBACK received, id=31234 confirmed
+I (32874) TASK_TB_MQTT: ECG: 39 sampled, 10 sent (decimation=4)
+I (32924) TB_MQTT_CLIENT: PUBACK received, id=37239 confirmed
+I (32974) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (33014) TB_MQTT_CLIENT: PUBACK received, id=64444 confirmed
+I (33074) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (33114) TB_MQTT_CLIENT: PUBACK received, id=61651 confirmed
+I (33174) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (33224) TB_MQTT_CLIENT: PUBACK received, id=29969 confirmed
+I (33274) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (33314) TB_MQTT_CLIENT: PUBACK received, id=26063 confirmed
+I (33374) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (33434) TB_MQTT_CLIENT: PUBACK received, id=25716 confirmed
+I (33474) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (33514) TB_MQTT_CLIENT: PUBACK received, id=28012 confirmed
+I (33574) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (33624) TASK_MAX30102: Bad Sample dropped, Drop count 23
+I (33624) TB_MQTT_CLIENT: PUBACK received, id=537 confirmed
+I (33674) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (33724) TB_MQTT_CLIENT: PUBACK received, id=63740 confirmed
+I (33774) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (33774) TASK_TB_MQTT: no fresh vitals this cycle
+I (33774) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=0 (no network)
+I (33824) TB_MQTT_CLIENT: PUBACK received, id=38949 confirmed
+I (33864) TB_MQTT_CLIENT: PUBACK received, id=44444 confirmed
+I (33884) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (33934) TB_MQTT_CLIENT: PUBACK received, id=7160 confirmed
+I (33984) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (34024) TB_MQTT_CLIENT: PUBACK received, id=9636 confirmed
+I (34084) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (34134) TB_MQTT_CLIENT: PUBACK received, id=16582 confirmed
+I (34184) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (34244) TB_MQTT_CLIENT: PUBACK received, id=62788 confirmed
+I (34284) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (34344) TB_MQTT_CLIENT: PUBACK received, id=8180 confirmed
+I (34384) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (34444) TB_MQTT_CLIENT: PUBACK received, id=37035 confirmed
+I (34484) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (34524) TB_MQTT_CLIENT: PUBACK received, id=19375 confirmed
+I (34584) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (34614) TASK_MAX30102: Bad Sample dropped, Drop count 24
+I (34644) TB_MQTT_CLIENT: PUBACK received, id=61560 confirmed
+I (34684) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (34724) TB_MQTT_CLIENT: PUBACK received, id=47019 confirmed
+I (34784) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (34784) TASK_TB_MQTT: no fresh vitals this cycle
+I (34784) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=0 (no network)
+I (34834) TB_MQTT_CLIENT: PUBACK received, id=32095 confirmed
+I (34884) TB_MQTT_CLIENT: PUBACK received, id=62236 confirmed
+I (34894) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (34934) TB_MQTT_CLIENT: PUBACK received, id=22938 confirmed
+I (34994) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (35054) TB_MQTT_CLIENT: PUBACK received, id=42971 confirmed
+I (35094) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (35134) TB_MQTT_CLIENT: PUBACK received, id=45068 confirmed
+I (35194) TASK_TB_MQTT: ECG: 35 sampled, 9 sent (decimation=4)
+I (35234) TB_MQTT_CLIENT: PUBACK received, id=49429 confirmed
+I (35294) TASK_TB_MQTT: ECG: 37 sampled, 10 sent (decimation=4)
+I (35334) TB_MQTT_CLIENT: PUBACK received, id=48500 confirmed
+I (35394) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (35434) TB_MQTT_CLIENT: PUBACK received, id=39971 confirmed
+I (35494) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (35534) TB_MQTT_CLIENT: PUBACK received, id=19330 confirmed
+I (35594) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (35614) TASK_MAX30102: Bad Sample dropped, Drop count 25
+I (35634) TB_MQTT_CLIENT: PUBACK received, id=14390 confirmed
+I (35694) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (35744) TB_MQTT_CLIENT: PUBACK received, id=52978 confirmed
+I (35794) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (35794) TASK_TB_MQTT: no fresh vitals this cycle
+I (35794) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=0 (no network)
+I (35834) TB_MQTT_CLIENT: PUBACK received, id=8882 confirmed
+I (35874) TB_MQTT_CLIENT: PUBACK received, id=13052 confirmed
+I (35904) TASK_TB_MQTT: ECG: 39 sampled, 10 sent (decimation=4)
+I (35944) TB_MQTT_CLIENT: PUBACK received, id=10319 confirmed
+I (36004) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (36054) TB_MQTT_CLIENT: PUBACK received, id=43763 confirmed
+I (36104) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (36144) TB_MQTT_CLIENT: PUBACK received, id=60940 confirmed
+I (36204) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (36244) TB_MQTT_CLIENT: PUBACK received, id=54935 confirmed
+I (36304) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (36344) TB_MQTT_CLIENT: PUBACK received, id=15770 confirmed
+I (36404) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (36454) TB_MQTT_CLIENT: PUBACK received, id=8876 confirmed
+I (36504) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (36554) TB_MQTT_CLIENT: PUBACK received, id=20584 confirmed
+I (36604) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (36604) TASK_MAX30102: Bad Sample dropped, Drop count 26
+I (36644) TB_MQTT_CLIENT: PUBACK received, id=4303 confirmed
+I (36704) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (36744) TB_MQTT_CLIENT: PUBACK received, id=20169 confirmed
+I (36804) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (36804) TASK_TB_MQTT: no fresh vitals this cycle
+I (36804) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=0 (no network)
+I (36864) TB_MQTT_CLIENT: PUBACK received, id=3512 confirmed
+I (36904) TB_MQTT_CLIENT: PUBACK received, id=18136 confirmed
+I (36914) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (36954) TB_MQTT_CLIENT: PUBACK received, id=39467 confirmed
+I (37014) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (37054) TB_MQTT_CLIENT: PUBACK received, id=54733 confirmed
+I (37114) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (37154) TB_MQTT_CLIENT: PUBACK received, id=18197 confirmed
+I (37214) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (37264) TB_MQTT_CLIENT: PUBACK received, id=11884 confirmed
+I (37314) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (37364) TB_MQTT_CLIENT: PUBACK received, id=24344 confirmed
+I (37414) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (37464) TB_MQTT_CLIENT: PUBACK received, id=53716 confirmed
+I (37514) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (37554) TB_MQTT_CLIENT: PUBACK received, id=14330 confirmed
+I (37604) TASK_MAX30102: Bad Sample dropped, Drop count 27
+I (37614) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (37654) TB_MQTT_CLIENT: PUBACK received, id=28977 confirmed
+I (37714) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (37764) TB_MQTT_CLIENT: PUBACK received, id=19486 confirmed
+I (37814) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (37814) TASK_TB_MQTT: no fresh vitals this cycle
+I (37814) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=0 (no network)
+I (37864) TB_MQTT_CLIENT: PUBACK received, id=45164 confirmed
+I (37904) TB_MQTT_CLIENT: PUBACK received, id=52727 confirmed
+I (37924) TASK_TB_MQTT: ECG: 39 sampled, 10 sent (decimation=4)
+I (38004) TB_MQTT_CLIENT: PUBACK received, id=42616 confirmed
+I (38024) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (38074) TB_MQTT_CLIENT: PUBACK received, id=28946 confirmed
+I (38124) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (38174) TB_MQTT_CLIENT: PUBACK received, id=51376 confirmed
+I (38224) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (38264) TB_MQTT_CLIENT: PUBACK received, id=64542 confirmed
+I (38324) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (38374) TB_MQTT_CLIENT: PUBACK received, id=35027 confirmed
+I (38424) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (38474) TB_MQTT_CLIENT: PUBACK received, id=20722 confirmed
+I (38524) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (38574) TB_MQTT_CLIENT: PUBACK received, id=64985 confirmed
+I (38594) TASK_MAX30102: Bad Sample dropped, Drop count 28
+I (38624) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (38664) TB_MQTT_CLIENT: PUBACK received, id=35454 confirmed
+I (38724) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (38764) TB_MQTT_CLIENT: PUBACK received, id=3289 confirmed
+I (38824) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (38824) TASK_TB_MQTT: no fresh vitals this cycle
+I (38824) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=0 (no network)
+I (38874) TB_MQTT_CLIENT: PUBACK received, id=64285 confirmed
+I (38914) TB_MQTT_CLIENT: PUBACK received, id=28644 confirmed
+I (38934) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (38974) TB_MQTT_CLIENT: PUBACK received, id=62188 confirmed
+I (39034) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (39074) TB_MQTT_CLIENT: PUBACK received, id=43399 confirmed
+I (39134) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (39184) TB_MQTT_CLIENT: PUBACK received, id=20162 confirmed
+I (39234) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (39274) TB_MQTT_CLIENT: PUBACK received, id=65504 confirmed
+I (39334) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (39384) TB_MQTT_CLIENT: PUBACK received, id=44778 confirmed
+I (39434) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (39474) TB_MQTT_CLIENT: PUBACK received, id=26391 confirmed
+I (39534) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (39584) TB_MQTT_CLIENT: PUBACK received, id=4161 confirmed
+I (39594) TASK_MAX30102: Bad Sample dropped, Drop count 29
+I (39634) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (39684) TB_MQTT_CLIENT: PUBACK received, id=9348 confirmed
+I (39734) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (39784) TB_MQTT_CLIENT: PUBACK received, id=55985 confirmed
+I (39834) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (39834) TASK_TB_MQTT: no fresh vitals this cycle
+I (39834) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=0 (no network)
+I (39884) TB_MQTT_CLIENT: PUBACK received, id=31435 confirmed
+I (39934) TB_MQTT_CLIENT: PUBACK received, id=36328 confirmed
+I (39944) TASK_TB_MQTT: ECG: 39 sampled, 10 sent (decimation=4)
+I (39994) TB_MQTT_CLIENT: PUBACK received, id=57325 confirmed
+I (40044) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (40084) TB_MQTT_CLIENT: PUBACK received, id=6657 confirmed
+I (40144) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (40184) TB_MQTT_CLIENT: PUBACK received, id=33178 confirmed
+I (40244) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (40284) TB_MQTT_CLIENT: PUBACK received, id=54761 confirmed
+I (40344) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (40384) TB_MQTT_CLIENT: PUBACK received, id=21660 confirmed
+I (40444) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (40494) TB_MQTT_CLIENT: PUBACK received, id=13644 confirmed
+I (40544) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (40594) TASK_MAX30102: Bad Sample dropped, Drop count 30
+I (40594) TB_MQTT_CLIENT: PUBACK received, id=54122 confirmed
+I (40644) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (40694) TB_MQTT_CLIENT: PUBACK received, id=3498 confirmed
+I (40744) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (40784) TB_MQTT_CLIENT: PUBACK received, id=60188 confirmed
+I (40844) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (40844) TASK_TB_MQTT: no fresh vitals this cycle
+I (40844) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=0 (no network)
+I (40894) TB_MQTT_CLIENT: PUBACK received, id=46653 confirmed
+I (40924) TB_MQTT_CLIENT: PUBACK received, id=16540 confirmed
+I (40954) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (40994) TB_MQTT_CLIENT: PUBACK received, id=7706 confirmed
+I (41054) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (41094) TB_MQTT_CLIENT: PUBACK received, id=34442 confirmed
+I (41154) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (41204) TB_MQTT_CLIENT: PUBACK received, id=64852 confirmed
+I (41254) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (41314) TB_MQTT_CLIENT: PUBACK received, id=3040 confirmed
+I (41354) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (41394) TB_MQTT_CLIENT: PUBACK received, id=46235 confirmed
+I (41454) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (41504) TB_MQTT_CLIENT: PUBACK received, id=63572 confirmed
+I (41554) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (41584) TASK_MAX30102: Bad Sample dropped, Drop count 31
+I (41604) TB_MQTT_CLIENT: PUBACK received, id=31424 confirmed
+I (41654) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (41694) TB_MQTT_CLIENT: PUBACK received, id=4044 confirmed
+I (41754) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (41794) TB_MQTT_CLIENT: PUBACK received, id=46684 confirmed
+I (41854) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (41854) TASK_TB_MQTT: no fresh vitals this cycle
+I (41854) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=0 (no network)
+I (41894) TB_MQTT_CLIENT: PUBACK received, id=59079 confirmed
+I (41934) TB_MQTT_CLIENT: PUBACK received, id=837 confirmed
+I (41964) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (42014) TB_MQTT_CLIENT: PUBACK received, id=43188 confirmed
+I (42064) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (42104) TB_MQTT_CLIENT: PUBACK received, id=44581 confirmed
+I (42164) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (42204) TB_MQTT_CLIENT: PUBACK received, id=59088 confirmed
+I (42264) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (42304) TB_MQTT_CLIENT: PUBACK received, id=18184 confirmed
+I (42364) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (42404) TB_MQTT_CLIENT: PUBACK received, id=1873 confirmed
+I (42464) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (42504) TB_MQTT_CLIENT: PUBACK received, id=17401 confirmed
+I (42564) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (42584) TASK_MAX30102: Bad Sample dropped, Drop count 32
+I (42614) TB_MQTT_CLIENT: PUBACK received, id=22962 confirmed
+I (42664) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (42704) TB_MQTT_CLIENT: PUBACK received, id=31292 confirmed
+I (42764) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (42814) TB_MQTT_CLIENT: PUBACK received, id=622 confirmed
+I (42864) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (42864) TASK_TB_MQTT: no fresh vitals this cycle
+I (42864) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=0 (no network)
+I (42914) TB_MQTT_CLIENT: PUBACK received, id=57688 confirmed
+I (42944) TB_MQTT_CLIENT: PUBACK received, id=44049 confirmed
+I (42974) TASK_TB_MQTT: ECG: 39 sampled, 10 sent (decimation=4)
+I (43024) TB_MQTT_CLIENT: PUBACK received, id=26474 confirmed
+I (43074) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (43114) TB_MQTT_CLIENT: PUBACK received, id=61175 confirmed
+I (43174) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (43224) TB_MQTT_CLIENT: PUBACK received, id=49421 confirmed
+I (43274) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (43314) TB_MQTT_CLIENT: PUBACK received, id=17709 confirmed
+I (43374) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (43414) TB_MQTT_CLIENT: PUBACK received, id=9203 confirmed
+I (43474) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (43514) TB_MQTT_CLIENT: PUBACK received, id=58191 confirmed
+I (43574) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (43574) TASK_MAX30102: Bad Sample dropped, Drop count 33
+I (43614) TB_MQTT_CLIENT: PUBACK received, id=57578 confirmed
+I (43674) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (43724) TB_MQTT_CLIENT: PUBACK received, id=45660 confirmed
+I (43774) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (43824) TB_MQTT_CLIENT: PUBACK received, id=64155 confirmed
+I (43874) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (43874) TASK_TB_MQTT: no fresh vitals this cycle
+I (43874) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=0 (no network)
+I (43934) TB_MQTT_CLIENT: PUBACK received, id=3441 confirmed
+I (43974) TB_MQTT_CLIENT: PUBACK received, id=36558 confirmed
+I (43984) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (44024) TB_MQTT_CLIENT: PUBACK received, id=65184 confirmed
+I (44084) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (44134) TB_MQTT_CLIENT: PUBACK received, id=25908 confirmed
+I (44184) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (44224) TB_MQTT_CLIENT: PUBACK received, id=52476 confirmed
+I (44284) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (44334) TB_MQTT_CLIENT: PUBACK received, id=6945 confirmed
+I (44384) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (44434) TB_MQTT_CLIENT: PUBACK received, id=19430 confirmed
+I (44484) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (44524) TB_MQTT_CLIENT: PUBACK received, id=848 confirmed
+I (44574) TASK_MAX30102: Bad Sample dropped, Drop count 34
+I (44584) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (44624) TB_MQTT_CLIENT: PUBACK received, id=42051 confirmed
+I (44684) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (44724) TB_MQTT_CLIENT: PUBACK received, id=64024 confirmed
+I (44784) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (44824) TB_MQTT_CLIENT: PUBACK received, id=2625 confirmed
+I (44884) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (44884) TASK_TB_MQTT: no fresh vitals this cycle
+I (44884) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=0 (no network)
+I (44934) TB_MQTT_CLIENT: PUBACK received, id=22940 confirmed
+I (44974) TB_MQTT_CLIENT: PUBACK received, id=19113 confirmed
+I (44994) TASK_TB_MQTT: ECG: 39 sampled, 10 sent (decimation=4)
+I (45034) TB_MQTT_CLIENT: PUBACK received, id=48490 confirmed
+I (45094) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (45134) TB_MQTT_CLIENT: PUBACK received, id=62841 confirmed
+I (45194) TASK_TB_MQTT: ECG: 37 sampled, 10 sent (decimation=4)
+I (45234) TB_MQTT_CLIENT: PUBACK received, id=31062 confirmed
+I (45294) TASK_TB_MQTT: ECG: 35 sampled, 9 sent (decimation=4)
+I (45334) TB_MQTT_CLIENT: PUBACK received, id=63004 confirmed
+I (45394) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (45434) TB_MQTT_CLIENT: PUBACK received, id=7243 confirmed
+I (45494) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (45534) TB_MQTT_CLIENT: PUBACK received, id=51615 confirmed
+I (45564) TASK_MAX30102: Bad Sample dropped, Drop count 35
+I (45594) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (45634) TB_MQTT_CLIENT: PUBACK received, id=23156 confirmed
+I (45694) TASK_TB_MQTT: ECG: 37 sampled, 10 sent (decimation=4)
+I (45744) TB_MQTT_CLIENT: PUBACK received, id=42004 confirmed
+I (45794) TASK_TB_MQTT: ECG: 35 sampled, 9 sent (decimation=4)
+I (45834) TB_MQTT_CLIENT: PUBACK received, id=36561 confirmed
+I (45894) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (45894) TASK_TB_MQTT: no fresh vitals this cycle
+I (45894) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=0 (no network)
+I (45944) TB_MQTT_CLIENT: PUBACK received, id=44441 confirmed
+I (45984) TB_MQTT_CLIENT: PUBACK received, id=54508 confirmed
+I (46004) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (46044) TB_MQTT_CLIENT: PUBACK received, id=61188 confirmed
+I (46104) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (46154) TB_MQTT_CLIENT: PUBACK received, id=47355 confirmed
+I (46204) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (46244) TB_MQTT_CLIENT: PUBACK received, id=38236 confirmed
+I (46304) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (46344) TB_MQTT_CLIENT: PUBACK received, id=57940 confirmed
+I (46404) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (46444) TB_MQTT_CLIENT: PUBACK received, id=28837 confirmed
+I (46504) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (46544) TB_MQTT_CLIENT: PUBACK received, id=6163 confirmed
+I (46564) TASK_MAX30102: Bad Sample dropped, Drop count 36
+I (46604) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (46644) TB_MQTT_CLIENT: PUBACK received, id=9475 confirmed
+I (46704) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (46754) TB_MQTT_CLIENT: PUBACK received, id=17115 confirmed
+I (46804) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (46854) TB_MQTT_CLIENT: PUBACK received, id=15774 confirmed
+I (46904) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (46904) TASK_TB_MQTT: no fresh vitals this cycle
+I (46904) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=0 (no network)
+I (46944) TB_MQTT_CLIENT: PUBACK received, id=57181 confirmed
+I (46994) TB_MQTT_CLIENT: PUBACK received, id=2885 confirmed
+I (47014) TASK_TB_MQTT: ECG: 39 sampled, 10 sent (decimation=4)
+I (47064) TB_MQTT_CLIENT: PUBACK received, id=43210 confirmed
+I (47114) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (47164) TB_MQTT_CLIENT: PUBACK received, id=25589 confirmed
+I (47214) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (47254) TB_MQTT_CLIENT: PUBACK received, id=22820 confirmed
+I (47314) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (47364) TB_MQTT_CLIENT: PUBACK received, id=55290 confirmed
+I (47414) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (47454) TB_MQTT_CLIENT: PUBACK received, id=62513 confirmed
+I (47514) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (47554) TB_MQTT_CLIENT: PUBACK received, id=55173 confirmed
+I (47554) TASK_MAX30102: Bad Sample dropped, Drop count 37
+I (47614) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (47664) TB_MQTT_CLIENT: PUBACK received, id=32025 confirmed
+I (47714) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (47754) TB_MQTT_CLIENT: PUBACK received, id=47513 confirmed
+I (47814) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (47854) TB_MQTT_CLIENT: PUBACK received, id=31044 confirmed
+I (47914) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (47914) TASK_TB_MQTT: no fresh vitals this cycle
+I (47914) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=0 (no network)
+I (47964) TB_MQTT_CLIENT: PUBACK received, id=54619 confirmed
+I (48004) TB_MQTT_CLIENT: PUBACK received, id=51615 confirmed
+I (48024) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (48074) TB_MQTT_CLIENT: PUBACK received, id=16517 confirmed
+I (48124) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (48164) TB_MQTT_CLIENT: PUBACK received, id=24620 confirmed
+I (48224) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+E (48264) mqtt_client: esp_mqtt_handle_transport_read_error: transport_read(): EOF
+E (48264) mqtt_client: esp_mqtt_handle_transport_read_error: transport_read() error: errno=128
+E (48264) TB_MQTT_CLIENT: transport error
+E (48274) mqtt_client: mqtt_process_receive: mqtt_message_receive() returned -2
+I (48284) TB_MQTT_CLIENT: MQTT_EVENT_DISCONNECTED
+I (48324) TASK_TB_MQTT: ECG: 23 sampled, 6 sent (decimation=4)
+I (48554) TASK_MAX30102: Bad Sample dropped, Drop count 38
+I (48924) TASK_TB_MQTT: no fresh vitals this cycle
+I (48924) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=229 (no network)
+I (49554) TASK_MAX30102: Bad Sample dropped, Drop count 39
+I (49924) TASK_TB_MQTT: no fresh vitals this cycle
+I (49924) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=589 (no network)
+I (50544) TASK_MAX30102: Bad Sample dropped, Drop count 40
+I (50924) TASK_TB_MQTT: no fresh vitals this cycle
+I (50924) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=949 (no network)
+I (51544) TASK_MAX30102: Bad Sample dropped, Drop count 41
+I (51924) TASK_TB_MQTT: no fresh vitals this cycle
+I (51924) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=1309 (no network)
+I (52534) TASK_MAX30102: Bad Sample dropped, Drop count 42
+I (52924) TASK_TB_MQTT: no fresh vitals this cycle
+I (52924) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=1669 (no network)
+I (53534) TASK_MAX30102: Bad Sample dropped, Drop count 43
+I (53924) TASK_TB_MQTT: no fresh vitals this cycle
+I (53924) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=2029 (no network)
+I (54524) TASK_MAX30102: Bad Sample dropped, Drop count 44
+I (54924) TASK_TB_MQTT: no fresh vitals this cycle
+I (54924) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=2389 (no network)
+I (55524) TASK_MAX30102: Bad Sample dropped, Drop count 45
+I (55924) TASK_TB_MQTT: no fresh vitals this cycle
+I (55924) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=2749 (no network)
+I (56514) TASK_MAX30102: Bad Sample dropped, Drop count 46
+I (56924) TASK_TB_MQTT: no fresh vitals this cycle
+I (56924) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=3109 (no network)
+I (57514) TASK_MAX30102: Bad Sample dropped, Drop count 47
+I (57924) TASK_TB_MQTT: no fresh vitals this cycle
+I (57924) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=3469 (no network)
+I (58504) TASK_MAX30102: Bad Sample dropped, Drop count 48
+I (58924) TASK_TB_MQTT: no fresh vitals this cycle
+I (58924) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=3829 (no network)
+I (59504) TASK_MAX30102: Bad Sample dropped, Drop count 49
+I (59924) TASK_TB_MQTT: no fresh vitals this cycle
+I (59924) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=4189 (no network)
+I (60504) TASK_MAX30102: Bad Sample dropped, Drop count 50
+I (60924) TASK_TB_MQTT: no fresh vitals this cycle
+I (60924) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=4549 (no network)
+I (61494) TASK_MAX30102: Bad Sample dropped, Drop count 51
+I (61924) TASK_TB_MQTT: no fresh vitals this cycle
+I (61924) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=4909 (no network)
+I (62494) TASK_MAX30102: Bad Sample dropped, Drop count 52
+I (62924) TASK_TB_MQTT: no fresh vitals this cycle
+I (62924) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=5269 (no network)
+I (63414) TB_MQTT_CLIENT: MQTT_EVENT_CONNECTED
+I (63424) TASK_TB_MQTT: ECG: 4 sampled, 1 sent (decimation=4)
+I (63464) TB_MQTT_CLIENT: SUBSCRIBED
+I (63484) TASK_MAX30102: Bad Sample dropped, Drop count 53
+I (63504) TB_MQTT_CLIENT: PUBACK received, id=53080 confirmed
+I (63524) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (63554) TB_MQTT_CLIENT: PUBACK received, id=46642 confirmed
+I (63594) TB_MQTT_CLIENT: PUBACK received, id=8312 confirmed
+I (63604) TB_MQTT_CLIENT: PUBACK received, id=1095 confirmed
+I (63624) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (63634) TB_MQTT_CLIENT: PUBACK received, id=28185 confirmed
+I (63684) TB_MQTT_CLIENT: PUBACK received, id=14638 confirmed
+I (63684) TB_MQTT_CLIENT: PUBACK received, id=22003 confirmed
+I (63694) TB_MQTT_CLIENT: PUBACK received, id=58441 confirmed
+I (63724) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (63724) TB_MQTT_CLIENT: PUBACK received, id=13664 confirmed
+I (63784) TB_MQTT_CLIENT: PUBACK received, id=14661 confirmed
+I (63784) TB_MQTT_CLIENT: PUBACK received, id=21165 confirmed
+I (63794) TB_MQTT_CLIENT: PUBACK received, id=64887 confirmed
+I (63794) TB_MQTT_CLIENT: PUBACK received, id=718 confirmed
+I (63824) TB_MQTT_CLIENT: PUBACK received, id=29842 confirmed
+I (63824) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (63874) TB_MQTT_CLIENT: PUBACK received, id=48852 confirmed
+I (63874) TB_MQTT_CLIENT: PUBACK received, id=55693 confirmed
+I (63884) TB_MQTT_CLIENT: PUBACK received, id=44427 confirmed
+I (63884) TB_MQTT_CLIENT: PUBACK received, id=8711 confirmed
+I (63914) TB_MQTT_CLIENT: PUBACK received, id=19038 confirmed
+I (63924) TB_MQTT_CLIENT: PUBACK received, id=31907 confirmed
+I (63924) TASK_TB_MQTT: ECG: 37 sampled, 10 sent (decimation=4)
+I (63924) TASK_TB_MQTT: no fresh vitals this cycle
+I (63934) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=5445 (no network)
+I (63974) TB_MQTT_CLIENT: PUBACK received, id=34905 confirmed
+I (63974) TB_MQTT_CLIENT: PUBACK received, id=19883 confirmed
+I (64014) TB_MQTT_CLIENT: PUBACK received, id=26078 confirmed
+I (64024) TB_MQTT_CLIENT: PUBACK received, id=38991 confirmed
+I (64034) TASK_TB_MQTT: ECG: 39 sampled, 10 sent (decimation=4)
+I (64084) TB_MQTT_CLIENT: PUBACK received, id=14028 confirmed
+I (64134) TASK_TB_MQTT: ECG: 35 sampled, 9 sent (decimation=4)
+I (64184) TB_MQTT_CLIENT: PUBACK received, id=4274 confirmed
+I (64234) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (64284) TB_MQTT_CLIENT: PUBACK received, id=22424 confirmed
+I (64334) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (64384) TB_MQTT_CLIENT: PUBACK received, id=49855 confirmed
+I (64434) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (64484) TASK_MAX30102: Bad Sample dropped, Drop count 54
+I (64494) TB_MQTT_CLIENT: PUBACK received, id=54377 confirmed
+I (64534) TASK_TB_MQTT: ECG: 37 sampled, 10 sent (decimation=4)
+I (64594) TB_MQTT_CLIENT: PUBACK received, id=12336 confirmed
+I (64634) TASK_TB_MQTT: ECG: 35 sampled, 9 sent (decimation=4)
+I (64684) TB_MQTT_CLIENT: PUBACK received, id=49252 confirmed
+I (64734) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (64784) TB_MQTT_CLIENT: PUBACK received, id=64005 confirmed
+I (64834) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (64894) TB_MQTT_CLIENT: PUBACK received, id=50782 confirmed
+I (64934) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (64934) TASK_TB_MQTT: no fresh vitals this cycle
+I (64934) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=5445 (no network)
+I (64994) TB_MQTT_CLIENT: PUBACK received, id=56786 confirmed
+I (65044) TB_MQTT_CLIENT: PUBACK received, id=3006 confirmed
+I (65044) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (65094) TB_MQTT_CLIENT: PUBACK received, id=36876 confirmed
+I (65154) TASK_TB_MQTT: ECG: 39 sampled, 10 sent (decimation=4)
+I (65204) TB_MQTT_CLIENT: PUBACK received, id=7125 confirmed
+I (65254) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (65304) TB_MQTT_CLIENT: PUBACK received, id=4127 confirmed
+I (65354) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (65414) TB_MQTT_CLIENT: PUBACK received, id=52295 confirmed
+I (65454) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (65474) TASK_MAX30102: Bad Sample dropped, Drop count 55
+I (65514) TB_MQTT_CLIENT: PUBACK received, id=38849 confirmed
+I (65554) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (65594) TB_MQTT_CLIENT: PUBACK received, id=15813 confirmed
+I (65654) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (65704) TB_MQTT_CLIENT: PUBACK received, id=27147 confirmed
+I (65754) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (65804) TB_MQTT_CLIENT: PUBACK received, id=26792 confirmed
+I (65854) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (65894) TB_MQTT_CLIENT: PUBACK received, id=47165 confirmed
+I (65954) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (65954) TASK_TB_MQTT: no fresh vitals this cycle
+I (65954) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=5445 (no network)
+I (66004) TB_MQTT_CLIENT: PUBACK received, id=27714 confirmed
+I (66054) TB_MQTT_CLIENT: PUBACK received, id=15321 confirmed
+I (66064) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (66104) TB_MQTT_CLIENT: PUBACK received, id=41965 confirmed
+I (66164) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (66264) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (66274) TB_MQTT_CLIENT: PUBACK received, id=15236 confirmed
+I (66324) TB_MQTT_CLIENT: PUBACK received, id=30295 confirmed
+I (66364) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (66414) TB_MQTT_CLIENT: PUBACK received, id=51882 confirmed
+I (66464) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (66474) TASK_MAX30102: Bad Sample dropped, Drop count 56
+I (66524) TB_MQTT_CLIENT: PUBACK received, id=14658 confirmed
+I (66564) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (66614) TB_MQTT_CLIENT: PUBACK received, id=17698 confirmed
+I (66664) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (66724) TB_MQTT_CLIENT: PUBACK received, id=26152 confirmed
+I (66764) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (66814) TB_MQTT_CLIENT: PUBACK received, id=40595 confirmed
+I (66864) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (66914) TB_MQTT_CLIENT: PUBACK received, id=38654 confirmed
+I (66964) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (66964) TASK_TB_MQTT: no fresh vitals this cycle
+I (66964) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=5445 (no network)
+I (67024) TB_MQTT_CLIENT: PUBACK received, id=8630 confirmed
+I (67064) TB_MQTT_CLIENT: PUBACK received, id=4606 confirmed
+I (67074) TASK_TB_MQTT: ECG: 39 sampled, 10 sent (decimation=4)
+I (67114) TB_MQTT_CLIENT: PUBACK received, id=54946 confirmed
+I (67174) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (67234) TB_MQTT_CLIENT: PUBACK received, id=8524 confirmed
+I (67274) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (67314) TB_MQTT_CLIENT: PUBACK received, id=64958 confirmed
+I (67374) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (67424) TB_MQTT_CLIENT: PUBACK received, id=43130 confirmed
+I (67464) TASK_MAX30102: Bad Sample dropped, Drop count 57
+I (67474) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (67524) TB_MQTT_CLIENT: PUBACK received, id=2570 confirmed
+I (67574) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (67614) TB_MQTT_CLIENT: PUBACK received, id=29582 confirmed
+I (67674) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (67734) TB_MQTT_CLIENT: PUBACK received, id=31201 confirmed
+I (67774) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (67824) TB_MQTT_CLIENT: PUBACK received, id=21187 confirmed
+I (67874) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (67934) TB_MQTT_CLIENT: PUBACK received, id=10746 confirmed
+I (67974) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (67974) TASK_TB_MQTT: no fresh vitals this cycle
+I (67974) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=5445 (no network)
+I (68024) TB_MQTT_CLIENT: PUBACK received, id=41720 confirmed
+I (68064) TB_MQTT_CLIENT: PUBACK received, id=791 confirmed
+I (68084) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (68124) TB_MQTT_CLIENT: PUBACK received, id=17345 confirmed
+I (68184) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (68224) TB_MQTT_CLIENT: PUBACK received, id=57919 confirmed
+I (68284) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (68334) TB_MQTT_CLIENT: PUBACK received, id=29382 confirmed
+I (68384) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (68424) TB_MQTT_CLIENT: PUBACK received, id=4213 confirmed
+I (68464) TASK_MAX30102: Bad Sample dropped, Drop count 58
+I (68484) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (68534) TB_MQTT_CLIENT: PUBACK received, id=20095 confirmed
+I (68584) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (68634) TB_MQTT_CLIENT: PUBACK received, id=17928 confirmed
+I (68684) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (68754) TB_MQTT_CLIENT: PUBACK received, id=33958 confirmed
+I (68784) TASK_TB_MQTT: ECG: 37 sampled, 10 sent (decimation=4)
+I (68824) TB_MQTT_CLIENT: PUBACK received, id=52427 confirmed
+I (68884) TASK_TB_MQTT: ECG: 35 sampled, 9 sent (decimation=4)
+I (68934) TB_MQTT_CLIENT: PUBACK received, id=36489 confirmed
+I (68984) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (68984) TASK_TB_MQTT: no fresh vitals this cycle
+I (68984) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=5445 (no network)
+I (69034) TB_MQTT_CLIENT: PUBACK received, id=39526 confirmed
+I (69074) TB_MQTT_CLIENT: PUBACK received, id=58375 confirmed
+I (69094) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (69144) TB_MQTT_CLIENT: PUBACK received, id=43689 confirmed
+I (69194) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (69254) TB_MQTT_CLIENT: PUBACK received, id=7036 confirmed
+I (69294) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (69344) TB_MQTT_CLIENT: PUBACK received, id=38207 confirmed
+I (69394) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (69444) TB_MQTT_CLIENT: PUBACK received, id=55618 confirmed
+I (69464) TASK_MAX30102: Bad Sample dropped, Drop count 59
+I (69494) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (69534) TB_MQTT_CLIENT: PUBACK received, id=62970 confirmed
+I (69594) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (69644) TB_MQTT_CLIENT: PUBACK received, id=27580 confirmed
+I (69694) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (69754) TB_MQTT_CLIENT: PUBACK received, id=15390 confirmed
+I (69794) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (69834) TB_MQTT_CLIENT: PUBACK received, id=5611 confirmed
+I (69894) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (69954) TB_MQTT_CLIENT: PUBACK received, id=1844 confirmed
+I (69994) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (69994) TASK_TB_MQTT: no fresh vitals this cycle
+I (69994) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=5445 (no network)
+I (70054) TB_MQTT_CLIENT: PUBACK received, id=51777 confirmed
+I (70104) TB_MQTT_CLIENT: PUBACK received, id=60237 confirmed
+I (70104) TASK_TB_MQTT: ECG: 41 sampled, 11 sent (decimation=4)
+I (70154) TB_MQTT_CLIENT: PUBACK received, id=54609 confirmed
+I (70214) TASK_TB_MQTT: ECG: 38 sampled, 10 sent (decimation=4)
+I (70264) TB_MQTT_CLIENT: PUBACK received, id=12228 confirmed
+I (70314) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (70364) TB_MQTT_CLIENT: PUBACK received, id=21014 confirmed
+I (70414) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (70454) TASK_MAX30102: Bad Sample dropped, Drop count 60
+I (70474) TB_MQTT_CLIENT: PUBACK received, id=36232 confirmed
+I (70514) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (70584) TB_MQTT_CLIENT: PUBACK received, id=64531 confirmed
+I (70614) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (70664) TB_MQTT_CLIENT: PUBACK received, id=28962 confirmed
+I (70714) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (70774) TB_MQTT_CLIENT: PUBACK received, id=59307 confirmed
+I (70814) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (70854) TB_MQTT_CLIENT: PUBACK received, id=34982 confirmed
+I (70914) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (70964) TB_MQTT_CLIENT: PUBACK received, id=37047 confirmed
+I (71014) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (71014) TASK_TB_MQTT: no fresh vitals this cycle
+I (71014) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=5445 (no network)
+I (71064) TB_MQTT_CLIENT: PUBACK received, id=1399 confirmed
+I (71114) TB_MQTT_CLIENT: PUBACK received, id=51140 confirmed
+I (71124) TASK_TB_MQTT: ECG: 39 sampled, 10 sent (decimation=4)
+I (71174) TB_MQTT_CLIENT: PUBACK received, id=25927 confirmed
+I (71224) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (71274) TB_MQTT_CLIENT: PUBACK received, id=30728 confirmed
+I (71324) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (71364) TB_MQTT_CLIENT: PUBACK received, id=39868 confirmed
+I (71424) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (71454) TASK_MAX30102: Bad Sample dropped, Drop count 61
+I (71484) TB_MQTT_CLIENT: PUBACK received, id=62286 confirmed
+I (71524) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (71594) TB_MQTT_CLIENT: PUBACK received, id=20680 confirmed
+I (71624) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (71674) TB_MQTT_CLIENT: PUBACK received, id=11207 confirmed
+I (71724) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+E (71774) mqtt_client: esp_mqtt_handle_transport_read_error: transport_read(): EOF
+E (71774) mqtt_client: esp_mqtt_handle_transport_read_error: transport_read() error: errno=128
+E (71774) TB_MQTT_CLIENT: transport error
+E (71774) mqtt_client: mqtt_process_receive: mqtt_message_receive() returned -2
+I (71784) TB_MQTT_CLIENT: MQTT_EVENT_DISCONNECTED
+I (71824) TASK_TB_MQTT: ECG: 26 sampled, 7 sent (decimation=4)
+I (72024) TASK_TB_MQTT: no fresh vitals this cycle
+I (72024) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=5528 (no network)
+I (72444) TASK_MAX30102: Bad Sample dropped, Drop count 62
+I (73024) TASK_TB_MQTT: no fresh vitals this cycle
+I (73024) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=5888 (no network)
+I (73444) TASK_MAX30102: Bad Sample dropped, Drop count 63
+I (74024) TASK_TB_MQTT: no fresh vitals this cycle
+I (74024) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=6247 (no network)
+I (74434) TASK_MAX30102: Bad Sample dropped, Drop count 64
+I (75024) TASK_TB_MQTT: no fresh vitals this cycle
+I (75024) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=6607 (no network)
+I (75434) TASK_MAX30102: Bad Sample dropped, Drop count 65
+I (76024) TASK_TB_MQTT: no fresh vitals this cycle
+I (76024) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=6967 (no network)
+I (76424) TASK_MAX30102: Bad Sample dropped, Drop count 66
+I (77024) TASK_TB_MQTT: no fresh vitals this cycle
+I (77024) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=7327 (no network)
+I (77424) TASK_MAX30102: Bad Sample dropped, Drop count 67
+I (78024) TASK_TB_MQTT: no fresh vitals this cycle
+I (78024) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=7687 (no network)
+I (78414) TASK_MAX30102: Bad Sample dropped, Drop count 68
+I (79024) TASK_TB_MQTT: no fresh vitals this cycle
+I (79024) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=8047 (no network)
+I (79414) TASK_MAX30102: Bad Sample dropped, Drop count 69
+I (80024) TASK_TB_MQTT: no fresh vitals this cycle
+I (80024) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=8407 (no network)
+I (80404) TASK_MAX30102: Bad Sample dropped, Drop count 70
+I (81024) TASK_TB_MQTT: no fresh vitals this cycle
+I (81024) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=8767 (no networ)
+I (81404) TASK_MAX30102: Bad Sample dropped, Drop count 71
+I (81894) TB_MQTT_CLIENT: MQTT_EVENT_CONNECTED
+I (81924) TASK_TB_MQTT: ECG: 8 sampled, 2 sent (decimation=4)
+I (81944) TB_MQTT_CLIENT: SUBSCRIBED
+I (81984) TB_MQTT_CLIENT: PUBACK received, id=60712 confirmed
+I (82024) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (82024) TASK_TB_MQTT: no fresh vitals this cycle
+I (82024) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=9083 (no network)
+I (82034) TB_MQTT_CLIENT: PUBACK received, id=21405 confirmed
+I (82074) TB_MQTT_CLIENT: PUBACK received, id=44812 confirmed
+I (82084) TB_MQTT_CLIENT: PUBACK received, id=3952 confirmed
+I (82094) TB_MQTT_CLIENT: PUBACK received, id=14907 confirmed
+I (82124) TB_MQTT_CLIENT: PUBACK received, id=1792 confirmed
+I (82134) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (82164) TB_MQTT_CLIENT: PUBACK received, id=41563 confirmed
+I (82174) TB_MQTT_CLIENT: PUBACK received, id=29743 confirmed
+I (82184) TB_MQTT_CLIENT: PUBACK received, id=4862 confirmed
+I (82214) TB_MQTT_CLIENT: PUBACK received, id=1874 confirmed
+I (82214) TB_MQTT_CLIENT: PUBACK received, id=39105 confirmed
+I (82234) TASK_TB_MQTT: ECG: 35 sampled, 9 sent (decimation=4)
+I (82254) TB_MQTT_CLIENT: PUBACK received, id=5713 confirmed
+I (82264) TB_MQTT_CLIENT: PUBACK received, id=55543 confirmed
+I (82264) TB_MQTT_CLIENT: PUBACK received, id=51623 confirmed
+I (82304) TB_MQTT_CLIENT: PUBACK received, id=1644 confirmed
+I (82304) TB_MQTT_CLIENT: PUBACK received, id=2275 confirmed
+I (82304) TB_MQTT_CLIENT: PUBACK received, id=35240 confirmed
+I (82334) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (82384) TB_MQTT_CLIENT: PUBACK received, id=22266 confirmed
+I (82404) TASK_MAX30102: Bad Sample dropped, Drop count 72
+I (82434) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (82474) TB_MQTT_CLIENT: PUBACK received, id=28153 confirmed
+I (82534) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (82584) TB_MQTT_CLIENT: PUBACK received, id=44952 confirmed
+I (82634) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (82674) TB_MQTT_CLIENT: PUBACK received, id=36665 confirmed
+I (82734) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (82784) TB_MQTT_CLIENT: PUBACK received, id=13126 confirmed
+I (82834) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (82884) TB_MQTT_CLIENT: PUBACK received, id=47677 confirmed
+I (82934) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (82974) TB_MQTT_CLIENT: PUBACK received, id=53600 confirmed
+I (83034) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (83034) TASK_TB_MQTT: no fresh vitals this cycle
+I (83034) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=9083 (no network)
+I (83074) TB_MQTT_CLIENT: PUBACK received, id=36555 confirmed
+I (83124) TB_MQTT_CLIENT: PUBACK received, id=34215 confirmed
+I (83144) TASK_TB_MQTT: ECG: 39 sampled, 10 sent (decimation=4)
+I (83184) TB_MQTT_CLIENT: PUBACK received, id=35810 confirmed
+I (83244) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (83284) TB_MQTT_CLIENT: PUBACK received, id=52085 confirmed
+I (83344) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (83384) TB_MQTT_CLIENT: PUBACK received, id=64524 confirmed
+I (83394) TASK_MAX30102: Bad Sample dropped, Drop count 73
+I (83444) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (83484) TB_MQTT_CLIENT: PUBACK received, id=61398 confirmed
+I (83544) TASK_TB_MQTT: ECG: 37 sampled, 10 sent (decimation=4)
+I (83594) TB_MQTT_CLIENT: PUBACK received, id=49284 confirmed
+I (83644) TASK_TB_MQTT: ECG: 35 sampled, 9 sent (decimation=4)
+I (83694) TB_MQTT_CLIENT: PUBACK received, id=26458 confirmed
+I (83744) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (83794) TB_MQTT_CLIENT: PUBACK received, id=47715 confirmed
+I (83844) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (83894) TB_MQTT_CLIENT: PUBACK received, id=61979 confirmed
+I (83944) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (83994) TB_MQTT_CLIENT: PUBACK received, id=48802 confirmed
+I (84044) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (84044) TASK_TB_MQTT: no fresh vitals this cycle
+I (84044) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=9083 (no network)
+I (84094) TB_MQTT_CLIENT: PUBACK received, id=56058 confirmed
+I (84144) TB_MQTT_CLIENT: PUBACK received, id=19781 confirmed
+I (84154) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (84204) TB_MQTT_CLIENT: PUBACK received, id=64076 confirmed
+I (84254) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (84304) TB_MQTT_CLIENT: PUBACK received, id=37652 confirmed
+I (84354) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (84394) TASK_MAX30102: Bad Sample dropped, Drop count 74
+I (84404) TB_MQTT_CLIENT: PUBACK received, id=24583 confirmed
+I (84454) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (84504) TB_MQTT_CLIENT: PUBACK received, id=42660 confirmed
+I (84554) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (84594) TB_MQTT_CLIENT: PUBACK received, id=41223 confirmed
+I (84654) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (84704) TB_MQTT_CLIENT: PUBACK received, id=25870 confirmed
+I (84754) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (84814) TB_MQTT_CLIENT: PUBACK received, id=57218 confirmed
+I (84854) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (84914) TB_MQTT_CLIENT: PUBACK received, id=55093 confirmed
+I (84954) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (84994) TB_MQTT_CLIENT: PUBACK received, id=32911 confirmed
+I (85054) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (85054) TASK_TB_MQTT: no fresh vitals this cycle
+I (85054) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=9083 (no network)
+I (85164) TASK_TB_MQTT: ECG: 39 sampled, 10 sent (decimation=4)
+I (85264) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (85364) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (85384) TASK_MAX30102: Bad Sample dropped, Drop count 75
+I (85464) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (85564) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (85664) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (86334) TB_MQTT_CLIENT: PUBACK received, id=21126 confirmed
+I (86334) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (86344) TB_MQTT_CLIENT: PUBACK received, id=38915 confirmed
+I (86344) TB_MQTT_CLIENT: PUBACK received, id=41536 confirmed
+I (86354) TB_MQTT_CLIENT: PUBACK received, id=18563 confirmed
+I (86354) TB_MQTT_CLIENT: PUBACK received, id=20087 confirmed
+I (86364) TB_MQTT_CLIENT: PUBACK received, id=60389 confirmed
+I (86364) TB_MQTT_CLIENT: PUBACK received, id=50217 confirmed
+I (86384) TB_MQTT_CLIENT: PUBACK received, id=49950 confirmed
+I (86384) TASK_MAX30102: Bad Sample dropped, Drop count 76
+I (86424) TB_MQTT_CLIENT: PUBACK received, id=19896 confirmed
+I (86454) TASK_TB_MQTT: ECG: 245 sampled, 62 sent (decimation=4)
+E (86494) mqtt_client: esp_mqtt_handle_transport_read_error: transport_read(): EOF
+E (86494) mqtt_client: esp_mqtt_handle_transport_read_error: transport_read() error: errno=128
+E (86494) TB_MQTT_CLIENT: transport error
+E (86494) mqtt_client: mqtt_process_receive: mqtt_message_receive() returned -2
+I (86504) TB_MQTT_CLIENT: MQTT_EVENT_DISCONNECTED
+I (86554) TASK_TB_MQTT: ECG: 26 sampled, 7 sent (decimation=4)
+I (86654) TASK_TB_MQTT: no fresh vitals this cycle
+I (86654) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=9133 (no network)
+I (87374) TASK_MAX30102: Bad Sample dropped, Drop count 77
+I (87654) TASK_TB_MQTT: no fresh vitals this cycle
+I (87654) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=9493 (no network)
+I (88374) TASK_MAX30102: Bad Sample dropped, Drop count 78
+I (88654) TASK_TB_MQTT: no fresh vitals this cycle
+I (88654) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=9853 (no network)
+I (89364) TASK_MAX30102: Bad Sample dropped, Drop count 79
+I (89654) TASK_TB_MQTT: no fresh vitals this cycle
+I (89654) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=10213 (no network)
+I (90364) TASK_MAX30102: Bad Sample dropped, Drop count 80
+I (90654) TASK_TB_MQTT: no fresh vitals this cycle
+I (90654) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=10573 (no network)
+I (91354) TASK_MAX30102: Bad Sample dropped, Drop count 81
+I (91654) TASK_TB_MQTT: no fresh vitals this cycle
+I (91654) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=10933 (no network)
+I (92354) TASK_MAX30102: Bad Sample dropped, Drop count 82
+I (92654) TASK_TB_MQTT: no fresh vitals this cycle
+I (92654) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=11293 (no network)
+I (93354) TASK_MAX30102: Bad Sample dropped, Drop count 83
+I (93654) TASK_TB_MQTT: no fresh vitals this cycle
+I (93654) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=11653 (no network)
+I (94344) TASK_MAX30102: Bad Sample dropped, Drop count 84
+I (94654) TASK_TB_MQTT: no fresh vitals this cycle
+I (94654) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=12013 (no network)
+I (95344) TASK_MAX30102: Bad Sample dropped, Drop count 85
+I (95654) TASK_TB_MQTT: no fresh vitals this cycle
+I (95654) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=12373 (no network)
+I (96334) TASK_MAX30102: Bad Sample dropped, Drop count 86
+I (96654) TB_MQTT_CLIENT: MQTT_EVENT_CONNECTED
+I (96654) TASK_TB_MQTT: no fresh vitals this cycle
+I (96664) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=12733 (no network)
+I (96704) TB_MQTT_CLIENT: SUBSCRIBED
+I (96764) TB_MQTT_CLIENT: PUBACK received, id=3483 confirmed
+I (96764) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (96814) TB_MQTT_CLIENT: PUBACK received, id=17930 confirmed
+I (96854) TB_MQTT_CLIENT: PUBACK received, id=22496 confirmed
+I (96864) TB_MQTT_CLIENT: PUBACK received, id=3353 confirmed
+I (96864) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (96904) TB_MQTT_CLIENT: PUBACK received, id=17890 confirmed
+I (96954) TB_MQTT_CLIENT: PUBACK received, id=29701 confirmed
+I (96954) TB_MQTT_CLIENT: PUBACK received, id=33653 confirmed
+I (96964) TB_MQTT_CLIENT: PUBACK received, id=14337 confirmed
+I (96964) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (96994) TB_MQTT_CLIENT: PUBACK received, id=30054 confirmed
+I (97044) TB_MQTT_CLIENT: PUBACK received, id=64354 confirmed
+I (97044) TB_MQTT_CLIENT: PUBACK received, id=11789 confirmed
+I (97054) TB_MQTT_CLIENT: PUBACK received, id=14605 confirmed
+I (97064) TB_MQTT_CLIENT: PUBACK received, id=25545 confirmed
+I (97064) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (97084) TB_MQTT_CLIENT: PUBACK received, id=36946 confirmed
+I (97094) TB_MQTT_CLIENT: PUBACK received, id=29537 confirmed
+I (97144) TB_MQTT_CLIENT: PUBACK received, id=47940 confirmed
+I (97154) TB_MQTT_CLIENT: PUBACK received, id=28367 confirmed
+I (97164) TASK_TB_MQTT: ECG: 35 sampled, 9 sent (decimation=4)
+I (97204) TB_MQTT_CLIENT: PUBACK received, id=44108 confirmed
+I (97264) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (97314) TB_MQTT_CLIENT: PUBACK received, id=23029 confirmed
+I (97334) TASK_MAX30102: Bad Sample dropped, Drop count 87
+I (97364) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (97414) TB_MQTT_CLIENT: PUBACK received, id=29731 confirmed
+I (97464) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (97524) TB_MQTT_CLIENT: PUBACK received, id=11928 confirmed
+I (97564) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (97604) TB_MQTT_CLIENT: PUBACK received, id=39321 confirmed
+I (97664) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (97664) TASK_TB_MQTT: no fresh vitals this cycle
+I (97664) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=12733 (no network)
+I (97724) TB_MQTT_CLIENT: PUBACK received, id=4126 confirmed
+I (97764) TB_MQTT_CLIENT: PUBACK received, id=12313 confirmed
+I (97774) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (97824) TB_MQTT_CLIENT: PUBACK received, id=39759 confirmed
+I (97874) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (97924) TB_MQTT_CLIENT: PUBACK received, id=36746 confirmed
+I (97974) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (98034) TB_MQTT_CLIENT: PUBACK received, id=60813 confirmed
+I (98074) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (98124) TB_MQTT_CLIENT: PUBACK received, id=57247 confirmed
+I (98174) TB_MQTT_CLIENT: PUBACK received, id=62357 confirmed
+I (98174) TASK_TB_MQTT: ECG: 35 sampled, 9 sent (decimation=4)
+I (98224) TB_MQTT_CLIENT: PUBACK received, id=50168 confirmed
+I (98284) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (98324) TASK_MAX30102: Bad Sample dropped, Drop count 88
+I (98344) TB_MQTT_CLIENT: PUBACK received, id=51276 confirmed
+I (98384) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (98444) TB_MQTT_CLIENT: PUBACK received, id=28658 confirmed
+I (98484) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (98544) TB_MQTT_CLIENT: PUBACK received, id=44005 confirmed
+I (98584) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (98644) TB_MQTT_CLIENT: PUBACK received, id=61547 confirmed
+I (98684) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (98684) TASK_TB_MQTT: no fresh vitals this cycle
+I (98684) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=12733 (no network)
+I (98744) TB_MQTT_CLIENT: PUBACK received, id=52677 confirmed
+I (98784) TB_MQTT_CLIENT: PUBACK received, id=63607 confirmed
+I (98794) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (98844) TB_MQTT_CLIENT: PUBACK received, id=9724 confirmed
+I (98894) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (98944) TB_MQTT_CLIENT: PUBACK received, id=5714 confirmed
+I (98994) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (99044) TB_MQTT_CLIENT: PUBACK received, id=54401 confirmed
+I (99094) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (99154) TB_MQTT_CLIENT: PUBACK received, id=41794 confirmed
+I (99194) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (99234) TB_MQTT_CLIENT: PUBACK received, id=20448 confirmed
+I (99294) TASK_TB_MQTT: ECG: 37 sampled, 10 sent (decimation=4)
+I (99324) TASK_MAX30102: Bad Sample dropped, Drop count 89
+I (99344) TB_MQTT_CLIENT: PUBACK received, id=12331 confirmed
+I (99394) TASK_TB_MQTT: ECG: 35 sampled, 9 sent (decimation=4)
+I (99444) TB_MQTT_CLIENT: PUBACK received, id=57469 confirmed
+I (99494) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (99554) TB_MQTT_CLIENT: PUBACK received, id=27372 confirmed
+I (99594) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (99654) TB_MQTT_CLIENT: PUBACK received, id=11936 confirmed
+I (99694) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (99694) TASK_TB_MQTT: no fresh vitals this cycle
+I (99694) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=12733 (no network)
+I (99744) TB_MQTT_CLIENT: PUBACK received, id=27651 confirmed
+I (99794) TB_MQTT_CLIENT: PUBACK received, id=33929 confirmed
+I (99804) TASK_TB_MQTT: ECG: 39 sampled, 10 sent (decimation=4)
+I (99854) TB_MQTT_CLIENT: PUBACK received, id=14404 confirmed
+I (99904) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (99944) TB_MQTT_CLIENT: PUBACK received, id=44559 confirmed
+I (100004) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (100064) TB_MQTT_CLIENT: PUBACK received, id=20269 confirmed
+I (100104) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (100144) TB_MQTT_CLIENT: PUBACK received, id=47332 confirmed
+I (100204) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (100264) TB_MQTT_CLIENT: PUBACK received, id=29812 confirmed
+I (100304) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (100314) TASK_MAX30102: Bad Sample dropped, Drop count 90
+I (100344) TB_MQTT_CLIENT: PUBACK received, id=56188 confirmed
+I (100404) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (100454) TB_MQTT_CLIENT: PUBACK received, id=62320 confirmed
+I (100504) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (100544) TB_MQTT_CLIENT: PUBACK received, id=4292 confirmed
+I (100604) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (100654) TB_MQTT_CLIENT: PUBACK received, id=8710 confirmed
+I (100704) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (100704) TASK_TB_MQTT: no fresh vitals this cycle
+I (100704) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=12733 (no network)
+I (100754) TB_MQTT_CLIENT: PUBACK received, id=28843 confirmed
+I (100794) TB_MQTT_CLIENT: PUBACK received, id=33380 confirmed
+I (100814) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (100854) TB_MQTT_CLIENT: PUBACK received, id=13708 confirmed
+I (100914) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (100954) TB_MQTT_CLIENT: PUBACK received, id=19184 confirmed
+I (101014) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (101064) TB_MQTT_CLIENT: PUBACK received, id=60086 confirmed
+I (101114) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (101154) TB_MQTT_CLIENT: PUBACK received, id=1954 confirmed
+I (101214) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (101264) TB_MQTT_CLIENT: PUBACK received, id=12653 confirmed
+I (101314) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (101314) TASK_MAX30102: Bad Sample dropped, Drop count 91
+I (101364) TB_MQTT_CLIENT: PUBACK received, id=44730 confirmed
+I (101414) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (101464) TB_MQTT_CLIENT: PUBACK received, id=26296 confirmed
+I (101514) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (101554) TB_MQTT_CLIENT: PUBACK received, id=41437 confirmed
+I (101614) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (101654) TB_MQTT_CLIENT: PUBACK received, id=7046 confirmed
+I (101714) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (101714) TASK_TB_MQTT: no fresh vitals this cycle
+I (101714) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=12733 (no network)
+I (101754) TB_MQTT_CLIENT: PUBACK received, id=32898 confirmed
+I (101804) TB_MQTT_CLIENT: PUBACK received, id=24138 confirmed
+I (101824) TASK_TB_MQTT: ECG: 39 sampled, 10 sent (decimation=4)
+I (101864) TB_MQTT_CLIENT: PUBACK received, id=25091 confirmed
+I (101924) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (101964) TB_MQTT_CLIENT: PUBACK received, id=62589 confirmed
+I (102024) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (102064) TB_MQTT_CLIENT: PUBACK received, id=1981 confirmed
+I (102124) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (102174) TB_MQTT_CLIENT: PUBACK received, id=54701 confirmed
+I (102224) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (102274) TB_MQTT_CLIENT: PUBACK received, id=7115 confirmed
+I (102314) TASK_MAX30102: Bad Sample dropped, Drop count 92
+I (102324) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (102384) TB_MQTT_CLIENT: PUBACK received, id=35192 confirmed
+I (102424) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (102474) TB_MQTT_CLIENT: PUBACK received, id=4230 confirmed
+I (102524) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (102574) TB_MQTT_CLIENT: PUBACK received, id=24577 confirmed
+I (102624) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (102664) TB_MQTT_CLIENT: PUBACK received, id=42270 confirmed
+I (102724) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (102724) TASK_TB_MQTT: no fresh vitals this cycle
+I (102724) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=12733 (no network)
+I (102774) TB_MQTT_CLIENT: PUBACK received, id=3797 confirmed
+I (102824) TB_MQTT_CLIENT: PUBACK received, id=54048 confirmed
+I (102834) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (102884) TB_MQTT_CLIENT: PUBACK received, id=16304 confirmed
+I (102934) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (102974) TB_MQTT_CLIENT: PUBACK received, id=39623 confirmed
+I (103034) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (103074) TB_MQTT_CLIENT: PUBACK received, id=978 confirmed
+I (103134) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (103174) TB_MQTT_CLIENT: PUBACK received, id=53442 confirmed
+I (103234) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (103284) TB_MQTT_CLIENT: PUBACK received, id=57337 confirmed
+I (103304) TASK_MAX30102: Bad Sample dropped, Drop count 93
+I (103334) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (103384) TB_MQTT_CLIENT: PUBACK received, id=8203 confirmed
+I (103434) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (103484) TB_MQTT_CLIENT: PUBACK received, id=62984 confirmed
+I (103534) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (103584) TB_MQTT_CLIENT: PUBACK received, id=12299 confirmed
+I (103634) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (103684) TB_MQTT_CLIENT: PUBACK received, id=30831 confirmed
+I (103734) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (103734) TASK_TB_MQTT: no fresh vitals this cycle
+I (103734) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=12733 (no network)
+I (103784) TB_MQTT_CLIENT: PUBACK received, id=23923 confirmed
+I (103824) TB_MQTT_CLIENT: PUBACK received, id=8386 confirmed
+I (103844) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (103884) TB_MQTT_CLIENT: PUBACK received, id=6415 confirmed
+I (103944) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (103994) TB_MQTT_CLIENT: PUBACK received, id=16953 confirmed
+I (104044) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (104104) TB_MQTT_CLIENT: PUBACK received, id=42352 confirmed
+I (104144) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (104204) TB_MQTT_CLIENT: PUBACK received, id=3853 confirmed
+I (104244) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (104284) TB_MQTT_CLIENT: PUBACK received, id=32084 confirmed
+I (104304) TASK_MAX30102: Bad Sample dropped, Drop count 94
+I (104344) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (104384) TB_MQTT_CLIENT: PUBACK received, id=44792 confirmed
+I (104444) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (104484) TB_MQTT_CLIENT: PUBACK received, id=58211 confirmed
+I (104544) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (104604) TB_MQTT_CLIENT: PUBACK received, id=58122 confirmed
+I (104644) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (104684) TB_MQTT_CLIENT: PUBACK received, id=15713 confirmed
+I (104744) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (104744) TASK_TB_MQTT: no fresh vitals this cycle
+I (104744) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=12733 (no network)
+I (104794) TB_MQTT_CLIENT: PUBACK received, id=54341 confirmed
+I (104834) TB_MQTT_CLIENT: PUBACK received, id=42550 confirmed
+I (104854) TASK_TB_MQTT: ECG: 39 sampled, 10 sent (decimation=4)
+I (104904) TB_MQTT_CLIENT: PUBACK received, id=43260 confirmed
+I (104954) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (105004) TB_MQTT_CLIENT: PUBACK received, id=30150 confirmed
+I (105054) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (105094) TB_MQTT_CLIENT: PUBACK received, id=7787 confirmed
+I (105154) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (105194) TB_MQTT_CLIENT: PUBACK received, id=10626 confirmed
+I (105254) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (105294) TASK_MAX30102: Bad Sample dropped, Drop count 95
+I (105304) TB_MQTT_CLIENT: PUBACK received, id=63776 confirmed
+I (105354) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (105394) TB_MQTT_CLIENT: PUBACK received, id=19141 confirmed
+I (105454) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (105504) TB_MQTT_CLIENT: PUBACK received, id=8708 confirmed
+I (105554) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (105594) TB_MQTT_CLIENT: PUBACK received, id=39545 confirmed
+I (105654) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (105694) TB_MQTT_CLIENT: PUBACK received, id=16564 confirmed
+I (105754) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (105754) TASK_TB_MQTT: no fresh vitals this cycle
+I (105754) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=12733 (no network)
+I (105804) TB_MQTT_CLIENT: PUBACK received, id=29376 confirmed
+I (105844) TB_MQTT_CLIENT: PUBACK received, id=18145 confirmed
+I (105864) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (105914) TB_MQTT_CLIENT: PUBACK received, id=42461 confirmed
+I (105964) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (106004) TB_MQTT_CLIENT: PUBACK received, id=19985 confirmed
+I (106064) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (106104) TB_MQTT_CLIENT: PUBACK received, id=32338 confirmed
+I (106164) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (106204) TB_MQTT_CLIENT: PUBACK received, id=61351 confirmed
+I (106264) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (106294) TASK_MAX30102: Bad Sample dropped, Drop count 96
+I (106314) TB_MQTT_CLIENT: PUBACK received, id=46313 confirmed
+I (106364) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (106414) TB_MQTT_CLIENT: PUBACK received, id=64747 confirmed
+I (106464) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (106504) TB_MQTT_CLIENT: PUBACK received, id=22854 confirmed
+I (106564) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (106604) TB_MQTT_CLIENT: PUBACK received, id=53592 confirmed
+I (106664) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (106704) TB_MQTT_CLIENT: PUBACK received, id=20546 confirmed
+I (106764) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (106764) TASK_TB_MQTT: no fresh vitals this cycle
+I (106764) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=12733 (no network)
+I (106814) TB_MQTT_CLIENT: PUBACK received, id=37909 confirmed
+I (106854) TB_MQTT_CLIENT: PUBACK received, id=23633 confirmed
+I (106874) TASK_TB_MQTT: ECG: 39 sampled, 10 sent (decimation=4)
+I (106914) TB_MQTT_CLIENT: PUBACK received, id=61769 confirmed
+I (106974) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (107024) TB_MQTT_CLIENT: PUBACK received, id=51091 confirmed
+I (107074) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (107114) TB_MQTT_CLIENT: PUBACK received, id=13548 confirmed
+I (107174) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (107234) TB_MQTT_CLIENT: PUBACK received, id=15267 confirmed
+I (107274) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (107284) TASK_MAX30102: Bad Sample dropped, Drop count 97
+I (107324) TB_MQTT_CLIENT: PUBACK received, id=63658 confirmed
+I (107374) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (107414) TB_MQTT_CLIENT: PUBACK received, id=36544 confirmed
+I (107474) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (107514) TB_MQTT_CLIENT: PUBACK received, id=28554 confirmed
+I (107574) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (107624) TB_MQTT_CLIENT: PUBACK received, id=63422 confirmed
+I (107674) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (107714) TB_MQTT_CLIENT: PUBACK received, id=27901 confirmed
+I (107774) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (107774) TASK_TB_MQTT: no fresh vitals this cycle
+I (107774) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=12733 (no network)
+I (107824) TB_MQTT_CLIENT: PUBACK received, id=16924 confirmed
+I (107864) TB_MQTT_CLIENT: PUBACK received, id=54496 confirmed
+I (107884) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (107924) TB_MQTT_CLIENT: PUBACK received, id=63098 confirmed
+I (107984) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (108024) TB_MQTT_CLIENT: PUBACK received, id=63367 confirmed
+I (108084) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (108124) TB_MQTT_CLIENT: PUBACK received, id=1837 confirmed
+I (108184) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (108234) TB_MQTT_CLIENT: PUBACK received, id=54434 confirmed
+I (108284) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (108284) TASK_MAX30102: Bad Sample dropped, Drop count 98
+I (108334) TB_MQTT_CLIENT: PUBACK received, id=21192 confirmed
+I (108384) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (108434) TB_MQTT_CLIENT: PUBACK received, id=58723 confirmed
+I (108484) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (108534) TB_MQTT_CLIENT: PUBACK received, id=38572 confirmed
+I (108584) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (108634) TB_MQTT_CLIENT: PUBACK received, id=60686 confirmed
+I (108684) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (108724) TB_MQTT_CLIENT: PUBACK received, id=9822 confirmed
+I (108784) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (108784) TASK_TB_MQTT: no fresh vitals this cycle
+I (108784) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=12733 (no network)
+I (108834) TB_MQTT_CLIENT: PUBACK received, id=43869 confirmed
+I (108884) TB_MQTT_CLIENT: PUBACK received, id=25458 confirmed
+I (108894) TASK_TB_MQTT: ECG: 39 sampled, 10 sent (decimation=4)
+I (108944) TB_MQTT_CLIENT: PUBACK received, id=53819 confirmed
+I (108994) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (109034) TB_MQTT_CLIENT: PUBACK received, id=59301 confirmed
+I (109094) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (109134) TB_MQTT_CLIENT: PUBACK received, id=42053 confirmed
+I (109194) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (109234) TB_MQTT_CLIENT: PUBACK received, id=4003 confirmed
+I (109284) TASK_MAX30102: Bad Sample dropped, Drop count 99
+I (109294) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (109344) TB_MQTT_CLIENT: PUBACK received, id=42050 confirmed
+I (109394) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (109444) TB_MQTT_CLIENT: PUBACK received, id=34785 confirmed
+I (109494) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (109544) TB_MQTT_CLIENT: PUBACK received, id=39109 confirmed
+I (109594) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (109634) TB_MQTT_CLIENT: PUBACK received, id=37949 confirmed
+I (109694) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (109734) TB_MQTT_CLIENT: PUBACK received, id=56769 confirmed
+I (109794) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (109794) TASK_TB_MQTT: no fresh vitals this cycle
+I (109794) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=12733 (no network)
+I (109834) TB_MQTT_CLIENT: PUBACK received, id=1447 confirmed
+I (109874) TB_MQTT_CLIENT: PUBACK received, id=9165 confirmed
+I (109904) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (109954) TB_MQTT_CLIENT: PUBACK received, id=23009 confirmed
+I (110004) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (110044) TB_MQTT_CLIENT: PUBACK received, id=48117 confirmed
+I (110104) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (110154) TB_MQTT_CLIENT: PUBACK received, id=21380 confirmed
+I (110204) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (110254) TB_MQTT_CLIENT: PUBACK received, id=65133 confirmed
+I (110274) TASK_MAX30102: Bad Sample dropped, Drop count 100
+I (110304) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (110344) TB_MQTT_CLIENT: PUBACK received, id=44529 confirmed
+I (110404) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (110454) TB_MQTT_CLIENT: PUBACK received, id=9406 confirmed
+I (110504) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (110554) TB_MQTT_CLIENT: PUBACK received, id=36485 confirmed
+I (110604) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (110654) TB_MQTT_CLIENT: PUBACK received, id=48632 confirmed
+I (110704) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (110754) TB_MQTT_CLIENT: PUBACK received, id=20198 confirmed
+I (110804) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (110804) TASK_TB_MQTT: no fresh vitals this cycle
+I (110804) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=12733 (no network)
+I (110844) TB_MQTT_CLIENT: PUBACK received, id=35056 confirmed
+I (110894) TB_MQTT_CLIENT: PUBACK received, id=24600 confirmed
+I (110914) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (110964) TB_MQTT_CLIENT: PUBACK received, id=1672 confirmed
+I (111014) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (111054) TB_MQTT_CLIENT: PUBACK received, id=50466 confirmed
+I (111114) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (111154) TB_MQTT_CLIENT: PUBACK received, id=24190 confirmed
+I (111214) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (111254) TB_MQTT_CLIENT: PUBACK received, id=20534 confirmed
+I (111274) TASK_MAX30102: Bad Sample dropped, Drop count 101
+I (111314) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (111354) TB_MQTT_CLIENT: PUBACK received, id=37446 confirmed
+I (111414) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (111454) TB_MQTT_CLIENT: PUBACK received, id=17517 confirmed
+I (111514) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (111554) TB_MQTT_CLIENT: PUBACK received, id=51989 confirmed
+I (111614) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (111654) TB_MQTT_CLIENT: PUBACK received, id=30942 confirmed
+I (111714) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (111754) TB_MQTT_CLIENT: PUBACK received, id=61159 confirmed
+I (111814) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (111814) TASK_TB_MQTT: no fresh vitals this cycle
+I (111814) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=12733 (no network)
+I (111854) TB_MQTT_CLIENT: PUBACK received, id=21512 confirmed
+I (111904) TB_MQTT_CLIENT: PUBACK received, id=29769 confirmed
+I (111924) TASK_TB_MQTT: ECG: 39 sampled, 10 sent (decimation=4)
+I (111964) TB_MQTT_CLIENT: PUBACK received, id=35657 confirmed
+I (112024) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (112074) TB_MQTT_CLIENT: PUBACK received, id=49988 confirmed
+I (112124) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (112174) TB_MQTT_CLIENT: PUBACK received, id=11701 confirmed
+I (112224) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (112264) TB_MQTT_CLIENT: PUBACK received, id=11703 confirmed
+I (112264) TASK_MAX30102: Bad Sample dropped, Drop count 102
+I (112324) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (112364) TB_MQTT_CLIENT: PUBACK received, id=56968 confirmed
+I (112424) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (112464) TB_MQTT_CLIENT: PUBACK received, id=50051 confirmed
+I (112524) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (112564) TB_MQTT_CLIENT: PUBACK received, id=35919 confirmed
+I (112624) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (112664) TB_MQTT_CLIENT: PUBACK received, id=59866 confirmed
+I (112724) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (112774) TB_MQTT_CLIENT: PUBACK received, id=60981 confirmed
+I (112824) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (112824) TASK_TB_MQTT: no fresh vitals this cycle
+I (112824) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full),skipped=12733 (no network)
+I (112874) TB_MQTT_CLIENT: PUBACK received, id=48796 confirmed
+I (112914) TB_MQTT_CLIENT: PUBACK received, id=46926 confirmed
+I (112934) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (112974) TB_MQTT_CLIENT: PUBACK received, id=53023 confirmed
+I (113034) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (113084) TB_MQTT_CLIENT: PUBACK received, id=17347 confirmed
+I (113134) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (113184) TB_MQTT_CLIENT: PUBACK received, id=55987 confirmed
+I (113234) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (113264) TASK_MAX30102: Bad Sample dropped, Drop count 103
+I (113274) TB_MQTT_CLIENT: PUBACK received, id=14833 confirmed
+I (113334) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (113424) TB_MQTT_CLIENT: PUBACK received, id=18453 confirmed
+I (113434) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (113474) TB_MQTT_CLIENT: PUBACK received, id=7772 confirmed
+I (113534) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (113584) TB_MQTT_CLIENT: PUBACK received, id=59251 confirmed
+I (113634) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (113674) TB_MQTT_CLIENT: PUBACK received, id=31726 confirmed
+I (113734) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (113794) TB_MQTT_CLIENT: PUBACK received, id=54219 confirmed
+I (113834) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (113834) TASK_TB_MQTT: no fresh vitals this cycle
+I (113834) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=12733 (no network)
+I (113884) TB_MQTT_CLIENT: PUBACK received, id=33008 confirmed
+I (113924) TB_MQTT_CLIENT: PUBACK received, id=47788 confirmed
+I (113944) TASK_TB_MQTT: ECG: 39 sampled, 10 sent (decimation=4)
+I (113994) TB_MQTT_CLIENT: PUBACK received, id=62854 confirmed
+I (114044) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (114084) TB_MQTT_CLIENT: PUBACK received, id=31566 confirmed
+I (114144) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (114184) TB_MQTT_CLIENT: PUBACK received, id=20991 confirmed
+I (114244) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (114254) TASK_MAX30102: Bad Sample dropped, Drop count 104
+I (114294) TB_MQTT_CLIENT: PUBACK received, id=62462 confirmed
+I (114344) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (114384) TB_MQTT_CLIENT: PUBACK received, id=23798 confirmed
+I (114444) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (114494) TB_MQTT_CLIENT: PUBACK received, id=23641 confirmed
+I (114544) TASK_TB_MQTT: ECG: 37 sampled, 10 sent (decimation=4)
+I (114594) TB_MQTT_CLIENT: PUBACK received, id=5964 confirmed
+I (114644) TASK_TB_MQTT: ECG: 35 sampled, 9 sent (decimation=4)
+I (114694) TB_MQTT_CLIENT: PUBACK received, id=44398 confirmed
+I (114744) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (114794) TB_MQTT_CLIENT: PUBACK received, id=29162 confirmed
+I (114844) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (114844) TASK_TB_MQTT: no fresh vitals this cycle
+I (114844) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=12733 (no network)
+I (114894) TB_MQTT_CLIENT: PUBACK received, id=51950 confirmed
+I (114944) TB_MQTT_CLIENT: PUBACK received, id=56207 confirmed
+I (114954) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (114994) TB_MQTT_CLIENT: PUBACK received, id=18502 confirmed
+I (115054) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (115094) TB_MQTT_CLIENT: PUBACK received, id=27799 confirmed
+I (115154) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (115204) TB_MQTT_CLIENT: PUBACK received, id=30301 confirmed
+I (115254) TASK_MAX30102: Bad Sample dropped, Drop count 105
+I (115254) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (115294) TB_MQTT_CLIENT: PUBACK received, id=35645 confirmed
+I (115354) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (115394) TB_MQTT_CLIENT: PUBACK received, id=11140 confirmed
+I (115454) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (115504) TB_MQTT_CLIENT: PUBACK received, id=7464 confirmed
+I (115554) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (115594) TB_MQTT_CLIENT: PUBACK received, id=39063 confirmed
+I (115654) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (115694) TB_MQTT_CLIENT: PUBACK received, id=12880 confirmed
+I (115754) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (115804) TB_MQTT_CLIENT: PUBACK received, id=8175 confirmed
+I (115854) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (115854) TASK_TB_MQTT: no fresh vitals this cycle
+I (115854) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=12733 (no network)
+I (115914) TB_MQTT_CLIENT: PUBACK received, id=11668 confirmed
+I (115954) TB_MQTT_CLIENT: PUBACK received, id=30331 confirmed
+I (115964) TASK_TB_MQTT: ECG: 39 sampled, 10 sent (decimation=4)
+I (116004) TB_MQTT_CLIENT: PUBACK received, id=3199 confirmed
+I (116064) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (116104) TB_MQTT_CLIENT: PUBACK received, id=9627 confirmed
+I (116164) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (116214) TB_MQTT_CLIENT: PUBACK received, id=41427 confirmed
+I (116244) TASK_MAX30102: Bad Sample dropped, Drop count 106
+I (116264) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (116304) TB_MQTT_CLIENT: PUBACK received, id=50419 confirmed
+I (116364) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (116404) TB_MQTT_CLIENT: PUBACK received, id=6818 confirmed
+I (116464) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (116504) TB_MQTT_CLIENT: PUBACK received, id=27626 confirmed
+I (116564) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (116604) TB_MQTT_CLIENT: PUBACK received, id=47237 confirmed
+I (116664) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (116714) TB_MQTT_CLIENT: PUBACK received, id=14429 confirmed
+I (116764) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (116814) TB_MQTT_CLIENT: PUBACK received, id=20445 confirmed
+I (116864) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (116864) TASK_TB_MQTT: no fresh vitals this cycle
+I (116864) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=12733 (no network)
+I (116914) TB_MQTT_CLIENT: PUBACK received, id=11017 confirmed
+I (116964) TB_MQTT_CLIENT: PUBACK received, id=379 confirmed
+I (116974) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (117014) TB_MQTT_CLIENT: PUBACK received, id=58677 confirmed
+I (117074) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (117114) TB_MQTT_CLIENT: PUBACK received, id=19844 confirmed
+I (117174) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (117214) TB_MQTT_CLIENT: PUBACK received, id=2776 confirmed
+I (117244) TASK_MAX30102: Bad Sample dropped, Drop count 107
+I (117274) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (117324) TB_MQTT_CLIENT: PUBACK received, id=59625 confirmed
+I (117374) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (117414) TB_MQTT_CLIENT: PUBACK received, id=8296 confirmed
+I (117474) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (117514) TB_MQTT_CLIENT: PUBACK received, id=10680 confirmed
+I (117574) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (117614) TB_MQTT_CLIENT: PUBACK received, id=52546 confirmed
+I (117674) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (117714) TB_MQTT_CLIENT: PUBACK received, id=39461 confirmed
+I (117774) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (117824) TB_MQTT_CLIENT: PUBACK received, id=21203 confirmed
+I (117874) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (117874) TASK_TB_MQTT: no fresh vitals this cycle
+I (117874) TASK_TB_MQTT: ECG integrity dropped=0 (queue full), skipped=12733 (no network)
+I (117914) TB_MQTT_CLIENT: PUBACK received, id=5525 confirmed
+I (117964) TB_MQTT_CLIENT: PUBACK received, id=5216 confirmed
+I (117984) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (118024) TB_MQTT_CLIENT: PUBACK received, id=53919 confirmed
+I (118084) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (118124) TB_MQTT_CLIENT: PUBACK received, id=48650 confirmed
+I (118184) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (118234) TB_MQTT_CLIENT: PUBACK received, id=36377 confirmed
+I (118234) TASK_MAX30102: Bad Sample dropped, Drop count 108
+I (118284) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (118334) TB_MQTT_CLIENT: PUBACK received, id=39435 confirmed
+I (118384) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (118434) TB_MQTT_CLIENT: PUBACK received, id=39530 confirmed
+I (118484) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (118544) TB_MQTT_CLIENT: PUBACK received, id=29049 confirmed
+I (118584) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (118634) TB_MQTT_CLIENT: PUBACK received, id=35489 confirmed
+I (118684) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (118744) TB_MQTT_CLIENT: PUBACK received, id=49887 confirmed
+I (118784) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (118844) TB_MQTT_CLIENT: PUBACK received, id=45493 confirmed
+I (118884) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (118884) TASK_TB_MQTT: no fresh vitals this cycle
+I (118884) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=12733 (no network)
+I (118934) TB_MQTT_CLIENT: PUBACK received, id=57275 confirmed
+I (118974) TB_MQTT_CLIENT: PUBACK received, id=7689 confirmed
+I (118994) TASK_TB_MQTT: ECG: 39 sampled, 10 sent (decimation=4)
+I (119044) TB_MQTT_CLIENT: PUBACK received, id=3113 confirmed
+I (119094) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (119134) TB_MQTT_CLIENT: PUBACK received, id=37980 confirmed
+I (119194) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (119234) TASK_MAX30102: Bad Sample dropped, Drop count 109
+I (119234) TB_MQTT_CLIENT: PUBACK received, id=12939 confirmed
+I (119294) TASK_TB_MQTT: ECG: 37 sampled, 10 sent (decimation=4)
+I (119344) TB_MQTT_CLIENT: PUBACK received, id=12057 confirmed
+I (119394) TASK_TB_MQTT: ECG: 35 sampled, 9 sent (decimation=4)
+I (119444) TB_MQTT_CLIENT: PUBACK received, id=22421 confirmed
+I (119494) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (119544) TB_MQTT_CLIENT: PUBACK received, id=61429 confirmed
+I (119594) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (119644) TB_MQTT_CLIENT: PUBACK received, id=18774 confirmed
+I (119694) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (119744) TB_MQTT_CLIENT: PUBACK received, id=53520 confirmed
+I (119794) TASK_TB_MQTT: ECG: 37 sampled, 10 sent (decimation=4)
+I (119854) TB_MQTT_CLIENT: PUBACK received, id=7795 confirmed
+I (119894) TASK_TB_MQTT: ECG: 35 sampled, 9 sent (decimation=4)
+I (119894) TASK_TB_MQTT: no fresh vitals this cycle
+I (119894) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=12733 (no network)
+I (119954) TB_MQTT_CLIENT: PUBACK received, id=39832 confirmed
+I (119994) TB_MQTT_CLIENT: PUBACK received, id=45753 confirmed
+I (120004) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (120054) TB_MQTT_CLIENT: PUBACK received, id=41970 confirmed
+I (120104) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (120164) TB_MQTT_CLIENT: PUBACK received, id=475 confirmed
+I (120204) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (120234) TASK_MAX30102: Bad Sample dropped, Drop count 110
+I (120264) TB_MQTT_CLIENT: PUBACK received, id=21192 confirmed
+I (120304) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (120344) TB_MQTT_CLIENT: PUBACK received, id=7465 confirmed
+I (120404) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (120454) TB_MQTT_CLIENT: PUBACK received, id=53180 confirmed
+I (120504) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (120554) TB_MQTT_CLIENT: PUBACK received, id=10907 confirmed
+I (120604) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (120654) TB_MQTT_CLIENT: PUBACK received, id=15887 confirmed
+I (120704) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (120754) TB_MQTT_CLIENT: PUBACK received, id=29054 confirmed
+I (120804) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (120844) TB_MQTT_CLIENT: PUBACK received, id=15726 confirmed
+I (120904) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (120904) TASK_TB_MQTT: no fresh vitals this cycle
+I (120904) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=12733 (no network)
+I (120954) TB_MQTT_CLIENT: PUBACK received, id=3469 confirmed
+I (121014) TB_MQTT_CLIENT: PUBACK received, id=22904 confirmed
+I (121014) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (121064) TB_MQTT_CLIENT: PUBACK received, id=38055 confirmed
+I (121114) TASK_TB_MQTT: ECG: 35 sampled, 9 sent (decimation=4)
+I (121164) TB_MQTT_CLIENT: PUBACK received, id=49281 confirmed
+I (121214) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (121224) TASK_MAX30102: Bad Sample dropped, Drop count 111
+I (121254) TB_MQTT_CLIENT: PUBACK received, id=10119 confirmed
+I (121314) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (121364) TB_MQTT_CLIENT: PUBACK received, id=21581 confirmed
+I (121414) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (121454) TB_MQTT_CLIENT: PUBACK received, id=25264 confirmed
+I (121514) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (121564) TB_MQTT_CLIENT: PUBACK received, id=64219 confirmed
+I (121614) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (121654) TB_MQTT_CLIENT: PUBACK received, id=39749 confirmed
+I (121714) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (121754) TB_MQTT_CLIENT: PUBACK received, id=47608 confirmed
+I (121814) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (121854) TB_MQTT_CLIENT: PUBACK received, id=49152 confirmed
+I (121914) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (121914) TASK_TB_MQTT: no fresh vitals this cycle
+I (121914) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=12733 (no network)
+I (121954) TB_MQTT_CLIENT: PUBACK received, id=470 confirmed
+I (121994) TB_MQTT_CLIENT: PUBACK received, id=23772 confirmed
+I (122024) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (122074) TB_MQTT_CLIENT: PUBACK received, id=27751 confirmed
+I (122124) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (122174) TB_MQTT_CLIENT: PUBACK received, id=30520 confirmed
+I (122224) TASK_MAX30102: Bad Sample dropped, Drop count 112
+I (122224) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (122274) TB_MQTT_CLIENT: PUBACK received, id=1360 confirmed
+I (122324) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (122364) TB_MQTT_CLIENT: PUBACK received, id=48546 confirmed
+I (122424) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (122464) TB_MQTT_CLIENT: PUBACK received, id=1953 confirmed
+I (122524) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (122564) TB_MQTT_CLIENT: PUBACK received, id=59415 confirmed
+I (122624) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (122674) TB_MQTT_CLIENT: PUBACK received, id=41993 confirmed
+I (122724) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (122814) TB_MQTT_CLIENT: PUBACK received, id=62028 confirmed
+I (122824) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (122864) TB_MQTT_CLIENT: PUBACK received, id=14955 confirmed
+I (122924) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (122924) TASK_TB_MQTT: no fresh vitals this cycle
+I (122924) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=12733(no network)
+I (122974) TB_MQTT_CLIENT: PUBACK received, id=15026 confirmed
+I (123024) TB_MQTT_CLIENT: PUBACK received, id=7774 confirmed
+I (123034) TASK_TB_MQTT: ECG: 39 sampled, 10 sent (decimation=4)
+I (123084) TB_MQTT_CLIENT: PUBACK received, id=42440 confirmed
+I (123134) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (123184) TB_MQTT_CLIENT: PUBACK received, id=17842 confirmed
+I (123214) TASK_MAX30102: Bad Sample dropped, Drop count 113
+I (123234) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (123284) TB_MQTT_CLIENT: PUBACK received, id=62843 confirmed
+I (123334) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (123384) TB_MQTT_CLIENT: PUBACK received, id=59198 confirmed
+I (123434) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (123484) TB_MQTT_CLIENT: PUBACK received, id=55832 confirmed
+I (123534) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (123584) TB_MQTT_CLIENT: PUBACK received, id=19358 confirmed
+I (123634) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (123694) TB_MQTT_CLIENT: PUBACK received, id=54811 confirmed
+I (123734) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (123794) TB_MQTT_CLIENT: PUBACK received, id=39430 confirmed
+I (123834) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (123884) TB_MQTT_CLIENT: PUBACK received, id=63262 confirmed
+I (123934) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (123934) TASK_TB_MQTT: no fresh vitals this cycle
+I (123934) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=12733 (no network)
+I (123994) TB_MQTT_CLIENT: PUBACK received, id=65307 confirmed
+I (124034) TB_MQTT_CLIENT: PUBACK received, id=64340 confirmed
+I (124044) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (124094) TB_MQTT_CLIENT: PUBACK received, id=23890 confirmed
+I (124144) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (124204) TB_MQTT_CLIENT: PUBACK received, id=29989 confirmed
+I (124214) TASK_MAX30102: Bad Sample dropped, Drop count 114
+I (124244) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (124304) TB_MQTT_CLIENT: PUBACK received, id=58972 confirmed
+I (124344) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (124384) TB_MQTT_CLIENT: PUBACK received, id=52452 confirmed
+I (124444) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (124504) TB_MQTT_CLIENT: PUBACK received, id=1844 confirmed
+I (124544) TASK_TB_MQTT: ECG: 37 sampled, 10 sent (decimation=4)
+I (124604) TB_MQTT_CLIENT: PUBACK received, id=27548 confirmed
+I (124644) TASK_TB_MQTT: ECG: 35 sampled, 9 sent (decimation=4)
+I (124704) TB_MQTT_CLIENT: PUBACK received, id=3062 confirmed
+I (124744) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (124804) TB_MQTT_CLIENT: PUBACK received, id=30233 confirmed
+I (124844) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (124904) TB_MQTT_CLIENT: PUBACK received, id=56933 confirmed
+I (124944) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (124944) TASK_TB_MQTT: no fresh vitals this cycle
+I (124944) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=12733 (no network)
+I (125024) TB_MQTT_CLIENT: PUBACK received, id=43567 confirmed
+I (125054) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (125064) TB_MQTT_CLIENT: PUBACK received, id=8840 confirmed
+I (125104) TB_MQTT_CLIENT: PUBACK received, id=51568 confirmed
+I (125154) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (125204) TASK_MAX30102: Bad Sample dropped, Drop count 115
+I (125214) TB_MQTT_CLIENT: PUBACK received, id=22658 confirmed
+I (125254) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (125314) TB_MQTT_CLIENT: PUBACK received, id=60076 confirmed
+I (125354) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (125414) TB_MQTT_CLIENT: PUBACK received, id=53460 confirmed
+I (125454) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (125514) TB_MQTT_CLIENT: PUBACK received, id=41180 confirmed
+I (125554) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (125594) TB_MQTT_CLIENT: PUBACK received, id=41244 confirmed
+I (125654) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (125704) TB_MQTT_CLIENT: PUBACK received, id=60777 confirmed
+I (125754) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (125804) TB_MQTT_CLIENT: PUBACK received, id=42201 confirmed
+I (125854) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (125914) TB_MQTT_CLIENT: PUBACK received, id=52755 confirmed
+I (125954) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (125954) TASK_TB_MQTT: no fresh vitals this cycle
+I (125954) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=12733 (no network)
+I (126014) TB_MQTT_CLIENT: PUBACK received, id=26232 confirmed
+I (126064) TB_MQTT_CLIENT: PUBACK received, id=21109 confirmed
+I (126074) TASK_TB_MQTT: ECG: 39 sampled, 10 sent (decimation=4)
+I (126114) TB_MQTT_CLIENT: PUBACK received, id=47017 confirmed
+I (126174) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (126204) TASK_MAX30102: Bad Sample dropped, Drop count 116
+I (126234) TB_MQTT_CLIENT: PUBACK received, id=4257 confirmed
+I (126274) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (126324) TB_MQTT_CLIENT: PUBACK received, id=27877 confirmed
+I (126374) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (126434) TB_MQTT_CLIENT: PUBACK received, id=30964 confirmed
+I (126474) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (126534) TB_MQTT_CLIENT: PUBACK received, id=55739 confirmed
+I (126574) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (126624) TB_MQTT_CLIENT: PUBACK received, id=19668 confirmed
+I (126674) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (126734) TB_MQTT_CLIENT: PUBACK received, id=17404 confirmed
+I (126774) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (126824) TB_MQTT_CLIENT: PUBACK received, id=27695 confirmed
+I (126874) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (126934) TB_MQTT_CLIENT: PUBACK received, id=40672 confirmed
+I (126974) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (126974) TASK_TB_MQTT: no fresh vitals this cycle
+I (126974) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=12733 (no network)
+I (127034) TB_MQTT_CLIENT: PUBACK received, id=60991 confirmed
+I (127074) TB_MQTT_CLIENT: PUBACK received, id=59293 confirmed
+I (127084) TASK_TB_MQTT: ECG: 39 sampled, 10 sent (decimation=4)
+I (127124) TB_MQTT_CLIENT: PUBACK received, id=25611 confirmed
+I (127184) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (127194) TASK_MAX30102: Bad Sample dropped, Drop count 117
+I (127234) TB_MQTT_CLIENT: PUBACK received, id=60262 confirmed
+I (127284) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (127344) TB_MQTT_CLIENT: PUBACK received, id=41379 confirmed
+I (127384) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (127434) TB_MQTT_CLIENT: PUBACK received, id=65451 confirmed
+I (127484) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (127534) TB_MQTT_CLIENT: PUBACK received, id=1451 confirmed
+I (127584) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (127634) TB_MQTT_CLIENT: PUBACK received, id=59510 confirmed
+I (127684) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (127744) TB_MQTT_CLIENT: PUBACK received, id=14544 confirmed
+I (127784) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (127844) TB_MQTT_CLIENT: PUBACK received, id=12821 confirmed
+I (127884) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (127944) TB_MQTT_CLIENT: PUBACK received, id=57779 confirmed
+I (127984) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (127984) TASK_TB_MQTT: no fresh vitals this cycle
+I (127984) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=12733 (no network)
+I (128044) TB_MQTT_CLIENT: PUBACK received, id=42190 confirmed
+I (128094) TB_MQTT_CLIENT: PUBACK received, id=31838 confirmed
+I (128094) TASK_TB_MQTT: ECG: 41 sampled, 11 sent (decimation=4)
+I (128134) TB_MQTT_CLIENT: PUBACK received, id=27621 confirmed
+I (128194) TASK_TB_MQTT: ECG: 35 sampled, 9 sent (decimation=4)
+I (128194) TASK_MAX30102: Bad Sample dropped, Drop count 118
+I (128254) TB_MQTT_CLIENT: PUBACK received, id=44268 confirmed
+I (128294) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (128344) TB_MQTT_CLIENT: PUBACK received, id=54404 confirmed
+I (128394) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (128434) TB_MQTT_CLIENT: PUBACK received, id=48281 confirmed
+I (128494) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (128544) TB_MQTT_CLIENT: PUBACK received, id=58016 confirmed
+I (128594) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (128634) TB_MQTT_CLIENT: PUBACK received, id=23287 confirmed
+I (128694) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (128754) TB_MQTT_CLIENT: PUBACK received, id=46240 confirmed
+I (128794) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (128844) TB_MQTT_CLIENT: PUBACK received, id=61781 confirmed
+I (128894) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (128944) TB_MQTT_CLIENT: PUBACK received, id=7186 confirmed
+I (128994) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (128994) TASK_TB_MQTT: no fresh vitals this cycle
+I (128994) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=12733 (no network)
+I (129054) TB_MQTT_CLIENT: PUBACK received, id=37019 confirmed
+I (129094) TB_MQTT_CLIENT: PUBACK received, id=24955 confirmed
+I (129104) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (129154) TB_MQTT_CLIENT: PUBACK received, id=47169 confirmed
+I (129194) TASK_MAX30102: Bad Sample dropped, Drop count 119
+I (129204) TASK_TB_MQTT: ECG: 35 sampled, 9 sent (decimation=4)
+I (129264) TB_MQTT_CLIENT: PUBACK received, id=33810 confirmed
+I (129304) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (129354) TB_MQTT_CLIENT: PUBACK received, id=35748 confirmed
+I (129404) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (129454) TB_MQTT_CLIENT: PUBACK received, id=9694 confirmed
+I (129504) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (129564) TB_MQTT_CLIENT: PUBACK received, id=10263 confirmed
+I (129604) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (129664) TB_MQTT_CLIENT: PUBACK received, id=47237 confirmed
+I (129704) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (129764) TB_MQTT_CLIENT: PUBACK received, id=61226 confirmed
+I (129804) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+E (129854) mqtt_client: esp_mqtt_handle_transport_read_error: transport_read(): EOF
+E (129854) mqtt_client: esp_mqtt_handle_transport_read_error: transport_read() error: errno=128
+E (129854) TB_MQTT_CLIENT: transport error
+E (129854) mqtt_client: mqtt_process_receive: mqtt_message_receive() returned -2
+I (129864) TB_MQTT_CLIENT: MQTT_EVENT_DISCONNECTED
+I (129904) TASK_TB_MQTT: ECG: 26 sampled, 7 sent (decimation=4)
+I (130004) TASK_TB_MQTT: no fresh vitals this cycle
+I (130004) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=12780 (no network)
+I (130184) TASK_MAX30102: Bad Sample dropped, Drop count 120
+I (131004) TASK_TB_MQTT: no fresh vitals this cycle
+I (131004) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=13140 (no network)
+I (131184) TASK_MAX30102: Bad Sample dropped, Drop count 121
+I (132004) TASK_TB_MQTT: no fresh vitals this cycle
+I (132004) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=13500 (no network)
+I (132174) TASK_MAX30102: Bad Sample dropped, Drop count 122
+I (133004) TASK_TB_MQTT: no fresh vitals this cycle
+I (133004) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=13860 (no network)
+I (133174) TASK_MAX30102: Bad Sample dropped, Drop count 123
+I (134004) TASK_TB_MQTT: no fresh vitals this cycle
+I (134004) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=14220 (no network)
+I (134164) TASK_MAX30102: Bad Sample dropped, Drop count 124
+I (135004) TASK_TB_MQTT: no fresh vitals this cycle
+I (135004) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=14580 (no network)
+I (135164) TASK_MAX30102: Bad Sample dropped, Drop count 125
+I (136004) TASK_TB_MQTT: no fresh vitals this cycle
+I (136004) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=14939 (no network)
+I (136154) TASK_MAX30102: Bad Sample dropped, Drop count 126
+I (137004) TASK_TB_MQTT: no fresh vitals this cycle
+I (137004) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=15299 (no network)
+I (137154) TASK_MAX30102: Bad Sample dropped, Drop count 127
+I (138004) TASK_TB_MQTT: no fresh vitals this cycle
+I (138004) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=15659 (no network)
+I (138144) TASK_MAX30102: Bad Sample dropped, Drop count 128
+I (139004) TASK_TB_MQTT: no fresh vitals this cycle
+I (139004) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=16019 (no network)
+I (139144) TASK_MAX30102: Bad Sample dropped, Drop count 129
+I (140014) TB_MQTT_CLIENT: MQTT_EVENT_CONNECTED
+I (140024) TASK_TB_MQTT: no fresh vitals this cycle
+I (140024) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=16385 (no network)
+I (140064) TB_MQTT_CLIENT: SUBSCRIBED
+I (140114) TB_MQTT_CLIENT: PUBACK received, id=40089 confirmed
+I (140124) TASK_TB_MQTT: ECG: 37 sampled, 10 sent (decimation=4)
+I (140144) TASK_MAX30102: Bad Sample dropped, Drop count 130
+I (140154) TB_MQTT_CLIENT: PUBACK received, id=59656 confirmed
+I (140204) TB_MQTT_CLIENT: PUBACK received, id=47927 confirmed
+I (140204) TB_MQTT_CLIENT: PUBACK received, id=29826 confirmed
+I (140224) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (140254) TB_MQTT_CLIENT: PUBACK received, id=31707 confirmed
+I (140304) TB_MQTT_CLIENT: PUBACK received, id=49218 confirmed
+I (140314) TB_MQTT_CLIENT: PUBACK received, id=22910 confirmed
+I (140314) TB_MQTT_CLIENT: PUBACK received, id=29183 confirmed
+I (140324) TASK_TB_MQTT: ECG: 35 sampled, 9 sent (decimation=4)
+I (140344) TB_MQTT_CLIENT: PUBACK received, id=20834 confirmed
+I (140394) TB_MQTT_CLIENT: PUBACK received, id=59035 confirmed
+I (140394) TB_MQTT_CLIENT: PUBACK received, id=31199 confirmed
+I (140404) TB_MQTT_CLIENT: PUBACK received, id=46780 confirmed
+I (140404) TB_MQTT_CLIENT: PUBACK received, id=31204 confirmed
+I (140424) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (140434) TB_MQTT_CLIENT: PUBACK received, id=12917 confirmed
+I (140494) TB_MQTT_CLIENT: PUBACK received, id=62043 confirmed
+I (140494) TB_MQTT_CLIENT: PUBACK received, id=31840 confirmed
+I (140494) TB_MQTT_CLIENT: PUBACK received, id=43503 confirmed
+I (140524) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (140564) TB_MQTT_CLIENT: PUBACK received, id=42362 confirmed
+I (140624) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (140684) TB_MQTT_CLIENT: PUBACK received, id=55596 confirmed
+I (140724) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (140774) TB_MQTT_CLIENT: PUBACK received, id=54077 confirmed
+I (140824) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (140874) TB_MQTT_CLIENT: PUBACK received, id=58151 confirmed
+I (140924) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (140974) TB_MQTT_CLIENT: PUBACK received, id=29523 confirmed
+I (141024) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (141024) TASK_TB_MQTT: no fresh vitals this cycle
+I (141024) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=16385 (no network)
+I (141074) TB_MQTT_CLIENT: PUBACK received, id=44391 confirmed
+I (141124) TB_MQTT_CLIENT: PUBACK received, id=28942 confirmed
+I (141134) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (141134) TASK_MAX30102: Bad Sample dropped, Drop count 131
+I (141184) TB_MQTT_CLIENT: PUBACK received, id=55021 confirmed
+I (141234) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (141294) TB_MQTT_CLIENT: PUBACK received, id=35929 confirmed
+I (141334) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (141384) TB_MQTT_CLIENT: PUBACK received, id=33807 confirmed
+I (141434) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (141484) TB_MQTT_CLIENT: PUBACK received, id=54602 confirmed
+I (141534) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (141584) TB_MQTT_CLIENT: PUBACK received, id=3601 confirmed
+I (141634) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (141694) TB_MQTT_CLIENT: PUBACK received, id=50001 confirmed
+I (141734) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (141784) TB_MQTT_CLIENT: PUBACK received, id=45763 confirmed
+I (141834) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (141874) TB_MQTT_CLIENT: PUBACK received, id=25629 confirmed
+I (141934) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (141984) TB_MQTT_CLIENT: PUBACK received, id=19679 confirmed
+I (142034) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (142034) TASK_TB_MQTT: no fresh vitals this cycle
+I (142034) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=16385 (no network)
+I (142084) TB_MQTT_CLIENT: PUBACK received, id=37469 confirmed
+I (142124) TB_MQTT_CLIENT: PUBACK received, id=8445 confirmed
+I (142134) TASK_MAX30102: Bad Sample dropped, Drop count 132
+I (142144) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (142194) TB_MQTT_CLIENT: PUBACK received, id=49973 confirmed
+I (142244) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (142294) TB_MQTT_CLIENT: PUBACK received, id=13829 confirmed
+I (142344) TASK_TB_MQTT: ECG: 35 sampled, 9 sent (decimation=4)
+I (142394) TB_MQTT_CLIENT: PUBACK received, id=62396 confirmed
+I (142444) TASK_TB_MQTT: ECG: 37 sampled, 10 sent (decimation=4)
+I (142494) TB_MQTT_CLIENT: PUBACK received, id=46447 confirmed
+I (142544) TASK_TB_MQTT: ECG: 35 sampled, 9 sent (decimation=4)
+I (142584) TB_MQTT_CLIENT: PUBACK received, id=52803 confirmed
+I (142644) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (142684) TB_MQTT_CLIENT: PUBACK received, id=8099 confirmed
+I (142744) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (142784) TB_MQTT_CLIENT: PUBACK received, id=37844 confirmed
+I (142844) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (142904) TB_MQTT_CLIENT: PUBACK received, id=40928 confirmed
+I (142944) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (142994) TB_MQTT_CLIENT: PUBACK received, id=46103 confirmed
+I (143044) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (143044) TASK_TB_MQTT: no fresh vitals this cycle
+I (143044) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=16385 (no network)
+I (143094) TB_MQTT_CLIENT: PUBACK received, id=8190 confirmed
+I (143124) TASK_MAX30102: Bad Sample dropped, Drop count 133
+I (143134) TB_MQTT_CLIENT: PUBACK received, id=33757 confirmed
+I (143154) TASK_TB_MQTT: ECG: 41 sampled, 11 sent (decimation=4)
+I (143204) TB_MQTT_CLIENT: PUBACK received, id=49483 confirmed
+I (143254) TASK_TB_MQTT: ECG: 35 sampled, 9 sent (decimation=4)
+I (143304) TB_MQTT_CLIENT: PUBACK received, id=27464 confirmed
+I (143354) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (143414) TB_MQTT_CLIENT: PUBACK received, id=38052 confirmed
+I (143454) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (143494) TB_MQTT_CLIENT: PUBACK received, id=23507 confirmed
+I (143554) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (143614) TB_MQTT_CLIENT: PUBACK received, id=30369 confirmed
+I (143654) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (143714) TB_MQTT_CLIENT: PUBACK received, id=47267 confirmed
+I (143754) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (143814) TB_MQTT_CLIENT: PUBACK received, id=60477 confirmed
+I (143854) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (143914) TB_MQTT_CLIENT: PUBACK received, id=26507 confirmed
+I (143954) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (144014) TB_MQTT_CLIENT: PUBACK received, id=18199 confirmed
+I (144054) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (144054) TASK_TB_MQTT: no fresh vitals this cycle
+I (144054) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=16385 (no network)
+I (144114) TB_MQTT_CLIENT: PUBACK received, id=519 confirmed
+I (144124) TASK_MAX30102: Bad Sample dropped, Drop count 134
+I (144154) TB_MQTT_CLIENT: PUBACK received, id=3391 confirmed
+I (144164) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (144214) TB_MQTT_CLIENT: PUBACK received, id=36432 confirmed
+I (144264) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (144324) TB_MQTT_CLIENT: PUBACK received, id=24531 confirmed
+I (144364) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (144424) TB_MQTT_CLIENT: PUBACK received, id=27052 confirmed
+I (144464) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (144524) TB_MQTT_CLIENT: PUBACK received, id=12887 confirmed
+I (144564) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (144614) TB_MQTT_CLIENT: PUBACK received, id=18054 confirmed
+I (144664) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (144714) TB_MQTT_CLIENT: PUBACK received, id=47687 confirmed
+I (144764) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (144814) TB_MQTT_CLIENT: PUBACK received, id=56014 confirmed
+I (144864) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (144914) TB_MQTT_CLIENT: PUBACK received, id=41670 confirmed
+I (144964) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (145024) TB_MQTT_CLIENT: PUBACK received, id=27146 confirmed
+I (145064) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (145064) TASK_TB_MQTT: no fresh vitals this cycle
+I (145064) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=16385 (no network)
+I (145124) TASK_MAX30102: Bad Sample dropped, Drop count 135
+I (145124) TB_MQTT_CLIENT: PUBACK received, id=5042 confirmed
+I (145174) TB_MQTT_CLIENT: PUBACK received, id=49473 confirmed
+I (145174) TASK_TB_MQTT: ECG: 41 sampled, 11 sent (decimation=4)
+I (145224) TB_MQTT_CLIENT: PUBACK received, id=15697 confirmed
+I (145274) TASK_TB_MQTT: ECG: 34 sampled, 9 sent (decimation=4)
+I (145314) TB_MQTT_CLIENT: PUBACK received, id=15589 confirmed
+I (145374) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (145424) TB_MQTT_CLIENT: PUBACK received, id=63865 confirmed
+I (145474) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (145544) TB_MQTT_CLIENT: PUBACK received, id=37028 confirmed
+I (145574) TASK_TB_MQTT: ECG: 37 sampled, 10 sent (decimation=4)
+E (145624) mqtt_client: esp_mqtt_handle_transport_read_error: transport_read(): EOF
+E (145624) mqtt_client: esp_mqtt_handle_transport_read_error: transport_rea() error: errno=128
+E (145624) B_MQTT_CLIENT: transport error
+E (145624) mqtt_client: mqtt_process_receive: mqtt_message_receive() returned -2
+I (145634) TB_MQTT_CLIENT: MQTT_EVENT_DISCONNECTED
+I (145674) TASK_TB_MQTT: ECG: 25 sampled, 7 sent (decimation=4)
+I (146074) TASK_TB_MQTT: no fresh vitals this cycle
+I (146074) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=16539 (no network)
+I (146114) TASK_MAX30102: Bad Sample dropped, Drop count 136
+I (147074) TASK_TB_MQTT: no fresh vitals this cycle
+I (147074) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=16899 (no network)
+I (147104) TASK_MAX30102: Bad Sample dropped, Drop count 137
+I (148074) TASK_TB_MQTT: no fresh vitals this cycle
+I (148074) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=17259 (no network)
+I (148104) TASK_MAX30102: Bad Sample dropped, Drop count 138
+I (149074) TASK_TB_MQTT: no fresh vitals this cycle
+I (149074) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=17619 (no network)
+I (149104) TASK_MAX30102: Bad Sample dropped, Drop count 139
+I (150074) TASK_TB_MQTT: no fresh vitals this cycle
+I (150074) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=17979 (no network)
+I (150094) TASK_MAX30102: Bad Sample dropped, Drop count 140
+I (151074) TASK_TB_MQTT: no fresh vitals this cycle
+I (151074) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=18339 (no network)
+I (151094) TASK_MAX30102: Bad Sample dropped, Drop count 141
+I (152074) TASK_TB_MQTT: no fresh vitals this cycle
+I (152074) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=18699 (no network)
+I (152084) TASK_MAX30102: Bad Sample dropped, Drop count 142
+I (153074) TASK_TB_MQTT: no fresh vitals this cycle
+I (153074) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=19059 (no network)
+I (153084) TASK_MAX30102: Bad Sample dropped, Drop count 143
+I (154074) TASK_TB_MQTT: no fresh vitals this cycle
+I (154074) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=19419 (no network)
+I (154074) TASK_MAX30102: Bad Sample dropped, Drop count 144
+I (155074) TASK_TB_MQTT: no fresh vitals this cycle
+I (155074) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=19779 (no network
+I (155074) TASK_MAX30102: Bad Sample dropped, Drop count 145
+I (155764) TB_MQTT_CLIENT: MQTT_EVENT_CONNECTED
+I (155774) TASK_TB_MQTT: ECG: 2 sampled, 1 sent (decimation=4)
+I (155814) TB_MQTT_CLIENT: SUBSCRIBED
+I (155864) TB_MQTT_CLIENT: PUBACK received, id=37365 confirmed
+I (155874) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (155904) TB_MQTT_CLIENT: PUBACK received, id=64554 confirmed
+I (155954) TB_MQTT_CLIENT: PUBACK received, id=48840 confirmed
+I (155954) TB_MQTT_CLIENT: PUBACK received, id=6785 confirmed
+I (155974) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (156004) TB_MQTT_CLIENT: PUBACK received, id=318 confirmed
+I (156044) TB_MQTT_CLIENT: PUBACK received, id=1686 confirmed
+I (156054) TB_MQTT_CLIENT: PUBACK received, id=10281 confirmed
+I (156054) TB_MQTT_CLIENT: PUBACK received, id=14199 confirmed
+I (156074) TASK_MAX30102: Bad Sample dropped, Drop count 146
+I (156074) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (156074) TASK_TB_MQTT: no fresh vitals this cycle
+I (156074) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=20029 (no network)
+I (156094) TB_MQTT_CLIENT: PUBACK received, id=42556 confirmed
+I (156134) TB_MQTT_CLIENT: PUBACK received, id=56337 confirmed
+I (156144) TB_MQTT_CLIENT: PUBACK received, id=6061 confirmed
+I (156144) TB_MQTT_CLIENT: PUBACK received, id=44010 confirmed
+I (156154) TB_MQTT_CLIENT: PUBACK received, id=58497 confirmed
+I (156154) TB_MQTT_CLIENT: PUBACK received, id=8366 confirmed
+I (156184) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (156194) TB_MQTT_CLIENT: PUBACK received, id=57608 confirmed
+I (156234) TB_MQTT_CLIENT: PUBACK received, id=7705 confirmed
+I (156244) TB_MQTT_CLIENT: PUBACK received, id=56429 confirmed
+I (156244) TB_MQTT_CLIENT: PUBACK received, id=37096 confirmed
+I (156284) TASK_TB_MQTT: ECG: 35 sampled, 9 sent (decimation=4)
+I (156334) TB_MQTT_CLIENT: PUBACK received, id=18760 confirmed
+I (156384) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (156454) TB_MQTT_CLIENT: PUBACK received, id=50642 confirmed
+I (156484) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (156534) TB_MQTT_CLIENT: PUBACK received, id=22477 confirmed
+I (156584) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (156634) TB_MQTT_CLIENT: PUBACK received, id=13217 confirmed
+I (156684) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (156724) TB_MQTT_CLIENT: PUBACK received, id=33903 confirmed
+I (156784) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (156844) TB_MQTT_CLIENT: PUBACK received, id=41539 confirmed
+I (156884) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (156934) TB_MQTT_CLIENT: PUBACK received, id=15885 confirmed
+I (156984) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (157044) TB_MQTT_CLIENT: PUBACK received, id=33973 confirmed
+I (157064) TASK_MAX30102: Bad Sample dropped, Drop count 147
+I (157084) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (157084) TASK_TB_MQTT: no fresh vitals this cycle
+I (157084) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=20029 (no network)
+I (157144) TB_MQTT_CLIENT: PUBACK received, id=37318 confirmed
+I (157184) TB_MQTT_CLIENT: PUBACK received, id=59361 confirmed
+I (157194) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (157234) TB_MQTT_CLIENT: PUBACK received, id=45447 confirmed
+I (157294) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (157344) TB_MQTT_CLIENT: PUBACK received, id=41618 confirmed
+I (157394) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (157444) TB_MQTT_CLIENT: PUBACK received, id=46436 confirmed
+I (157494) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (157554) TB_MQTT_CLIENT: PUBACK received, id=26490 confirmed
+I (157594) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (157654) TB_MQTT_CLIENT: PUBACK received, id=449 confirmed
+I (157694) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (157744) TB_MQTT_CLIENT: PUBACK received, id=63030 confirmed
+I (157794) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (157834) TB_MQTT_CLIENT: PUBACK received, id=25642 confirmed
+I (157894) TASK_TB_MQTT: ECG: 37 sampled, 10 sent (decimation=4)
+I (157954) TB_MQTT_CLIENT: PUBACK received, id=2651 confirmed
+I (157994) TASK_TB_MQTT: ECG: 35 sampled, 9 sent (decimation=4)
+I (158054) TB_MQTT_CLIENT: PUBACK received, id=25638 confirmed
+I (158064) TASK_MAX30102: Bad Sample dropped, Drop count 148
+I (158094) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (158094) TASK_TB_MQTT: no fresh vitals this cycle
+I (158094) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=20029 (no network)
+I (158164) TB_MQTT_CLIENT: PUBACK received, id=57652 confirmed
+I (158204) TB_MQTT_CLIENT: PUBACK received, id=44749 confirmed
+I (158204) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (158254) TB_MQTT_CLIENT: PUBACK received, id=57423 confirmed
+I (158314) TASK_TB_MQTT: ECG: 39 sampled, 10 sent (decimation=4)
+I (158364) TB_MQTT_CLIENT: PUBACK received, id=53898 confirmed
+I (158414) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (158454) TB_MQTT_CLIENT: PUBACK received, id=51554 confirmed
+I (158514) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (158564) TB_MQTT_CLIENT: PUBACK received, id=47772 confirmed
+I (158614) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (158664) TB_MQTT_CLIENT: PUBACK received, id=20706 confirmed
+I (158714) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (158754) TB_MQTT_CLIENT: PUBACK received, id=52323 confirmed
+I (158814) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (158864) TB_MQTT_CLIENT: PUBACK received, id=22983 confirmed
+I (158914) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (158954) TB_MQTT_CLIENT: PUBACK received, id=31255 confirmed
+I (159014) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (159054) TASK_MAX30102: Bad Sample dropped, Drop count 149
+I (159064) TB_MQTT_CLIENT: PUBACK received, id=22369 confirmed
+I (159114) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (159114) TASK_TB_MQTT: no fresh vitals this cycle
+I (159114) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=20029 (no network)
+I (159174) TB_MQTT_CLIENT: PUBACK received, id=28343 confirmed
+I (159214) TB_MQTT_CLIENT: PUBACK received, id=25568 confirmed
+I (159224) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (159264) TB_MQTT_CLIENT: PUBACK received, id=37636 confirmed
+I (159324) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (159384) TB_MQTT_CLIENT: PUBACK received, id=63604 confirmed
+I (159424) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (159474) TB_MQTT_CLIENT: PUBACK received, id=56653 confirmed
+I (159524) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (159574) TB_MQTT_CLIENT: PUBACK received, id=7146 confirmed
+I (159624) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (159684) TB_MQTT_CLIENT: PUBACK received, id=48848 confirmed
+I (159724) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (159784) TB_MQTT_CLIENT: PUBACK received, id=37780 confirmed
+I (159824) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (159864) TB_MQTT_CLIENT: PUBACK received, id=21648 confirmed
+I (159924) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (159964) TB_MQTT_CLIENT: PUBACK received, id=3489 confirmed
+I (160024) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (160054) TASK_MAX30102: Bad Sample dropped, Drop count 150
+I (160074) TB_MQTT_CLIENT: PUBACK received, id=33721 confirmed
+I (160124) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (160124) TASK_TB_MQTT: no fresh vitals this cycle
+I (160124) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=20029 (no network)
+I (160184) TB_MQTT_CLIENT: PUBACK received, id=65317 confirmed
+I (160234) TB_MQTT_CLIENT: PUBACK received, id=46833 confirmed
+I (160234) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (160284) TB_MQTT_CLIENT: PUBACK received, id=61904 confirmed
+I (160334) TASK_TB_MQTT: ECG: 35 sampled, 9 sent (decimation=4)
+I (160384) TB_MQTT_CLIENT: PUBACK received, id=43076 confirmed
+I (160434) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (160504) TB_MQTT_CLIENT: PUBACK received, id=34136 confirmed
+I (160534) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (160584) TB_MQTT_CLIENT: PUBACK received, id=44328 confirmed
+I (160634) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (160684) TB_MQTT_CLIENT: PUBACK received, id=65242 confirmed
+I (160734) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (160784) TB_MQTT_CLIENT: PUBACK received, id=37849 confirmed
+I (160834) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (160884) TB_MQTT_CLIENT: PUBACK received, id=26661 confirmed
+I (160934) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (160984) TB_MQTT_CLIENT: PUBACK received, id=24013 confirmed
+I (161034) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (161044) TASK_MAX30102: Bad Sample dropped, Drop count 151
+I (161104) TB_MQTT_CLIENT: PUBACK received, id=41319 confirmed
+I (161134) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (161134) TASK_TB_MQTT: no fresh vitals this cycle
+I (161134) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=20029 (no network)
+I (161184) TB_MQTT_CLIENT: PUBACK received, id=57624 confirmed
+I (161234) TB_MQTT_CLIENT: PUBACK received, id=9205 confirmed
+I (161244) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+E (161294) mqtt_client: esp_mqtt_handle_transport_read_error: transport_read(): EOF
+E (161294) mqtt_client: esp_mqtt_handle_transport_read_error: transport_read() error: errno=128
+E (161304) TB_MQTT_CLIENT: transport error
+E (161304) mqtt_client: mqtt_process_receive: mqtt_message_receive() returned -2
+I (161314) TB_MQTT_CLIENT: MQTT_EVENT_DISCONNECTED
+I (161344) TASK_TB_MQTT: ECG: 27 sampled, 7 sent (decimation=4)
+I (162044) TASK_MAX30102: Bad Sample dropped, Drop count 152
+I (162144) TASK_TB_MQTT: no fresh vitals this cycle
+I (162144) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=20326 (no network)
+I (163034) TASK_MAX30102: Bad Sample dropped, Drop count 153
+I (163144) TASK_TB_MQTT: no fresh vitals this cycle
+I (163144) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=20686 (no network)
+I (164034) TASK_MAX30102: Bad Sample dropped, Drop count 154
+I (164144) TASK_TB_MQTT: no fresh vitals this cycle
+I (164144) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=21046 (no network)
+I (165034) TASK_MAX30102: Bad Sample dropped, Drop count 155
+I (165144) TASK_TB_MQTT: no fresh vitals this cycle
+I (165144) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=21406 (no network)
+I (166024) TASK_MAX30102: Bad Sample dropped, Drop count 156
+I (166144) TASK_TB_MQTT: no fresh vitals this cycle
+I (166144) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=21766 (no network)
+I (167024) TASK_MAX30102: Bad Sample dropped, Drop count 157
+I (167144) TASK_TB_MQTT: no fresh vitals this cycle
+I (167144) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=22126 (no network)
+I (168014) TASK_MAX30102: Bad Sample dropped, Drop count 158
+I (168144) TASK_TB_MQTT: no fresh vitals this cycle
+I (168144) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=22486 (no network)
+I (169014) TASK_MAX30102: Bad Sample dropped, Drop count 159
+I (169144) TASK_TB_MQTT: no fresh vitals this cycle
+I (169144) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=22846 (no network)
+I (170004) TASK_MAX30102: Bad Sample dropped, Drop count 160
+I (170144) TASK_TB_MQTT: no fresh vitals this cycle
+I (170144) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=23206 (no network)
+I (171004) TASK_MAX30102: Bad Sample dropped, Drop count 161
+I (171144) TASK_TB_MQTT: no fresh vitals this cycle
+I (171144) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=23566 (no network)
+I (171994) TASK_MAX30102: Bad Sample dropped, Drop count 162
+I (172144) TASK_TB_MQTT: no fresh vitals this cycle
+I (172144) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=23926 (no network)
+I (172994) TASK_MAX30102: Bad Sample dropped, Drop count 163
+I (173144) TASK_TB_MQTT: no fresh vitals this cycle
+I (173144) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=24286 (no network)
+I (173994) TASK_MAX30102: Bad Sample dropped, Drop count 164
+I (174144) TASK_TB_MQTT: no fresh vitals this cycle
+I (174144) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=24646 (no network)
+I (174984) TASK_MAX30102: Bad Sample dropped, Drop count 165
+I (175144) TASK_TB_MQTT: no fresh vitals this cycle
+I (175144) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=25006 (no network)
+I (175984) TASK_MAX30102: Bad Sample dropped, Drop count 166
+I (176144) TASK_TB_MQTT: no fresh vitals this cycle
+I (176144) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=25366 (no network)
+I (176414) TB_MQTT_CLIENT: MQTT_EVENT_CONNECTED
+I (176444) TASK_TB_MQTT: ECG: 9 sampled, 3 sent (decimation=4)
+I (176454) TB_MQTT_CLIENT: SUBSCRIBED
+I (176494) TB_MQTT_CLIENT: PUBACK received, id=2587 confirmed
+I (176534) TB_MQTT_CLIENT: PUBACK received, id=27803 confirmed
+I (176544) TASK_TB_MQTT: ECG: 37 sampled, 10 sent (decimation=4)
+I (176584) TB_MQTT_CLIENT: PUBACK received, id=18243 confirmed
+I (176624) TB_MQTT_CLIENT: PUBACK received, id=37343 confirmed
+I (176624) TB_MQTT_CLIENT: PUBACK received, id=18350 confirmed
+I (176644) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (176664) TB_MQTT_CLIENT: PUBACK received, id=19351 confirmed
+I (176714) TB_MQTT_CLIENT: PUBACK received, id=49196 confirmed
+I (176724) TB_MQTT_CLIENT: PUBACK received, id=18224 confirmed
+I (176724) TB_MQTT_CLIENT: PUBACK received, id=28524 confirmed
+I (176744) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (176754) TB_MQTT_CLIENT: PUBACK received, id=7608 confirmed
+I (176794) TB_MQTT_CLIENT: PUBACK received, id=7530 confirmed
+I (176804) TB_MQTT_CLIENT: PUBACK received, id=31759 confirmed
+I (176804) TB_MQTT_CLIENT: PUBACK received, id=8697 confirmed
+I (176814) TB_MQTT_CLIENT: PUBACK received, id=28631 confirmed
+I (176844) TB_MQTT_CLIENT: PUBACK received, id=52523 confirmed
+I (176844) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (176884) TB_MQTT_CLIENT: PUBACK received, id=34412 confirmed
+I (176894) TB_MQTT_CLIENT: PUBACK received, id=58391 confirmed
+I (176894) TB_MQTT_CLIENT: PUBACK received, id=11023 confirmed
+I (176904) TB_MQTT_CLIENT: PUBACK received, id=4610 confirmed
+I (176924) TB_MQTT_CLIENT: PUBACK received, id=4314 confirmed
+I (176934) TB_MQTT_CLIENT: PUBACK received, id=42067 confirmed
+I (176944) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (176974) TB_MQTT_CLIENT: PUBACK received, id=13912 confirmed
+I (176974) TASK_MAX30102: Bad Sample dropped, Drop count 167
+I (177014) TB_MQTT_CLIENT: PUBACK received, id=14900 confirmed
+I (177044) TASK_TB_MQTT: ECG: 35 sampled, 9 sent (decimation=4)
+I (177084) TB_MQTT_CLIENT: PUBACK received, id=53523 confirmed
+I (177144) TASK_TB_MQTT: ECG: 37 sampled, 10 sent (decimation=4)
+I (177144) TASK_TB_MQTT: no fresh vitals this cycle
+I (177144) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=25464 (no network)
+I (177194) TB_MQTT_CLIENT: PUBACK received, id=59682 confirmed
+I (177224) TB_MQTT_CLIENT: PUBACK received, id=1462 confirmed
+I (177254) TASK_TB_MQTT: ECG: 39 sampled, 10 sent (decimation=4)
+I (177304) TB_MQTT_CLIENT: PUBACK received, id=15318 confirmed
+I (177354) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (177394) TB_MQTT_CLIENT: PUBACK received, id=51120 confirmed
+I (177454) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (177504) TB_MQTT_CLIENT: PUBACK received, id=35138 confirmed
+I (177554) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (177604) TB_MQTT_CLIENT: PUBACK received, id=19783 confirmed
+I (177654) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (177694) TB_MQTT_CLIENT: PUBACK received, id=39586 confirmed
+I (177754) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (177794) TB_MQTT_CLIENT: PUBACK received, id=60606 confirmed
+I (177854) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (177894) TB_MQTT_CLIENT: PUBACK received, id=60285 confirmed
+I (177954) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (177974) TASK_MAX30102: Bad Sample dropped, Drop count 168
+I (177994) TB_MQTT_CLIENT: PUBACK received, id=21808 confirmed
+I (178054) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (178104) TB_MQTT_CLIENT: PUBACK received, id=59159 confirmed
+I (178154) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (178154) TASK_TB_MQTT: no fresh vitals this cycle
+I (178154) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=25464 (no network)
+I (178214) TB_MQTT_CLIENT: PUBACK received, id=1328 confirmed
+I (178254) TB_MQTT_CLIENT: PUBACK received, id=55909 confirmed
+I (178264) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (178314) TB_MQTT_CLIENT: PUBACK received, id=37450 confirmed
+I (178364) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (178424) TB_MQTT_CLIENT: PUBACK received, id=28683 confirmed
+I (178464) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (178514) TB_MQTT_CLIENT: PUBACK received, id=46896 confirmed
+I (178564) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (178614) TB_MQTT_CLIENT: PUBACK received, id=33944 confirmed
+I (178664) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (178724) TB_MQTT_CLIENT: PUBACK received, id=11510 confirmed
+I (178764) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (178814) TB_MQTT_CLIENT: PUBACK received, id=19331 confirmed
+I (178864) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (178914) TB_MQTT_CLIENT: PUBACK received, id=49300 confirmed
+I (178964) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (178964) TASK_MAX30102: Bad Sample dropped, Drop count 169
+I (179004) TB_MQTT_CLIENT: PUBACK received, id=43605 confirmed
+I (179064) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (179114) TB_MQTT_CLIENT: PUBACK received, id=50448 confirmed
+I (179164) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (179164) TASK_TB_MQTT: no fresh vitals this cycle
+I (179164) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=25464 (no network)
+I (179214) TB_MQTT_CLIENT: PUBACK received, id=37040 confirmed
+I (179254) TB_MQTT_CLIENT: PUBACK received, id=25279 confirmed
+I (179274) TASK_TB_MQTT: ECG: 39 sampled, 10 sent (decimation=4)
+I (179354) TB_MQTT_CLIENT: PUBACK received, id=17132 confirmed
+I (179374) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (179424) TB_MQTT_CLIENT: PUBACK received, id=61322 confirmed
+I (179474) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (179514) TB_MQTT_CLIENT: PUBACK received, id=63746 confirmed
+I (179574) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (179624) TB_MQTT_CLIENT: PUBACK received, id=47432 confirmed
+I (179674) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (179724) TB_MQTT_CLIENT: PUBACK received, id=14829 confirmed
+I (179774) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (179814) TB_MQTT_CLIENT: PUBACK received, id=58897 confirmed
+I (179874) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (179914) TB_MQTT_CLIENT: PUBACK received, id=11750 confirmed
+I (179964) TASK_MAX30102: Bad Sample dropped, Drop count 170
+I (179974) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (180014) TB_MQTT_CLIENT: PUBACK received, id=23004 confirmed
+I (180074) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (180114) TB_MQTT_CLIENT: PUBACK received, id=40162 confirmed
+I (180174) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (180174) TASK_TB_MQTT: no fresh vitals this cycle
+I (180174) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=25464 (no network)
+I (180224) TB_MQTT_CLIENT: PUBACK received, id=47495 confirmed
+I (180264) TB_MQTT_CLIENT: PUBACK received, id=45556 confirmed
+I (180284) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (180334) TB_MQTT_CLIENT: PUBACK received, id=4355 confirmed
+I (180384) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (180434) TB_MQTT_CLIENT: PUBACK received, id=37102 confirmed
+I (180484) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (180524) TB_MQTT_CLIENT: PUBACK received, id=58723 confirmed
+I (180584) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (180624) TB_MQTT_CLIENT: PUBACK received, id=45827 confirmed
+I (180684) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (180724) TB_MQTT_CLIENT: PUBACK received, id=10046 confirmed
+I (180784) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (180824) TB_MQTT_CLIENT: PUBACK received, id=35688 confirmed
+I (180884) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (180934) TB_MQTT_CLIENT: PUBACK received, id=61443 confirmed
+I (180954) TASK_MAX30102: Bad Sample dropped, Drop count 171
+I (180984) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (181034) TB_MQTT_CLIENT: PUBACK received, id=50976 confirmed
+I (181084) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (181124) TB_MQTT_CLIENT: PUBACK received, id=8926 confirmed
+I (181184) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (181184) TASK_TB_MQTT: no fresh vitals this cycle
+I (181184) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=25464 (no network)
+I (181234) TB_MQTT_CLIENT: PUBACK received, id=56094 confirmed
+I (181274) TB_MQTT_CLIENT: PUBACK received, id=26024 confirmed
+I (181294) TASK_TB_MQTT: ECG: 39 sampled, 10 sent (decimation=4)
+I (181344) TB_MQTT_CLIENT: PUBACK received, id=42306 confirmed
+I (181394) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (181434) TB_MQTT_CLIENT: PUBACK received, id=58749 confirmed
+I (181494) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (181544) TB_MQTT_CLIENT: PUBACK received, id=65068 confirmed
+I (181594) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (181654) TB_MQTT_CLIENT: PUBACK received, id=18676 confirmed
+I (181694) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (181734) TB_MQTT_CLIENT: PUBACK received, id=8462 confirmed
+I (181794) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (181844) TB_MQTT_CLIENT: PUBACK received, id=22711 confirmed
+I (181894) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (181934) TB_MQTT_CLIENT: PUBACK received, id=31423 confirmed
+I (181954) TASK_MAX30102: Bad Sample dropped, Drop count 172
+I (181994) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (182054) TB_MQTT_CLIENT: PUBACK received, id=11115 confirmed
+I (182094) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (182134) TB_MQTT_CLIENT: PUBACK received, id=5303 confirmed
+I (182194) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (182194) TASK_TB_MQTT: no fresh vitals this cycle
+I (182194) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=25464 (no network)
+I (182254) TB_MQTT_CLIENT: PUBACK received, id=5528 confirmed
+I (182294) TB_MQTT_CLIENT: PUBACK received, id=39632 confirmed
+I (182304) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (182354) TB_MQTT_CLIENT: PUBACK received, id=31052 confirmed
+I (182404) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (182444) TB_MQTT_CLIENT: PUBACK received, id=61075 confirmed
+I (182504) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (182544) TB_MQTT_CLIENT: PUBACK received, id=55686 confirmed
+I (182604) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (182654) TB_MQTT_CLIENT: PUBACK received, id=61242 confirmed
+I (182704) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (182744) TB_MQTT_CLIENT: PUBACK received, id=46479 confirmed
+I (182804) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (182844) TB_MQTT_CLIENT: PUBACK received, id=3952 confirmed
+I (182904) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (182944) TB_MQTT_CLIENT: PUBACK received, id=5708 confirmed
+I (182954) TASK_MAX30102: Bad Sample dropped, Drop count 173
+I (183004) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (183054) TB_MQTT_CLIENT: PUBACK received, id=57431 confirmed
+I (183104) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (183144) TB_MQTT_CLIENT: PUBACK received, id=43256 confirmed
+I (183204) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (183204) TASK_TB_MQTT: no fresh vitals this cycle
+I (183204) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=25464 (no network)
+I (183254) TB_MQTT_CLIENT: PUBACK received, id=3662 confirmed
+I (183294) TB_MQTT_CLIENT: PUBACK received, id=55336 confirmed
+I (183314) TASK_TB_MQTT: ECG: 39 sampled, 10 sent (decimation=4)
+I (183364) TB_MQTT_CLIENT: PUBACK received, id=57196 confirmed
+I (183414) TASK_TB_MQTT: ECG: 37 sampled, 10 sent (decimation=4)
+I (183454) TB_MQTT_CLIENT: PUBACK received, id=51749 confirmed
+I (183514) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (183564) TB_MQTT_CLIENT: PUBACK received, id=3415 confirmed
+I (183614) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (183654) TB_MQTT_CLIENT: PUBACK received, id=33573 confirmed
+I (183714) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (183754) TB_MQTT_CLIENT: PUBACK received, id=24253 confirmed
+I (183814) TASK_TB_MQTT: ECG: 35 sampled, 9 sent (decimation=4)
+I (183854) TB_MQTT_CLIENT: PUBACK received, id=51411 confirmed
+I (183914) TASK_TB_MQTT: ECG: 37 sampled, 10 sent (decimation=4)
+I (183944) TASK_MAX30102: Bad Sample dropped, Drop count 174
+I (183954) TB_MQTT_CLIENT: PUBACK received, id=46857 confirmed
+I (184014) TASK_TB_MQTT: ECG: 35 sampled, 9 sent (decimation=4)
+I (184054) TB_MQTT_CLIENT: PUBACK received, id=15977 confirmed
+I (184114) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (184164) TB_MQTT_CLIENT: PUBACK received, id=13366 confirmed
+I (184214) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (184214) TASK_TB_MQTT: no fresh vitals this cycle
+I (184214) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=25464 (no network)
+I (184254) TB_MQTT_CLIENT: PUBACK received, id=30858 confirmed
+I (184304) TB_MQTT_CLIENT: PUBACK received, id=28394 confirmed
+I (184324) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (184364) TB_MQTT_CLIENT: PUBACK received, id=16735 confirmed
+I (184424) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (184474) TB_MQTT_CLIENT: PUBACK received, id=24532 confirmed
+I (184524) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (184584) TB_MQTT_CLIENT: PUBACK received, id=2467 confirmed
+I (184624) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (184684) TB_MQTT_CLIENT: PUBACK received, id=2117 confirmed
+I (184724) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+E (184774) mqtt_client: esp_mqtt_handle_transport_read_error: transport_read(): EOF
+E (184774) mqtt_client: esp_mqtt_handle_transport_read_error: transport_read() error: errno=128
+E (184784) TB_MQTT_CLIENT: transport error
+E (184784) mqtt_client: mqtt_process_receive: mqtt_message_receive() returned -2
+I (184794) TB_MQTT_CLIENT: MQTT_EVENT_DISCONNECTED
+I (184824) TASK_TB_MQTT: ECG: 28 sampled, 7 sent (decimation=4)
+I (184944) TASK_MAX30102: Bad Sample dropped, Drop count 175
+I (185224) TASK_TB_MQTT: no fresh vitals this cycle
+I (185224) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=25616 (no network)
+I (185934) TASK_MAX30102: Bad Sample dropped, Drop count 176
+I (186224) TASK_TB_MQTT: no fresh vitals this cycle
+I (186224) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=25976 (no network)
+I (186934) TASK_MAX30102: Bad Sample dropped, Drop count 177
+I (187224) TASK_TB_MQTT: no fresh vitals this cycle
+I (187224) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=26336 (no network)
+I (187924) TASK_MAX30102: Bad Sample dropped, Drop count 178
+I (188224) TASK_TB_MQTT: no fresh vitals this cycle
+I (188224) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=26696 (no network)
+I (188924) TASK_MAX30102: Bad Sample dropped, Drop count 179
+I (189224) TASK_TB_MQTT: no fresh vitals this cycle
+I (189224) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=27056 (no network)
+I (189914) TASK_MAX30102: Bad Sample dropped, Drop count 180
+I (190224) TASK_TB_MQTT: no fresh vitals this cycle
+I (190224) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=27416 (no network)
+I (190914) TASK_MAX30102: Bad Sample dropped, Drop count 181
+I (191224) TASK_TB_MQTT: no fresh vitals this cycle
+I (191224) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=27776 (no network)
+I (191914) TASK_MAX30102: Bad Sample dropped, Drop count 182
+I (192224) TASK_TB_MQTT: no fresh vitals this cycle
+I (192224) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=28136 (no network)
+I (192904) TASK_MAX30102: Bad Sample dropped, Drop count 183
+I (193224) TASK_TB_MQTT: no fresh vitals this cycle
+I (193224) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=28496 (no network)
+I (193904) TASK_MAX30102: Bad Sample dropped, Drop count 184
+I (194224) TASK_TB_MQTT: no fresh vitals this cycle
+I (194224) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=28856 (no network)
+I (194894) TASK_MAX30102: Bad Sample dropped, Drop count 185
+I (195224) TASK_TB_MQTT: no fresh vitals this cycle
+I (195224) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=29216 (no network)
+I (195894) TASK_MAX30102: Bad Sample dropped, Drop count 186
+I (196224) TASK_TB_MQTT: no fresh vitals this cycle
+I (196224) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=29576 (no network)
+I (196884) TASK_MAX30102: Bad Sample dropped, Drop count 187
+I (197224) TASK_TB_MQTT: no fresh vitals this cycle
+I (197224) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=29936 (no network)
+I (197884) TASK_MAX30102: Bad Sample dropped, Drop count 188
+I (198224) TASK_TB_MQTT: no fresh vitals this cycle
+I (198224) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=30296 (no network)
+I (198874) TASK_MAX30102: Bad Sample dropped, Drop count 189
+I (199224) TASK_TB_MQTT: no fresh vitals this cycle
+I (199224) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=30656 (no network)
+I (199874) TASK_MAX30102: Bad Sample dropped, Drop count 190
+I (199904) TB_MQTT_CLIENT: MQTT_EVENT_CONNECTED
+I (199924) TASK_TB_MQTT: ECG: 5 sampled, 2 sent (decimation=4)
+I (199954) TB_MQTT_CLIENT: SUBSCRIBED
+I (200004) TB_MQTT_CLIENT: PUBACK received, id=14464 confirmed
+I (200024) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (200054) TB_MQTT_CLIENT: PUBACK received, id=12949 confirmed
+I (200094) TB_MQTT_CLIENT: PUBACK received, id=5314 confirmed
+I (200104) TB_MQTT_CLIENT: PUBACK received, id=51696 confirmed
+I (200124) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (200144) TB_MQTT_CLIENT: PUBACK received, id=39663 confirmed
+I (200184) TB_MQTT_CLIENT: PUBACK received, id=13621 confirmed
+I (200194) TB_MQTT_CLIENT: PUBACK received, id=17877 confirmed
+I (200194) TB_MQTT_CLIENT: PUBACK received, id=26494 confirmed
+I (200224) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (200224) TASK_TB_MQTT: no fresh vitals this cycle
+I (200224) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=30902 (no network)
+I (200234) TB_MQTT_CLIENT: PUBACK received, id=34972 confirmed
+I (200274) TB_MQTT_CLIENT: PUBACK received, id=18754 confirmed
+I (200284) TB_MQTT_CLIENT: PUBACK received, id=32307 confirmed
+I (200284) TB_MQTT_CLIENT: PUBACK received, id=50679 confirmed
+I (200294) TB_MQTT_CLIENT: PUBACK received, id=54770 confirmed
+I (200294) TB_MQTT_CLIENT: PUBACK received, id=7652 confirmed
+I (200324) TB_MQTT_CLIENT: PUBACK received, id=24078 confirmed
+I (200334) TASK_TB_MQTT: ECG: 39 sampled, 10 sent (decimation=4)
+I (200374) TB_MQTT_CLIENT: PUBACK received, id=62439 confirmed
+I (200374) TB_MQTT_CLIENT: PUBACK received, id=7696 confirmed
+I (200384) TB_MQTT_CLIENT: PUBACK received, id=24135 confirmed
+I (200384) TB_MQTT_CLIENT: PUBACK received, id=48663 confirmed
+I (200384) TB_MQTT_CLIENT: PUBACK received, id=47090 confirmed
+I (200424) TB_MQTT_CLIENT: PUBACK received, id=44190 confirmed
+I (200424) TB_MQTT_CLIENT: PUBACK received, id=28844 confirmed
+I (200434) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (200484) TB_MQTT_CLIENT: PUBACK received, id=1937 confirmed
+I (200534) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (200544) TB_MQTT_CLIENT: PUBACK received, id=35111 confirmed
+I (200584) TB_MQTT_CLIENT: PUBACK received, id=53482 confirmed
+I (200634) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (200684) TB_MQTT_CLIENT: PUBACK received, id=40105 confirmed
+I (200734) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (200784) TB_MQTT_CLIENT: PUBACK received, id=24312 confirmed
+I (200834) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (200874) TASK_MAX30102: Bad Sample dropped, Drop count 191
+I (200884) TB_MQTT_CLIENT: PUBACK received, id=24067 confirmed
+I (200934) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (200984) TB_MQTT_CLIENT: PUBACK received, id=4252 confirmed
+I (201034) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (201084) TB_MQTT_CLIENT: PUBACK received, id=16677 confirmed
+I (201134) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (201184) TB_MQTT_CLIENT: PUBACK received, id=44912 confirmed
+I (201234) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (201234) TASK_TB_MQTT: no fresh vitals this cycle
+I (201234) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=30902 (no network)
+I (201274) TB_MQTT_CLIENT: PUBACK received, id=37171 confirmed
+I (201314) TB_MQTT_CLIENT: PUBACK received, id=9960 confirmed
+I (201344) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (201394) TB_MQTT_CLIENT: PUBACK received, id=15742 confirmed
+I (201444) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (201484) TB_MQTT_CLIENT: PUBACK received, id=1378 confirmed
+I (201544) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (201594) TB_MQTT_CLIENT: PUBACK received, id=12438 confirmed
+I (201644) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (201684) TB_MQTT_CLIENT: PUBACK received, id=48076 confirmed
+I (201744) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (201794) TB_MQTT_CLIENT: PUBACK received, id=20004 confirmed
+I (201844) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (201864) TASK_MAX30102: Bad Sample dropped, Drop count 192
+I (201894) TB_MQTT_CLIENT: PUBACK received, id=31607 confirmed
+I (201944) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (201984) TB_MQTT_CLIENT: PUBACK received, id=39244 confirmed
+I (202044) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (202084) TB_MQTT_CLIENT: PUBACK received, id=31108 confirmed
+I (202144) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (202184) TB_MQTT_CLIENT: PUBACK received, id=42024 confirmed
+I (202244) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (202244) TASK_TB_MQTT: no fresh vitals this cycle
+I (202244) TASK_TB_MQTT: ECG integrity: dropped=0 (quue full), skipped=30902 (no network)
+I (202294) TB_MQTT_CLIENT: PUBACK received, id=22027 confirmed
+I (202334) TB_MQTT_CLIENT: PUBACK received, id=27419 confirmed
+I (202354) TASK_TB_MQTT: ECG: 39 sampled, 10 sent (decimation=4)
+I (202394) TB_MQTT_CLIENT: PUBACK received, id=43155 confirmed
+I (202454) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (202494) TB_MQTT_CLIENT: PUBACK received, id=12138 confirmed
+I (202554) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (202594) TB_MQTT_CLIENT: PUBACK received, id=60603 confirmed
+I (202654) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (202704) TB_MQTT_CLIENT: PUBACK received, id=8378 confirmed
+I (202754) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (202814) TB_MQTT_CLIENT: PUBACK received, id=5688 confirmed
+I (202854) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (202864) TASK_MAX30102: Bad Sample dropped, Drop count 193
+I (202894) TB_MQTT_CLIENT: PUBACK received, id=45210 confirmed
+I (202954) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (203004) TB_MQTT_CLIENT: PUBACK received, id=1508 confirmed
+I (203054) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (203094) TB_MQTT_CLIENT: PUBACK received, id=21726 confirmed
+I (203154) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (203204) TB_MQTT_CLIENT: PUBACK received, id=57779 confirmed
+I (203254) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (203254) TASK_TB_MQTT: no fresh vitals this cycle
+I (203254) TASK_TB_MQTT: ECG integrity: dropped=0 (queue full), skipped=30902 (no network)
+I (203304) TB_MQTT_CLIENT: PUBACK received, id=30332 confirmed
+I (203354) TB_MQTT_CLIENT: PUBACK received, id=25197 confirmed
+I (203364) TASK_TB_MQTT: ECG: 40 sampled, 10 sent (decimation=4)
+I (203404) TB_MQTT_CLIENT: PUBACK received, id=17472 confirmed
+I (203464) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (203514) TB_MQTT_CLIENT: PUBACK received, id=45556 confirmed
+I (203564) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (203604) TB_MQTT_CLIENT: PUBACK received, id=42822 confirmed
+I (203664) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (203704) TB_MQTT_CLIENT: PUBACK received, id=49824 confirmed
+I (203764) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (203814) TB_MQTT_CLIENT: PUBACK received, id=38921 confirmed
+I (203854) TASK_MAX30102: Bad Sample dropped, Drop count 194
+I (203864) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (203914) TB_MQTT_CLIENT: PUBACK received, id=35180 confirmed
+I (203964) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (204004) TB_MQTT_CLIENT: PUBACK received, id=55192 confirmed
+I (204064) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)
+I (204104) TB_MQTT_CLIENT: PUBACK received, id=54724 confirmed
+I (204164) TASK_TB_MQTT: ECG: 36 sampled, 9 sent (decimation=4)

@@ -28,7 +28,7 @@
 #define INTERRUPT_PIN GPIO_NUM_25
 
 /* 500 samples @ 100 sps = a 5 s window, the span the algorithm needs. */
-#define BUFFER_SIZE         500
+
 #define BUFFER_SHIFT_SIZE   100                               // samples replaced each cycle
 #define BUFFER_KEEP_SIZE    (BUFFER_SIZE - BUFFER_SHIFT_SIZE)  // 400 samples retained
 #define SHUTDOWN_SLEEP_TIME 200

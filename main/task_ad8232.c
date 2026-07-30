@@ -12,8 +12,7 @@
 
 #define HIGH_SAMPLE_HZ              (360)  // esp_timer @360 Hz to come
 #define LOW_SAMPLE_HZ               (180)  // ~10 Hz placeholder
-
-
+#define TASK_ECG_STACK              (2340)
 #define SAMPLE_PERIOD               (2778)  // uS
 static const char *TAG = "TASK_AD8232";
 
@@ -172,7 +171,7 @@ esp_err_t time_sampler_init()
     if (res != ESP_OK) return res;
 
     #ifdef ECG_PINNED_CORE1
-    xTaskCreatePinnedToCore(task_ecg_sampler, "task_ecg_sampler", 4096*2,
+    xTaskCreatePinnedToCore(task_ecg_sampler, "task_ecg_sampler", TASK_ECG_STACK,
                             NULL, 7, &s_ecg_sampler, 1); 
     #else
     xTaskCreatePinnedToCore(task_ecg_sampler, "task_ecg_sampler", 4096*2,
