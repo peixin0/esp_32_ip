@@ -4,7 +4,7 @@
 #include <stdbool.h>
 #include "esp_err.h"
 
-void start_section(int rate_hz,int seconds);
+void start_section(bool on);
 void ecg_set_power(bool on);
 void spo2_set_power(bool on);
 

@@ -32,8 +32,11 @@ esp_err_t telemetry_push_ecg(const ecg_point_t *p);
 bool telemetry_ecg_dequeue(ecg_point_t* ecg_buffer,TickType_t ticks_to_wait);
 bool telemetry_vitals_dequeue(max_vitals_t* vitals_buffer);
 
+uint32_t telemetry_ecg_network_skip_count(void);
 uint32_t telemetry_ecg_drop_count(void);
-uint16_t telemetry_vitals_rejection_count(void);
+uint32_t telemetry_vitals_rejection_count(void);
 void telemetry_vitals_rejection_add(void);
 bool vitals_is_plausible(int32_t spo2_d,int32_t hr_d,int8_t spo2_v,int8_t hr_v);
+void telemetry_ecg_network_skip_add();
+
 #endif /* TELEMETRY_H */

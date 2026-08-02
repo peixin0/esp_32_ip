@@ -18,13 +18,13 @@
 #define LOW_LIMIT_SP_VALUE                  90
  
 
-
 static QueueHandle_t telemetry_ecg_queue;
 static QueueHandle_t telemetry_vitals_queue;
 
-static const char *TAG = "telemetry";
+static const char *TAG = "TELEMETRY";
 static uint32_t s_ecg_sample_drop = 0;
-static uint16_t s_vital_sample_rejection = 0;
+static uint32_t s_vital_sample_rejection = 0;
+static uint32_t s_ecg_sample_skip = 0;
 
 /* Module API */  
 esp_err_t telemetry_init()
@@ -37,7 +37,7 @@ esp_err_t telemetry_init()
     telemetry_vitals_queue = xQueueCreate(VITALS_QUEUE_SIZE,sizeof(max_vitals_t));
     if (telemetry_vitals_queue == NULL)
     {   ESP_LOGW(TAG,"MAX Queue Allocation Failed");
-        vQueueDelete(telemetry_ecg_queue);      // mem leak
+        vQueueDelete(telemetry_ecg_queue);      // to avoid mem leak
         return ESP_ERR_NO_MEM;
     }
     return ESP_OK;
@@ -71,7 +71,7 @@ bool vitals_is_plausible(int32_t spo2_d,int32_t hr_d,int8_t spo2_v,int8_t hr_v)
     return true;
 }
 
-uint16_t telemetry_vitals_rejection_count()
+uint32_t telemetry_vitals_rejection_count()
 {
     return s_vital_sample_rejection;
 }
@@ -80,6 +80,17 @@ void telemetry_vitals_rejection_add()
 {   
     s_vital_sample_rejection++;
 }
+
+void telemetry_ecg_network_skip_add()
+{
+    s_ecg_sample_skip++;
+}
+
+uint32_t telemetry_ecg_network_skip_count()
+{
+    return s_ecg_sample_skip;
+}
+
 
 
 // ECG API 
@@ -108,6 +119,8 @@ uint32_t telemetry_ecg_drop_count(void)
 {
     return s_ecg_sample_drop;
 }
+
+
 
 
 

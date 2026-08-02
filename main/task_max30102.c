@@ -23,11 +23,12 @@
 #include "freertos/task.h"
 #include "telemetry.h"
 #include "esp_log.h"
+#include "esp_timer.h"
 
 #define INTERRUPT_PIN GPIO_NUM_25
 
 /* 500 samples @ 100 sps = a 5 s window, the span the algorithm needs. */
-#define BUFFER_SIZE         500
+
 #define BUFFER_SHIFT_SIZE   100                               // samples replaced each cycle
 #define BUFFER_KEEP_SIZE    (BUFFER_SIZE - BUFFER_SHIFT_SIZE)  // 400 samples retained
 #define SHUTDOWN_SLEEP_TIME 200
@@ -46,6 +47,18 @@ static max_vitals_t vital= {0};
 static volatile bool s_spo2_status = true;
 
 
+
+/* ---- jitter measurement (one-shot, remove before final build) ---- */
+#include "test_config.h"
+#ifdef MAX_PERIOD_TEST
+#define JITTER_SAMPLES 200
+static int64_t s_delta_log[JITTER_SAMPLES];
+static int     s_delta_idx  = 0;
+static int64_t s_last_us    = 0;
+static bool    s_jitter_done = false;
+#endif 
+/* ---- end jitter measurement ---- */ 
+
 /* ISR context: only FromISR APIs allowed, IRAM_ATTR keeps it flash-cache safe. */
 static void IRAM_ATTR max_isr_handler(void *arg)
 {
@@ -61,15 +74,14 @@ static BaseType_t sleep_til_data_ready(void)
 }
 
 void spo2_set_power(bool on)
-{
+{   
+    s_spo2_status = on;
     if (on)
     {
-        s_spo2_status = on;
         ESP_LOGI(TAG, "MAX power ON");
     }
     else
     {
-        s_spo2_status = on;
         ESP_LOGI(TAG, "MAX power OFF");
     }
 }
@@ -154,9 +166,27 @@ void task_max30102(void *vparameter)
                 for (i = BUFFER_KEEP_SIZE; i < BUFFER_SIZE; i++)
                 {
                     sleep_til_data_ready();
+                    #ifdef MAX_PERIOD_TEST 
+                    int64_t now = esp_timer_get_time();
+                    if (!s_jitter_done && s_last_us != 0 && s_delta_idx < JITTER_SAMPLES) {
+                        s_delta_log[s_delta_idx++] = now - s_last_us;
+                    }
+                    s_last_us = now;
+                    #endif 
                     maxim_max30102_read_fifo(&aun_red_buffer[i], &aun_ir_buffer[i]);
                 }
 
+                #ifdef MAX_PERIOD_TEST 
+                if (!s_jitter_done && s_delta_idx >= JITTER_SAMPLES) 
+                {
+                    ESP_LOGI(TAG, "---- JITTER BEGIN (max30102) ----");
+                    for (int k = 0; k < JITTER_SAMPLES; k++) {
+                        ESP_LOGI(TAG, "%d,%lld", k, s_delta_log[k]);
+                    }
+                    ESP_LOGI(TAG, "---- JITTER END ----");
+                    s_jitter_done = true;
+                }
+                #endif 
                 maxim_heart_rate_and_oxygen_saturation(aun_ir_buffer, n_ir_buffer_length, aun_red_buffer,
                                                     &n_sp02, &ch_spo2_valid, &n_heart_rate, &ch_hr_valid);
                 if (vitals_is_plausible(n_sp02, n_heart_rate, ch_spo2_valid, ch_hr_valid))

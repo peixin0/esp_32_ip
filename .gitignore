@@ -30,7 +30,7 @@ build/
 *.map
 flasher_args.json # Generated in build directory
 sdkconfig.old
-sdkconfig
+
 
 # ESP-IDF dependencies
 # For older versions or manual component management
@@ -47,6 +47,8 @@ CMakeFiles/
 cmake_install.cmake
 install_manifest.txt
 CTestTestfile.cmake
+
+
 
 # Python environment files
 *.pyc
